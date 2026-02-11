@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+
+@theme {
+--color-brand-white: #f5f5f7;
+--color-brand-silver: #e6e6e6;
+--color-brand-gray: #424245;
+--color-brand-blue: #0066cc;
+--color-brand-orange: #f56300;
+}
+
+
+body {
+font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont;
+}

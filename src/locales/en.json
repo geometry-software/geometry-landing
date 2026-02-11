@@ -1,0 +1,82 @@
+{
+  "navbar": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "portfolio": "Portfolio",
+    "contact": "Contact"
+  },
+
+  "hero": {
+    "title": "New Age of Business Models\nTransitions & Transformation",
+    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla",
+    "getQuote": "Get Quote",
+    "hireUs": "Hire Us"
+  },
+
+  "about": {
+    "title": "Who Are We?",
+    "text1": "Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla",
+    "text2": "Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla"
+  },
+
+  "services": {
+    "title": "Services",
+    "subtitle": "What we do best",
+    "items": {
+      "architecture": {
+        "title": "Frontend dev",
+        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla"
+      },
+      "automation": {
+        "title": "Backend dev",
+        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla"
+      },
+      "global": {
+        "title": "Dev Ops",
+        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla"
+      }
+      
+    }
+  },
+
+  "technologies": {
+    "title": "Technologies We Use",
+    "description": "We build high-quality software using modern and proven technologies."
+  },
+
+  "portfolio": {
+    "title": "Custom Software Solutions",
+    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla",
+    "categories": {
+      "all": "All",
+      "web": "Web Apps",
+      "mobile": "Mobile Apps",
+      "api": "APIs",
+      "automation": "Automation"
+    },
+    "projects": {
+      "crm": "Custom CRM Platform",
+      "ecommerce": "E-commerce Module",
+      "banking": "Mobile Banking App",
+      "inventory": "Inventory Management API",
+      "reporting": "Automated Reporting Tool"
+    }
+  },
+
+  "contact": {
+    "title": "Get In Touch",
+    "email": "Your Email",
+    "name": "Name",
+    "message": "Message",
+    "submit": "Send Message",
+    "sending": "Sending...",
+    "success": "Message sent successfully.",
+    "error": "Something went wrong. Please try again."
+  },
+
+  "footer": {
+    "description": "Building digital solutions that help businesses grow and scale.",
+    "rights": "All rights reserved."
+  }
+}
