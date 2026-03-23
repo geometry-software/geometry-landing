@@ -7,20 +7,19 @@ import Portfolio from './components/Portfolio'
 import Footer from './components/Footer'
 import Technologies from './components/Technologies'
 
-
 export default function App() {
-return (
-<div className="bg-brand-white text-brand-gray">
-<Navbar />
-<main className="pt-24">
-<Hero />
-<About />
-<Services />
-<Technologies />
-<Portfolio />
-<Contact />
-<Footer />
-</main>
-</div>
-)
+  return (
+    <div className="bg-brand-dark text-white overflow-x-hidden">
+      <Navbar />
+      <main>
+        <Hero />
+        <About />
+        <Services />
+        <Technologies />
+        <Portfolio />
+        <Contact />
+      </main>
+      <Footer />
+    </div>
+  )
 }

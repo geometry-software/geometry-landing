@@ -2,81 +2,130 @@
   "navbar": {
     "home": "Início",
     "services": "Serviços",
-    "about": "Sobre",
+    "about": "Sobre Nós",
     "portfolio": "Portfólio",
     "contact": "Contato"
   },
 
   "hero": {
-    "title": "Nova Era de Modelos de Negócio\nTransições e Transformação",
-    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla",
-    "getQuote": "Orçamento",
-    "hireUs": "Contrate-nos"
+    "badge": "Agência de Software Full-Stack",
+    "titleLine1": "Nova Era de",
+    "titleLine2": "Modelos de Negócio",
+    "description": "Projetamos e construímos aplicações web, soluções móveis e APIs de alto desempenho que ajudam empresas a escalar e se transformar na era digital.",
+    "getQuote": "Solicitar Orçamento",
+    "hireUs": "Nos Contrate",
+    "seeWork": "Ver Projetos",
+    "stat1": "Projetos Entregues",
+    "stat2": "Anos de Experiência",
+    "stat3": "Satisfação dos Clientes",
+    "scroll": "Rolar"
   },
 
   "about": {
-    "title": "Quem Somos",
-    "text1": "Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla",
-    "text2": "Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla"
+    "eyebrow": "Quem Somos",
+    "title": "Movidos pela Tecnologia,\nGuiados pelo Propósito",
+    "subtitle": "Uma equipe apaixonada de engenheiros e designers construindo produtos digitais escaláveis para empresas globais.",
+    "text1": "A SevenFox é uma agência de software full-stack fundada por engenheiros que acreditam que um grande software deve ser poderoso e bonito. Trabalhamos com startups e empresas para projetar, construir e escalar produtos digitais que geram resultados reais.",
+    "text2": "De MVPs a plataformas de nível empresarial, nossa equipe cuida de cada camada do stack — frontend, backend, mobile, infraestrutura em nuvem e automação — para que você possa focar em crescer o seu negócio.",
+    "stat1Value": "10+",
+    "stat1Label": "Projetos Entregues",
+    "stat2Value": "3+",
+    "stat2Label": "Membros da Equipe",
+    "stat3Value": "5+",
+    "stat3Label": "Anos de Experiência",
+    "stat4Value": "100%",
+    "stat4Label": "Satisfação dos Clientes"
   },
 
   "services": {
-    "title": "Serviços",
-    "subtitle": "O que fazemos melhor",
+    "eyebrow": "O Que Fazemos",
+    "title": "Serviços de Software\nEnd-to-End",
+    "subtitle": "De interfaces bonitas a backends robustos e infraestrutura em nuvem — cobrimos todo o ciclo de desenvolvimento.",
     "items": {
-      "architecture": {
+      "frontend": {
         "title": "Desenvolvimento Frontend",
-        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla"
+        "description": "Interfaces responsivas e pixel-perfect com React, Angular e Next.js. Criamos experiências de usuário rápidas, acessíveis e encantadoras."
+      },
+      "backend": {
+        "title": "Desenvolvimento Backend",
+        "description": "APIs REST e GraphQL escaláveis com Node.js e NestJS. Arquitetura limpa, dados seguros e alto desempenho."
+      },
+      "mobile": {
+        "title": "Aplicativos Móveis",
+        "description": "Apps multiplataforma iOS e Android com React Native que parecem nativos, têm ótimo desempenho e são lançados rapidamente."
+      },
+      "devops": {
+        "title": "DevOps e Cloud",
+        "description": "Pipelines CI/CD, containerização e infraestrutura em nuvem na AWS, GCP e Azure — construídos para confiabilidade e escala."
       },
       "automation": {
-        "title": "Desenvolvimento de back-end",
-        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla"
+        "title": "Automação de Processos",
+        "description": "Automação de fluxos de trabalho, integrações e bots que eliminam trabalho manual e reduzem o overhead operacional."
       },
-      "global": {
-        "title": "Dev Ops",
-        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla"
+      "database": {
+        "title": "Modelagem de Banco de Dados",
+        "description": "Esquemas otimizados, migrações e ajuste de queries para sistemas baseados em PostgreSQL, MongoDB, MySQL e Redis."
       }
-      
     }
   },
 
   "technologies": {
-    "title": "Tecnologias que Utilizamos",
-    "description": "Construímos software de alta qualidade usando tecnologias modernas e confiáveis."
+    "eyebrow": "Stack Tecnológico",
+    "title": "Tecnologias que Usamos",
+    "description": "Construímos com tecnologias modernas e comprovadas escolhidas pelo desempenho, experiência do desenvolvedor e manutenibilidade a longo prazo."
   },
 
   "portfolio": {
-    "title": "Soluções de Software Personalizadas",
-    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla",
+    "eyebrow": "Nosso Trabalho",
+    "title": "Soluções de Software\nPersonalizadas",
+    "description": "Uma seleção de projetos onde transformamos requisitos complexos em produtos de software elegantes e de alto desempenho.",
+    "viewProject": "Ver Projeto",
     "categories": {
       "all": "Todos",
       "web": "Aplicações Web",
-      "mobile": "Apps Mobile",
+      "mobile": "Mobile",
       "api": "APIs",
       "automation": "Automação"
     },
     "projects": {
-      "crm": "Plataforma CRM Personalizada",
-      "ecommerce": "Módulo de E-commerce",
-      "banking": "Aplicativo Bancário Móvel",
-      "inventory": "API de Gestão de Inventário",
-      "reporting": "Ferramenta de Relatórios Automatizados"
+      "crm": "Plataforma CRM Customizada",
+      "crmDesc": "Um CRM completo construído para uma equipe de vendas de 200 pessoas, integrando e-mail, gestão de pipeline e análises.",
+      "ecommerce": "Módulo de E-Commerce",
+      "ecommerceDesc": "Loja de alta conversão com pagamentos via Stripe, sincronização de estoque e dashboard de pedidos em tempo real.",
+      "banking": "Aplicativo de Banco Móvel",
+      "bankingDesc": "App bancário seguro em React Native com autenticação biométrica, transações em tempo real e controle orçamentário.",
+      "inventory": "API de Gestão de Estoque",
+      "inventoryDesc": "API RESTful que gerencia mais de 10M de SKUs com sincronização em tempo real, integração de código de barras e previsão de demanda.",
+      "reporting": "Ferramenta de Relatórios Automatizados",
+      "reportingDesc": "Geração automática de PDFs e dashboards a partir de múltiplas fontes de dados, reduzindo o tempo de relatórios manuais em 90%."
     }
   },
 
   "contact": {
-    "title": "Entre em Contato",
-    "email": "Seu Email",
-    "name": "Nome",
-    "message": "Mensagem",
+    "eyebrow": "Entre em Contato",
+    "title": "Vamos Construir Algo\nIncrível Juntos",
+    "subtitle": "Tem um projeto em mente? Nos conte e retornaremos em até 24 horas.",
+    "infoEmail": "E-mail",
+    "infoPhone": "Telefone",
+    "infoLocation": "Localização",
+    "infoHours": "Horário de Atendimento",
+    "ctaTitle": "Iniciar um Projeto",
+    "ctaText": "Da ideia ao lançamento — cuidamos de tudo.",
+    "name": "Seu Nome",
+    "email": "Seu E-mail",
+    "message": "Conte-nos sobre o seu projeto...",
     "submit": "Enviar Mensagem",
     "sending": "Enviando...",
-    "success": "Mensagem enviada com sucesso.",
-    "error": "Algo deu errado. Tente novamente."
+    "success": "Mensagem enviada! Retornaremos em até 24 horas.",
+    "error": "Algo deu errado. Por favor, tente novamente ou entre em contato diretamente."
   },
 
   "footer": {
-    "description": "Criamos soluções digitais que ajudam empresas a crescer e escalar.",
-    "rights": "Todos os direitos reservados."
+    "description": "Construindo soluções digitais que ajudam empresas a crescer, escalar e liderar na era digital.",
+    "rights": "Todos os direitos reservados.",
+    "navTitle": "Navegação",
+    "servicesTitle": "Serviços",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço"
   }
 }

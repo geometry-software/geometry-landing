@@ -8,75 +8,124 @@
   },
 
   "hero": {
-    "title": "New Age of Business Models\nTransitions & Transformation",
-    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla",
-    "getQuote": "Get Quote",
-    "hireUs": "Hire Us"
+    "badge": "Full-Stack Software Agency",
+    "titleLine1": "New Age of",
+    "titleLine2": "Business Models",
+    "description": "We design and build high-performance web apps, mobile solutions, and APIs that help businesses scale and transform in the digital age.",
+    "getQuote": "Get a Quote",
+    "hireUs": "Hire Us",
+    "seeWork": "See Our Work",
+    "stat1": "Projects Delivered",
+    "stat2": "Years Experience",
+    "stat3": "Client Satisfaction",
+    "scroll": "Scroll"
   },
 
   "about": {
-    "title": "Who Are We?",
-    "text1": "Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla",
-    "text2": "Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla"
+    "eyebrow": "Who We Are",
+    "title": "Driven by Technology,\nFueled by Purpose",
+    "subtitle": "A passionate team of engineers and designers building scalable digital products for global businesses.",
+    "text1": "SevenFox is a full-stack software agency founded by engineers who believe great software should be both powerful and beautiful. We partner with startups and enterprises to design, build, and scale digital products that drive real results.",
+    "text2": "From MVP to enterprise-grade platforms, our team handles every layer of the stack — frontend, backend, mobile, cloud infrastructure, and automation — so you can focus on growing your business.",
+    "stat1Value": "10+",
+    "stat1Label": "Projects Shipped",
+    "stat2Value": "3+",
+    "stat2Label": "Team Members",
+    "stat3Value": "5+",
+    "stat3Label": "Years Experience",
+    "stat4Value": "100%",
+    "stat4Label": "Client Satisfaction"
   },
 
   "services": {
-    "title": "Services",
-    "subtitle": "What we do best",
+    "eyebrow": "What We Do",
+    "title": "End-to-End\nSoftware Services",
+    "subtitle": "From beautiful interfaces to robust backends and cloud infrastructure — we cover the full development lifecycle.",
     "items": {
-      "architecture": {
-        "title": "Frontend dev",
-        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla"
+      "frontend": {
+        "title": "Frontend Development",
+        "description": "Pixel-perfect, responsive UIs built with React, Angular, and Next.js. We craft fast, accessible, and delightful user experiences."
+      },
+      "backend": {
+        "title": "Backend Development",
+        "description": "Scalable REST and GraphQL APIs with Node.js and NestJS. Clean architecture, secure data handling, and high performance."
+      },
+      "mobile": {
+        "title": "Mobile Apps",
+        "description": "Cross-platform iOS and Android apps with React Native that feel native, perform great, and ship fast."
+      },
+      "devops": {
+        "title": "DevOps & Cloud",
+        "description": "CI/CD pipelines, containerization, and cloud infrastructure on AWS, GCP, and Azure — built for reliability and scale."
       },
       "automation": {
-        "title": "Backend dev",
-        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla"
+        "title": "Process Automation",
+        "description": "End-to-end workflow automation, integrations, and bots that eliminate manual work and reduce operational overhead."
       },
-      "global": {
-        "title": "Dev Ops",
-        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla"
+      "database": {
+        "title": "Database Design",
+        "description": "Optimized schemas, migrations, and query tuning for PostgreSQL, MongoDB, MySQL, and Redis-backed systems."
       }
-      
     }
   },
 
   "technologies": {
+    "eyebrow": "Tech Stack",
     "title": "Technologies We Use",
-    "description": "We build high-quality software using modern and proven technologies."
+    "description": "We build with modern, battle-tested technologies chosen for performance, developer experience, and long-term maintainability."
   },
 
   "portfolio": {
-    "title": "Custom Software Solutions",
-    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla",
+    "eyebrow": "Our Work",
+    "title": "Custom Software\nSolutions",
+    "description": "A selection of projects where we turned complex requirements into elegant, high-performance software products.",
+    "viewProject": "View Project",
     "categories": {
       "all": "All",
       "web": "Web Apps",
-      "mobile": "Mobile Apps",
+      "mobile": "Mobile",
       "api": "APIs",
       "automation": "Automation"
     },
     "projects": {
       "crm": "Custom CRM Platform",
-      "ecommerce": "E-commerce Module",
+      "crmDesc": "A full-featured CRM built for a 200-person sales team, integrating email, pipeline management, and analytics.",
+      "ecommerce": "E-Commerce Module",
+      "ecommerceDesc": "High-conversion storefront with Stripe payments, inventory sync, and a real-time order dashboard.",
       "banking": "Mobile Banking App",
+      "bankingDesc": "A secure React Native banking app with biometric auth, real-time transactions, and budget tracking.",
       "inventory": "Inventory Management API",
-      "reporting": "Automated Reporting Tool"
+      "inventoryDesc": "RESTful API handling 10M+ SKUs with real-time warehouse sync, barcode integration, and demand forecasting.",
+      "reporting": "Automated Reporting Tool",
+      "reportingDesc": "Automated PDF and dashboard generation from multiple data sources, reducing manual reporting time by 90%."
     }
   },
 
   "contact": {
-    "title": "Get In Touch",
+    "eyebrow": "Get In Touch",
+    "title": "Let's Build Something\nAmazing Together",
+    "subtitle": "Have a project in mind? Tell us about it and we'll get back to you within 24 hours.",
+    "infoEmail": "Email",
+    "infoPhone": "Phone",
+    "infoLocation": "Location",
+    "infoHours": "Business Hours",
+    "ctaTitle": "Start a Project",
+    "ctaText": "From idea to launch — we handle everything.",
+    "name": "Your Name",
     "email": "Your Email",
-    "name": "Name",
-    "message": "Message",
+    "message": "Tell us about your project...",
     "submit": "Send Message",
     "sending": "Sending...",
-    "success": "Message sent successfully.",
-    "error": "Something went wrong. Please try again."
+    "success": "Message sent! We'll get back to you within 24 hours.",
+    "error": "Something went wrong. Please try again or email us directly."
   },
 
   "footer": {
-    "description": "Building digital solutions that help businesses grow and scale.",
-    "rights": "All rights reserved."
+    "description": "Building digital solutions that help businesses grow, scale, and lead in the digital age.",
+    "rights": "All rights reserved.",
+    "navTitle": "Navigation",
+    "servicesTitle": "Services",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
   }
 }
