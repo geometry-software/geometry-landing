@@ -1,13 +1,16 @@
 import { useState } from 'react'
-import img1 from '../assets/crud.png'
+import { ArrowUpRight } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
+import img1 from '../assets/crud.png'
+import bgImage from '../assets/background1.png'
+import bgAbout from '../assets/background-about.png'
 
 const projects = [
-  { titleKey: 'portfolio.projects.crm', category: 'web', image: img1 },
-  { titleKey: 'portfolio.projects.ecommerce', category: 'web', image: img1 },
-  { titleKey: 'portfolio.projects.banking', category: 'mobile', image: img1 },
-  { titleKey: 'portfolio.projects.inventory', category: 'api', image: img1 },
-  { titleKey: 'portfolio.projects.reporting', category: 'automation', image: img1 },
+  { key: 'crm', category: 'web', image: img1 },
+  { key: 'platform', category: 'web', image: bgImage },
+  { key: 'mobile', category: 'mobile', image: bgAbout },
+  { key: 'api', category: 'api', image: img1 },
+  { key: 'automation', category: 'automation', image: bgImage },
 ]
 
 const categories = ['all', 'web', 'mobile', 'api', 'automation']
@@ -19,84 +22,80 @@ export default function Portfolio() {
   const filteredProjects =
     activeCategory === 'all'
       ? projects
-      : projects.filter(p => p.category === activeCategory)
+      : projects.filter(project => project.category === activeCategory)
 
   return (
-    <section className="py-24 px-6 bg-gray-50" id="portfolio">
-      <div className="max-w-7xl mx-auto">
+    <section id="portfolio" className="bg-white px-6 py-10">
+      <div className="max-w-7xl mx-auto border border-[var(--color-border)] bg-white shadow-[var(--shadow-card)] soft-reveal">
+        <div className="px-8 py-10 md:px-12 md:py-14 lg:px-16 lg:py-16 border-b border-[var(--color-border)] fade-up">
+          <div className="text-[11px] uppercase tracking-[0.22em] text-black/40">
+            {t('portfolio.eyebrow')}
+          </div>
 
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-6">
-          {t('portfolio.title')}
-        </h2>
+          <h2 className="mt-6 max-w-4xl text-[34px] leading-[0.98] tracking-[-0.055em] text-[var(--color-ink)] font-semibold md:text-[52px]">
+            {t('portfolio.title')}
+          </h2>
 
-        <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
-          {t('portfolio.description')}
-        </p>
+          <p className="mt-6 max-w-3xl text-[15px] leading-8 text-[var(--color-muted)] md:text-[16px]">
+            {t('portfolio.description')}
+          </p>
 
-        <div className="flex justify-center gap-4 mb-12 flex-wrap">
-          {categories.map(cat => (
-            <button
-              key={cat}
-              onClick={() => setActiveCategory(cat)}
-              className={`
-                px-4 py-2 rounded-full border
-                transition-all duration-300
-                ${
+          <div className="mt-8 flex flex-wrap gap-3">
+            {categories.map(cat => (
+              <button
+                key={cat}
+                onClick={() => setActiveCategory(cat)}
+                className={`h-11 px-5 border text-[12px] font-medium uppercase tracking-[0.14em] transition-all ${
                   activeCategory === cat
-                    ? 'bg-brand-blue text-white shadow-md'
-                    : 'bg-white hover:bg-brand-orange hover:text-white hover:shadow-md'
-                }
-              `}
-            >
-              {t(`portfolio.categories.${cat}`)}
-            </button>
-          ))}
+                    ? 'border-[var(--color-primary)] bg-[var(--color-primary)] text-white shadow-[var(--shadow-soft)]'
+                    : 'border-[var(--color-border)] bg-white text-black/70 hover:border-[var(--color-primary-border)] hover:text-[var(--color-primary)]'
+                }`}
+              >
+                {t(`portfolio.categories.${cat}`)}
+              </button>
+            ))}
+          </div>
         </div>
 
-        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-          {filteredProjects.map(p => (
-            <div
-              key={p.titleKey}
-              className="
-                group relative overflow-hidden rounded-2xl
-                shadow-md
-                transition-all duration-300 ease-out
-                hover:shadow-2xl
-                hover:-translate-y-2
-              "
+        <div className="grid md:grid-cols-2 xl:grid-cols-3">
+          {filteredProjects.map((project, index) => (
+            <article
+              key={project.key}
+              className={`group transition-colors hover:bg-[var(--color-primary-light)] ${
+                index % 3 !== 2 ? 'xl:border-r' : ''
+              } ${
+                index < filteredProjects.length - 3 ? 'xl:border-b' : ''
+              } border-[var(--color-border)] border-b md:border-b`}
             >
-              <img
-                src={p.image}
-                alt={t(p.titleKey)}
-                className="
-                  w-full h-64 object-cover
-                  transition-transform duration-500
-                  group-hover:scale-105
-                "
-              />
+              <div className="relative h-72 overflow-hidden border-b border-[var(--color-border)]">
+                <img
+                  src={project.image}
+                  alt={t(`portfolio.projects.${project.key}.title`)}
+                  className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-[1.03]"
+                />
+                <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(255,255,255,0.02),rgba(37,99,235,0.09))]" />
+                <div className="absolute left-5 top-5 border border-[var(--color-primary-border)] bg-white/95 px-3 py-1 text-[11px] uppercase tracking-[0.16em] text-[var(--color-primary)] shadow-[var(--shadow-soft)]">
+                  {t(`portfolio.categories.${project.category}`)}
+                </div>
+              </div>
 
-              <div
-                className="
-                  absolute inset-0
-                  bg-black/50
-                  flex flex-col items-center justify-center
-                  text-white text-center px-4
-                  opacity-0
-                  transition-opacity duration-300
-                  group-hover:opacity-100
-                "
-              >
-                <h3 className="text-xl font-semibold mb-1">
-                  {t(p.titleKey)}
-                </h3>
-                <p className="text-sm opacity-80">
-                  {t(`portfolio.categories.${p.category}`)}
+              <div className="px-6 py-6 md:px-8 md:py-8">
+                <div className="flex items-start justify-between gap-4">
+                  <h3 className="text-[28px] leading-[1] tracking-[-0.04em] font-semibold text-[var(--color-ink)]">
+                    {t(`portfolio.projects.${project.key}.title`)}
+                  </h3>
+                  <div className="h-11 w-11 border border-[var(--color-border)] bg-white text-[var(--color-ink)] flex items-center justify-center transition-all group-hover:border-[var(--color-primary-border)] group-hover:bg-[var(--color-primary)] group-hover:text-white">
+                    <ArrowUpRight size={18} />
+                  </div>
+                </div>
+
+                <p className="mt-5 text-[15px] leading-8 text-[var(--color-muted)]">
+                  {t(`portfolio.projects.${project.key}.description`)}
                 </p>
               </div>
-            </div>
+            </article>
           ))}
         </div>
-
       </div>
     </section>
   )

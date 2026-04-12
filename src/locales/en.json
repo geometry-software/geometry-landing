@@ -1,82 +1,206 @@
 {
   "navbar": {
     "home": "Home",
-    "services": "Services",
     "about": "About",
-    "portfolio": "Portfolio",
+    "services": "Approach",
+    "technologies": "Stack",
+    "portfolio": "Work",
     "contact": "Contact"
   },
-
   "hero": {
-    "title": "New Age of Business Models\nTransitions & Transformation",
-    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla",
-    "getQuote": "Get Quote",
-    "hireUs": "Hire Us"
-  },
-
-  "about": {
-    "title": "Who Are We?",
-    "text1": "Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla",
-    "text2": "Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla"
-  },
-
-  "services": {
-    "title": "Services",
-    "subtitle": "What we do best",
-    "items": {
-      "architecture": {
-        "title": "Frontend dev",
-        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla"
+    "hireUs": "Talk about your product",
+    "viewWork": "See how we build",
+    "slides": {
+      "slide1": {
+        "eyebrow": "Small team, senior execution",
+        "title": "We build products that don’t break when you scale.",
+        "description": "We help companies turn ideas and existing systems into clean, maintainable products that keep working as they grow."
       },
-      "automation": {
-        "title": "Backend dev",
-        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla"
+      "slide2": {
+        "eyebrow": "Structure before code",
+        "title": "Most products fail not at launch — but during growth.",
+        "description": "As products evolve, codebases become messy and slow. We design systems that stay clear, stable and easy to extend."
       },
-      "global": {
-        "title": "Dev Ops",
-        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla"
+      "slide3": {
+        "eyebrow": "Built for real usage",
+        "title": "Clean systems, strong UX and products you can trust.",
+        "description": "From interface to backend and automation, we build systems that are easy to maintain and confidently evolve."
       }
-      
     }
   },
-
-  "technologies": {
-    "title": "Technologies We Use",
-    "description": "We build high-quality software using modern and proven technologies."
+  "about": {
+    "eyebrow": "About",
+    "title": "A small team that builds products properly from the start.",
+    "text1": "We focus on building products that don’t fall apart as they grow. Instead of rushing into code, we think through structure, flows and long-term maintainability.",
+    "text2": "Our strength is the combination of product thinking and engineering discipline. We care about clean architecture, clarity and systems that stay stable over time.",
+    "cta": "Start a conversation",
+    "items": {
+      "craft": {
+        "title": "Product thinking",
+        "description": "We think beyond features — focusing on structure, flows and long-term product behavior."
+      },
+      "delivery": {
+        "title": "Clean execution",
+        "description": "We build systems that are readable, structured and easy to maintain."
+      },
+      "stack": {
+        "title": "Built to scale",
+        "description": "We design products that grow without turning into technical debt."
+      }
+    }
   },
-
+  "services": {
+    "eyebrow": "Approach",
+    "title": "We don’t just build features — we build systems that last.",
+    "subtitle": "From structure to interface and automation, we focus on long-term product quality.",
+    "items": {
+      "frontend": {
+        "title": "Product Interfaces",
+        "description": "Interfaces that feel fast, clear and easy to use in real scenarios. Built for usability and consistency as products evolve."
+      },
+      "backend": {
+        "title": "Product Architecture",
+        "description": "Backend systems and APIs designed to stay clean, understandable and scalable over time."
+      },
+      "aiAgents": {
+        "title": "AI & Automation Layer",
+        "description": "AI agents and automation flows that solve real business problems and reduce repetitive work."
+      }
+    }
+  },
+  "technologies": {
+    "eyebrow": "Stack",
+    "title": "Built with proven technologies",
+    "description": "We use reliable tools that support scalability, clean architecture and long-term maintainability.",
+    "items": {
+      "typescript": {
+        "title": "TypeScript",
+        "short": "Typed JavaScript for scalable systems.",
+        "paragraph1": "TypeScript helps keep code predictable and easier to maintain as systems grow.",
+        "paragraph2": "It allows teams to understand structure and data flow more clearly.",
+        "paragraph3": "We use it to build reliable frontend and backend systems.",
+        "paragraph4": "It improves confidence when evolving the product.",
+        "paragraph5": "Essential for long-term maintainability."
+      },
+      "angular": {
+        "title": "Angular",
+        "short": "Structured frontend for complex systems.",
+        "paragraph1": "Angular helps build large, structured interfaces.",
+        "paragraph2": "It enforces consistency across the codebase.",
+        "paragraph3": "Useful for dashboards and internal tools.",
+        "paragraph4": "Supports scalable team workflows.",
+        "paragraph5": "Great for long-term products."
+      },
+      "react": {
+        "title": "React",
+        "short": "Flexible UI development.",
+        "paragraph1": "React allows fast iteration and modular UI.",
+        "paragraph2": "Strong ecosystem for building modern interfaces.",
+        "paragraph3": "Used for SaaS, landing pages and apps.",
+        "paragraph4": "Supports reusable components.",
+        "paragraph5": "Balances speed and maintainability."
+      },
+      "reactNative": {
+        "title": "React Native",
+        "short": "Cross-platform mobile.",
+        "paragraph1": "Build mobile apps from one codebase.",
+        "paragraph2": "Speeds up product launch.",
+        "paragraph3": "Keeps consistency across platforms.",
+        "paragraph4": "Integrates well with web systems.",
+        "paragraph5": "Practical for startups."
+      },
+      "node": {
+        "title": "Node.js",
+        "short": "Backend runtime.",
+        "paragraph1": "Fast backend development.",
+        "paragraph2": "Works well with JS stacks.",
+        "paragraph3": "Great for APIs and integrations.",
+        "paragraph4": "Flexible and scalable.",
+        "paragraph5": "Supports rapid iteration."
+      },
+      "nestjs": {
+        "title": "NestJS",
+        "short": "Structured backend.",
+        "paragraph1": "Brings architecture to backend.",
+        "paragraph2": "Helps keep systems clean.",
+        "paragraph3": "Supports scalability.",
+        "paragraph4": "Great for complex logic.",
+        "paragraph5": "Improves maintainability."
+      },
+      "next": {
+        "title": "Next.js",
+        "short": "Production-ready React.",
+        "paragraph1": "Improves performance and SEO.",
+        "paragraph2": "Simplifies deployment.",
+        "paragraph3": "Great for modern web apps.",
+        "paragraph4": "Supports scalable frontend.",
+        "paragraph5": "Strong production setup."
+      },
+      "databases": {
+        "title": "Databases",
+        "short": "Data structure foundation.",
+        "paragraph1": "Core of any system.",
+        "paragraph2": "Defines scalability.",
+        "paragraph3": "Impacts performance.",
+        "paragraph4": "We design for growth.",
+        "paragraph5": "Ensures long-term stability."
+      }
+    }
+  },
   "portfolio": {
-    "title": "Custom Software Solutions",
-    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla",
+    "eyebrow": "Work",
+    "title": "Examples of systems we build",
+    "description": "We build systems that support real operations and product growth.",
     "categories": {
       "all": "All",
       "web": "Web Apps",
-      "mobile": "Mobile Apps",
+      "mobile": "Mobile",
       "api": "APIs",
       "automation": "Automation"
     },
     "projects": {
-      "crm": "Custom CRM Platform",
-      "ecommerce": "E-commerce Module",
-      "banking": "Mobile Banking App",
-      "inventory": "Inventory Management API",
-      "reporting": "Automated Reporting Tool"
+      "crm": {
+        "title": "Custom CRM System",
+        "description": "Internal system to manage leads, clients and communication."
+      },
+      "platform": {
+        "title": "Service Platform",
+        "description": "Product connecting marketing and customer actions."
+      },
+      "mobile": {
+        "title": "Mobile Experience",
+        "description": "Mobile interface for core product features."
+      },
+      "api": {
+        "title": "API System",
+        "description": "Backend connecting services and logic."
+      },
+      "automation": {
+        "title": "Automation System",
+        "description": "Workflow reducing manual work."
+      }
     }
   },
-
   "contact": {
-    "title": "Get In Touch",
-    "email": "Your Email",
-    "name": "Name",
-    "message": "Message",
+    "eyebrow": "Contact",
+    "title": "Tell us what you’re building",
+    "description": "Share your product or idea — we’ll suggest the most practical next step.",
+    "email": "Your email",
+    "name": "Your name",
+    "message": "Tell us about your product",
     "submit": "Send Message",
     "sending": "Sending...",
-    "success": "Message sent successfully.",
-    "error": "Something went wrong. Please try again."
+    "success": "Your message has been sent successfully.",
+    "error": "Something went wrong. Please try again.",
+    "info": {
+      "emailTitle": "Email",
+      "emailValue": "hello@geometry.studio",
+      "replyTitle": "Reply time",
+      "replyValue": "Within 24 hours"
+    }
   },
-
   "footer": {
-    "description": "Building digital solutions that help businesses grow and scale.",
+    "description": "We build products that stay clean, scalable and reliable as they grow.",
     "rights": "All rights reserved."
   }
 }

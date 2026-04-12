@@ -1,82 +1,206 @@
 {
   "navbar": {
     "home": "Inicio",
-    "services": "Servicios",
-    "about": "Nosotros",
-    "portfolio": "Portafolio",
+    "about": "Sobre",
+    "services": "Enfoque",
+    "technologies": "Stack",
+    "portfolio": "Proyectos",
     "contact": "Contacto"
   },
-
   "hero": {
-    "title": "Nueva Era de Modelos de Negocio\nTransiciones y Transformación",
-    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla",
-    "getQuote": "Cotizar",
-    "hireUs": "Contrátanos"
-  },
-
-  "about": {
-    "title": "Quiénes Somos",
-    "text1": "Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla",
-    "text2": "Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla"
-  },
-
-  "services": {
-    "title": "Servicios",
-    "subtitle": "Lo que hacemos mejor",
-    "items": {
-         "architecture": {
-        "title": "Desarrollo Frontend",
-        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla"
+    "hireUs": "Hablar del producto",
+    "viewWork": "Ver cómo trabajamos",
+    "slides": {
+      "slide1": {
+        "eyebrow": "Equipo pequeño, ejecución senior",
+        "title": "Construimos productos que no se rompen al crecer.",
+        "description": "Ayudamos a empresas a convertir ideas y sistemas existentes en productos claros, mantenibles y preparados para crecer."
       },
-      "automation": {
-        "title": "Desarrollo de back-end",
-        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla"
+      "slide2": {
+        "eyebrow": "Estructura antes del código",
+        "title": "La mayoría de productos falla no al lanzar, sino al crecer.",
+        "description": "A medida que el producto evoluciona, el código se vuelve complejo y lento. Diseñamos sistemas claros, estables y fáciles de extender."
       },
-      "global": {
-        "title": "Dev Ops",
-        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla"
-      }    
-      
+      "slide3": {
+        "eyebrow": "Pensado para uso real",
+        "title": "Sistemas limpios, UX sólida y productos en los que puedes confiar.",
+        "description": "Desde la interfaz hasta el backend y la automatización, creamos sistemas fáciles de mantener y evolucionar con seguridad."
+      }
     }
   },
-
-  "technologies": {
-    "title": "Tecnologías que Usamos",
-    "description": "Construimos software de alta calidad usando tecnologías modernas y confiables."
+  "about": {
+    "eyebrow": "Sobre",
+    "title": "Un equipo pequeño que construye productos correctamente desde el inicio.",
+    "text1": "Nos enfocamos en crear productos que no se rompen al crecer. En lugar de escribir código rápido, pensamos en la estructura, los flujos y la mantenibilidad a largo plazo.",
+    "text2": "Nuestra fuerza está en combinar visión de producto con disciplina de ingeniería. Priorizamos arquitectura limpia, claridad y sistemas que se mantienen estables con el tiempo.",
+    "cta": "Iniciar conversación",
+    "items": {
+      "craft": {
+        "title": "Pensamiento de producto",
+        "description": "No solo desarrollamos funcionalidades, pensamos en estructura, flujos y evolución del producto."
+      },
+      "delivery": {
+        "title": "Ejecución limpia",
+        "description": "Creamos sistemas claros, estructurados y fáciles de mantener."
+      },
+      "stack": {
+        "title": "Pensado para escalar",
+        "description": "Diseñamos productos que crecen sin convertirse en deuda técnica."
+      }
+    }
   },
-
+  "services": {
+    "eyebrow": "Enfoque",
+    "title": "No solo desarrollamos — construimos sistemas que duran.",
+    "subtitle": "Desde la estructura hasta la interfaz y la automatización, nos enfocamos en la calidad a largo plazo.",
+    "items": {
+      "frontend": {
+        "title": "Interfaces de Producto",
+        "description": "Interfaces rápidas, claras y fáciles de usar en escenarios reales. Pensadas para evolucionar con el producto."
+      },
+      "backend": {
+        "title": "Arquitectura de Producto",
+        "description": "Sistemas backend y APIs diseñados para mantenerse limpios, comprensibles y escalables con el tiempo."
+      },
+      "aiAgents": {
+        "title": "IA y Automatización",
+        "description": "Agentes de IA y flujos de automatización que resuelven problemas reales y reducen trabajo repetitivo."
+      }
+    }
+  },
+  "technologies": {
+    "eyebrow": "Stack",
+    "title": "Tecnologías probadas",
+    "description": "Utilizamos herramientas confiables que permiten construir sistemas escalables y mantenibles a largo plazo.",
+    "items": {
+      "typescript": {
+        "title": "TypeScript",
+        "short": "JavaScript tipado para sistemas escalables.",
+        "paragraph1": "Ayuda a mantener el código claro y predecible.",
+        "paragraph2": "Facilita entender estructuras y datos.",
+        "paragraph3": "Usado en frontend y backend.",
+        "paragraph4": "Permite evolucionar con confianza.",
+        "paragraph5": "Clave para mantenimiento a largo plazo."
+      },
+      "angular": {
+        "title": "Angular",
+        "short": "Frontend estructurado.",
+        "paragraph1": "Ideal para interfaces grandes.",
+        "paragraph2": "Mantiene consistencia.",
+        "paragraph3": "Perfecto para dashboards.",
+        "paragraph4": "Escalable en equipo.",
+        "paragraph5": "Base sólida a largo plazo."
+      },
+      "react": {
+        "title": "React",
+        "short": "UI flexible.",
+        "paragraph1": "Permite iteración rápida.",
+        "paragraph2": "Gran ecosistema.",
+        "paragraph3": "Usado en SaaS y apps.",
+        "paragraph4": "Componentes reutilizables.",
+        "paragraph5": "Equilibrio entre velocidad y mantenimiento."
+      },
+      "reactNative": {
+        "title": "React Native",
+        "short": "Mobile multiplataforma.",
+        "paragraph1": "Una base de código.",
+        "paragraph2": "Lanzamiento rápido.",
+        "paragraph3": "Consistencia entre plataformas.",
+        "paragraph4": "Integración con web.",
+        "paragraph5": "Ideal para startups."
+      },
+      "node": {
+        "title": "Node.js",
+        "short": "Backend.",
+        "paragraph1": "Desarrollo rápido.",
+        "paragraph2": "Compatible con JS.",
+        "paragraph3": "APIs eficientes.",
+        "paragraph4": "Flexible.",
+        "paragraph5": "Alta velocidad de evolución."
+      },
+      "nestjs": {
+        "title": "NestJS",
+        "short": "Backend estructurado.",
+        "paragraph1": "Arquitectura clara.",
+        "paragraph2": "Código limpio.",
+        "paragraph3": "Escalable.",
+        "paragraph4": "Ideal para lógica compleja.",
+        "paragraph5": "Mantenible."
+      },
+      "next": {
+        "title": "Next.js",
+        "short": "React para producción.",
+        "paragraph1": "Mejor performance.",
+        "paragraph2": "SEO.",
+        "paragraph3": "Deploy simple.",
+        "paragraph4": "Frontend moderno.",
+        "paragraph5": "Listo para producción."
+      },
+      "databases": {
+        "title": "Bases de Datos",
+        "short": "Estructura de datos.",
+        "paragraph1": "Base del sistema.",
+        "paragraph2": "Impacta escalabilidad.",
+        "paragraph3": "Clave para performance.",
+        "paragraph4": "Diseñadas para crecer.",
+        "paragraph5": "Estabilidad a largo plazo."
+      }
+    }
+  },
   "portfolio": {
-    "title": "Soluciones de Software a Medida",
-    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit enim nulla",
+    "eyebrow": "Proyectos",
+    "title": "Ejemplos de sistemas que construimos",
+    "description": "Creamos sistemas que soportan operaciones reales y crecimiento del producto.",
     "categories": {
       "all": "Todos",
-      "web": "Aplicaciones Web",
-      "mobile": "Apps Móviles",
+      "web": "Web",
+      "mobile": "Mobile",
       "api": "APIs",
       "automation": "Automatización"
     },
     "projects": {
-      "crm": "Plataforma CRM Personalizada",
-      "ecommerce": "Módulo E-commerce",
-      "banking": "App Bancaria Móvil",
-      "inventory": "API de Gestión de Inventario",
-      "reporting": "Herramienta de Reportes Automatizados"
+      "crm": {
+        "title": "CRM personalizado",
+        "description": "Sistema interno para gestionar clientes y procesos."
+      },
+      "platform": {
+        "title": "Plataforma",
+        "description": "Producto que conecta marketing y acciones del cliente."
+      },
+      "mobile": {
+        "title": "Experiencia mobile",
+        "description": "Interfaz móvil para funciones clave."
+      },
+      "api": {
+        "title": "Sistema API",
+        "description": "Backend que conecta servicios y lógica."
+      },
+      "automation": {
+        "title": "Automatización",
+        "description": "Flujos que reducen trabajo manual."
+      }
     }
   },
-
   "contact": {
-    "title": "Contáctanos",
-    "email": "Tu Email",
-    "name": "Nombre",
-    "message": "Mensaje",
-    "submit": "Enviar Mensaje",
+    "eyebrow": "Contacto",
+    "title": "Cuéntanos qué estás construyendo",
+    "description": "Comparte tu producto y te diremos el siguiente paso más práctico.",
+    "email": "Tu email",
+    "name": "Tu nombre",
+    "message": "Describe tu producto",
+    "submit": "Enviar",
     "sending": "Enviando...",
-    "success": "Mensaje enviado exitosamente.",
-    "error": "Ocurrió un error. Inténtalo de nuevo."
+    "success": "Mensaje enviado correctamente",
+    "error": "Algo salió mal",
+    "info": {
+      "emailTitle": "Email",
+      "emailValue": "hello@geometry.studio",
+      "replyTitle": "Tiempo de respuesta",
+      "replyValue": "Dentro de 24 horas"
+    }
   },
-
   "footer": {
-    "description": "Creamos soluciones digitales que ayudan a las empresas a crecer y escalar.",
+    "description": "Creamos productos escalables, limpios y confiables.",
     "rights": "Todos los derechos reservados."
   }
 }

@@ -1,62 +1,53 @@
-import { RefreshCw, Globe, Cuboid } from "lucide-react"
+import { MonitorSmartphone, ServerCog, Bot } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 
 const services = [
-  { key: 'architecture', icon: Cuboid },
-  { key: 'automation', icon: RefreshCw },
-  { key: 'global', icon: Globe },
+  { key: 'frontend', icon: MonitorSmartphone },
+  { key: 'backend', icon: ServerCog },
+  { key: 'aiAgents', icon: Bot },
 ]
 
 export default function Services() {
   const { t } = useTranslation()
 
   return (
-    <section
-      id="services"
-      className="py-24 px-6 bg-gradient-to-br from-brand-orange to-orange-300"
-    >
-      <div className="max-w-7xl mx-auto">
+    <section id="services" className="bg-white px-6 py-10">
+      <div className="max-w-7xl mx-auto border border-[var(--color-border)] bg-white shadow-[var(--shadow-card)] soft-reveal">
+        <div className="px-8 py-10 md:px-12 md:py-14 lg:px-16 lg:py-16 border-b border-[var(--color-border)] fade-up">
+          <div className="text-[11px] uppercase tracking-[0.22em] text-black/40">
+            {t('services.eyebrow')}
+          </div>
 
-        <h2 className="text-4xl font-bold text-center text-white mb-4">
-          {t('services.title')}
-        </h2>
+          <h2 className="mt-6 max-w-4xl text-[34px] leading-[0.98] tracking-[-0.055em] text-[var(--color-ink)] font-semibold md:text-[52px]">
+            {t('services.title')}
+          </h2>
 
-        <p className="text-center text-white/80 mb-12">
-          {t('services.subtitle')}
-        </p>
+          <p className="mt-6 max-w-3xl text-[15px] leading-8 text-[var(--color-muted)] md:text-[16px]">
+            {t('services.subtitle')}
+          </p>
+        </div>
 
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {services.map(({ key, icon: Icon }) => (
+        <div className="grid lg:grid-cols-3">
+          {services.map(({ key, icon: Icon }, index) => (
             <div
               key={key}
-              className="
-                group
-                bg-white p-8 rounded-2xl
-                shadow-md
-                transition-all duration-300 ease-out
-                hover:shadow-2xl
-                hover:-translate-y-2
-              "
+              className={`px-8 py-10 md:px-10 md:py-12 transition-all hover:bg-[var(--color-primary-light)] ${index !== services.length - 1 ? 'border-b lg:border-b-0 lg:border-r' : ''
+                } border-[var(--color-border)]`}
             >
-              <Icon
-                className="
-                  w-10 h-10 mb-4 text-brand-blue
-                  transition-transform duration-300
-                  group-hover:scale-110
-                "
-              />
+              <div className="h-14 w-14 border border-[var(--color-primary-border)] bg-white flex items-center justify-center text-[var(--color-primary)] shadow-[var(--shadow-soft)]">
+                <Icon size={24} />
+              </div>
 
-              <h3 className="font-semibold mb-2">
+              <h3 className="mt-6 text-[28px] leading-[1] tracking-[-0.04em] font-semibold text-[var(--color-ink)]">
                 {t(`services.items.${key}.title`)}
               </h3>
 
-              <p className="text-sm text-gray-600">
+              <p className="mt-6 text-[15px] leading-8 text-[var(--color-muted)]">
                 {t(`services.items.${key}.description`)}
               </p>
             </div>
           ))}
         </div>
-
       </div>
     </section>
   )

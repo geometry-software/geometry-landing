@@ -1,51 +1,50 @@
-import { Facebook, Twitter, Instagram, Linkedin } from 'lucide-react'
+import { Facebook, Instagram, Linkedin, Twitter } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 
 export default function Footer() {
   const { t } = useTranslation()
-  const links = ['home', 'services', 'about', 'portfolio', 'contact']
 
   return (
-    <footer className="bg-black text-white">
-      <div className="max-w-6xl mx-auto px-6 py-12 flex flex-col md:flex-row items-center justify-between gap-6">
+    <footer className="bg-white px-6 py-10">
+      <div className="max-w-7xl mx-auto border border-[var(--color-border)] bg-white shadow-[var(--shadow-card)] soft-reveal">
+        <div className="grid gap-8 px-8 py-8 md:px-12 md:py-10 lg:grid-cols-[1fr_auto_auto] lg:items-center">
+          <div>
+            <div className="text-[30px] font-semibold tracking-[-0.06em] text-[var(--color-ink)]">
+              Geometry
+            </div>
+            <p className="mt-4 max-w-2xl text-[15px] leading-8 text-[var(--color-muted)]">
+              {t('footer.description')}
+            </p>
+          </div>
 
-        <div className="flex flex-col items-center md:items-start space-y-2">
-          <span className="text-xl font-bold">SevenFox</span>
-          <p className="text-white/80 text-sm text-center md:text-left">
-            {t('footer.description', 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptates...')}
-          </p>
+          <nav className="flex flex-wrap gap-4 text-[12px] uppercase tracking-[0.16em]">
+            {['home', 'about', 'services', 'technologies', 'portfolio', 'contact'].map(link => (
+              <a
+                key={link}
+                href={`#${link}`}
+                className="text-black/55 transition-colors hover:text-[var(--color-primary)]"
+              >
+                {t(`navbar.${link}`)}
+              </a>
+            ))}
+          </nav>
+
+          <div className="flex items-center gap-3">
+            {[Facebook, Twitter, Instagram, Linkedin].map((Icon, index) => (
+              <a
+                key={index}
+                href="#"
+                className="h-11 w-11 border border-[var(--color-border)] bg-white text-[var(--color-ink)] flex items-center justify-center transition-all hover:border-[var(--color-primary-border)] hover:bg-[var(--color-primary)] hover:text-white hover:shadow-[var(--shadow-soft)]"
+              >
+                <Icon size={18} />
+              </a>
+            ))}
+          </div>
         </div>
 
-        <nav className="flex flex-wrap justify-center gap-6">
-          {links.map(link => (
-            <a
-              key={link}
-              href={`#${link}`}
-              className="hover:text-[var(--color-brand-orange)] transition-colors"
-            >
-              {t(`navbar.${link}`)}
-            </a>
-          ))}
-        </nav>
-
-        <div className="flex items-center justify-center md:justify-end gap-4">
-          <a href="#" className="hover:text-[var(--color-brand-orange)] transition-colors">
-            <Facebook className="w-5 h-5" />
-          </a>
-          <a href="#" className="hover:text-[var(--color-brand-orange)] transition-colors">
-            <Twitter className="w-5 h-5" />
-          </a>
-          <a href="#" className="hover:text-[var(--color-brand-orange)] transition-colors">
-            <Instagram className="w-5 h-5" />
-          </a>
-          <a href="#" className="hover:text-[var(--color-brand-orange)] transition-colors">
-            <Linkedin className="w-5 h-5" />
-          </a>
+        <div className="border-t border-[var(--color-border)] px-8 py-5 md:px-12 text-[12px] uppercase tracking-[0.16em] text-black/40">
+          © {new Date().getFullYear()} Geometry. {t('footer.rights')}
         </div>
-      </div>
-
-      <div className="border-t border-white/10 mt-8 pt-6 text-center text-white/50 text-sm max-w-6xl mx-auto px-6">
-        &copy; {new Date().getFullYear()} SevenFox. {t('footer.rights', 'All rights reserved.')}
       </div>
     </footer>
   )

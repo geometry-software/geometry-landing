@@ -1,0 +1,1593 @@
+{
+  "navbar": {
+    "home": "Início",
+    "about": "Quem Somos",
+    "services": "Serviços",
+    "technologies": "Tecnologias",
+    "portfolio": "Soluções",
+    "contact": "Contato"
+  },
+  "hero": {
+    "hireUs": "Hire Us",
+    "viewWork": "Ver Projetos",
+    "slides": {
+      "slide1": {
+        "eyebrow": "Estúdio pequeno, execução sênior",
+        "title": "Criamos produtos digitais modernos que já nascem com presença e qualidade.",
+        "description": "A SevenFox ajuda empresas a lançar sites, plataformas internas, experiências digitais e produtos com velocidade, clareza e boa execução técnica."
+      },
+      "slide2": {
+        "eyebrow": "Frontend, backend e DevOps",
+        "title": "Da interface à infraestrutura, transformamos ideias em software confiável.",
+        "description": "Unimos design visual, arquitetura escalável e entrega prática para construir produtos que não só parecem bons, mas também funcionam bem sob demanda real."
+      },
+      "slide3": {
+        "eyebrow": "Construído para crescer",
+        "title": "Sistemas limpos, UX cuidadosa e um time que realmente se importa com o resultado.",
+        "description": "Se você precisa de uma landing page, um painel administrativo, uma API ou a direção completa de um produto, criamos soluções fáceis de manter, evoluir e confiar."
+      }
+    }
+  },
+  "about": {
+    "eyebrow": "Sobre o estúdio",
+    "title": "Um estúdio pequeno de desenvolvimento focado em tecnologia útil, elegante e escalável.",
+    "text1": "Somos uma equipe compacta que cria produtos digitais modernos para empresas que precisam de mais do que um site básico. Trabalhamos com frontend, backend, interfaces mobile, APIs e infraestrutura de entrega, sempre buscando produtos claros, rápidos e profissionais.",
+    "text2": "Nossa força está na combinação entre sensibilidade de design e disciplina de engenharia. Valorizamos experiência do usuário, qualidade de código, performance e manutenção, e gostamos de construir produtos que continuem fortes depois do lançamento.",
+    "cta": "Começar um Projeto",
+    "items": {
+      "craft": {
+        "title": "Produto com intenção",
+        "description": "Pensamos em tipografia, layout, hierarquia e interação para que cada tela tenha presença e clareza."
+      },
+      "delivery": {
+        "title": "Entrega rápida e confiável",
+        "description": "Trabalhamos com velocidade, comunicação objetiva e soluções realistas que acompanham a necessidade do negócio."
+      },
+      "stack": {
+        "title": "Stack técnica moderna",
+        "description": "Usamos tecnologias consolidadas em frontend, backend e infraestrutura para construir produtos escaláveis."
+      }
+    }
+  },
+  "services": {
+    "eyebrow": "O que fazemos",
+    "title": "Serviços pensados para qualidade de produto e crescimento de longo prazo.",
+    "subtitle": "Cobrimos as camadas essenciais de um produto digital moderno, da interface à infraestrutura.",
+    "items": {
+      "frontend": {
+        "title": "Desenvolvimento Frontend",
+        "description": "Criamos interfaces responsivas, rápidas e visualmente refinadas para sites, dashboards e produtos SaaS. Nosso trabalho de frontend prioriza usabilidade, arquitetura limpa de componentes e um design system capaz de evoluir com o produto. Pensamos em clareza, performance e experiência consistente em qualquer tela. O resultado é um software bonito, moderno e fácil de usar."
+      },
+      "backend": {
+        "title": "Desenvolvimento Backend",
+        "description": "Projetamos e implementamos APIs, regras de negócio e fluxos de dados que sustentam o crescimento real do produto. Nosso backend é construído com foco em estrutura, segurança, manutenção e integração com os serviços que o projeto precisa. Criamos bases que podem crescer sem virar bagunça. Isso dá mais estabilidade ao produto e mais confiança para novas funcionalidades."
+      },
+      "aiAgents": {
+        "title": "Desenvolvimento de Agentes de IA",
+        "description": "Projetamos e desenvolvemos agentes de IA capazes de auxiliar usuários, automatizar fluxos de trabalho e executar tarefas operacionais repetitivas com mais velocidade e consistência. Nosso trabalho envolve arquitetura de prompts, integração com ferramentas, saídas estruturadas e fluxos orientados ao negócio, e não apenas demos de IA sem uso real. Priorizamos confiabilidade, clareza de interação e automação segura que faça sentido dentro do produto. O resultado é uma camada de IA útil, controlada e realmente valiosa para a empresa."
+      }
+    }
+  },
+  "technologies": {
+    "eyebrow": "Tecnologias",
+    "title": "Tecnologias que Usamos",
+    "description": "Escolhemos ferramentas que ajudam a criar produtos confiáveis, com boa experiência de desenvolvimento e manutenção sustentável no longo prazo.",
+    "items": {
+      "typescript": {
+        "title": "TypeScript",
+        "short": "JavaScript tipado para aplicações mais seguras e organizadas.",
+        "paragraph1": "TypeScript adiciona tipagem estática ao JavaScript, o que ajuda a encontrar erros mais cedo no desenvolvimento.",
+        "paragraph2": "Ele torna bases de código maiores mais fáceis de entender porque os dados e funções ficam mais explícitos.",
+        "paragraph3": "Usamos TypeScript para melhorar consistência em projetos de frontend e backend.",
+        "paragraph4": "Também aumenta a confiança ao refatorar porque o editor entende o código de forma mais profunda.",
+        "paragraph5": "Em produtos em crescimento, isso normalmente significa manutenção melhor e menos bugs evitáveis."
+      },
+      "angular": {
+        "title": "Angular",
+        "short": "Framework estruturado para aplicações frontend mais complexas.",
+        "paragraph1": "Angular é útil para construir interfaces grandes com convenções fortes e arquitetura modular.",
+        "paragraph2": "Ele traz rotas, formulários, injeção de dependência e padrões de estado em um ecossistema consistente.",
+        "paragraph3": "Gostamos dele para plataformas de negócio, dashboards e produtos com muitas telas conectadas.",
+        "paragraph4": "Ele favorece fluxo de equipe escalável porque a estrutura do projeto fica previsível.",
+        "paragraph5": "Para produtos com perfil mais robusto, Angular pode ser uma base muito estável."
+      },
+      "react": {
+        "title": "React",
+        "short": "Desenvolvimento de interfaces com componentes reutilizáveis.",
+        "paragraph1": "React é uma biblioteca baseada em componentes que ajuda a construir interfaces modernas e interativas.",
+        "paragraph2": "Ela é especialmente forte quando o produto precisa de UI reutilizável e iteração rápida.",
+        "paragraph3": "Usamos React para landing pages, interfaces SaaS, painéis administrativos e frontends de produto.",
+        "paragraph4": "Seu ecossistema é amplo, o que facilita montar a combinação certa de ferramentas para cada projeto.",
+        "paragraph5": "É uma ótima escolha quando velocidade, flexibilidade e manutenção importam ao mesmo tempo."
+      },
+      "reactNative": {
+        "title": "React Native",
+        "short": "Desenvolvimento mobile multiplataforma com a lógica do React.",
+        "paragraph1": "React Native permite construir apps para iOS e Android a partir de uma base compartilhada.",
+        "paragraph2": "Ele é útil quando o tempo de lançamento importa e o produto precisa de consistência entre plataformas.",
+        "paragraph3": "Usamos essa tecnologia para criar experiências mobile bem conectadas ao web e ao backend.",
+        "paragraph4": "Ela mantém o fluxo de desenvolvimento próximo das práticas modernas de frontend.",
+        "paragraph5": "Para muitos times e startups, é uma forma prática de lançar mobile mais rápido."
+      },
+      "node": {
+        "title": "Node.js",
+        "short": "Runtime JavaScript para aplicações server-side escaláveis.",
+        "paragraph1": "Node.js permite rodar JavaScript no servidor, o que cria boa sintonia com stacks de frontend.",
+        "paragraph2": "Ele é eficiente para APIs, recursos em tempo real e integrações de serviço.",
+        "paragraph3": "Usamos Node quando o time precisa de um fluxo de backend rápido e flexível.",
+        "paragraph4": "Seu ecossistema facilita conexão com ferramentas modernas e serviços em nuvem.",
+        "paragraph5": "Funciona muito bem em produtos que precisam de velocidade de evolução e boa produtividade."
+      },
+      "nestjs": {
+        "title": "NestJS",
+        "short": "Arquitetura backend estruturada para APIs e serviços modernos.",
+        "paragraph1": "NestJS é um framework backend sobre Node.js com uma arquitetura mais organizada.",
+        "paragraph2": "Ele traz padrões como módulos, controllers e providers para manter sistemas limpos.",
+        "paragraph3": "Usamos quando o produto precisa de APIs estáveis e lógica de negócio que possa crescer com o tempo.",
+        "paragraph4": "Ele funciona muito bem para equipes que valorizam estrutura previsível e testabilidade.",
+        "paragraph5": "Em projetos médios e grandes, ajuda bastante a criar uma base sólida de longo prazo."
+      },
+      "next": {
+        "title": "Next.js",
+        "short": "Framework de React para sites rápidos e experiências modernas.",
+        "paragraph1": "Next.js expande o React com rotas, estratégias de renderização e padrões prontos para produção.",
+        "paragraph2": "É muito útil para sites institucionais, produtos com conteúdo e aplicações web modernas.",
+        "paragraph3": "Usamos quando performance, SEO e deploy limpo são prioridades.",
+        "paragraph4": "Ele simplifica decisões que no React puro exigiriam mais configuração manual.",
+        "paragraph5": "Para produtos web que precisam de velocidade e acabamento, costuma ser uma escolha forte."
+      },
+      "databases": {
+        "title": "Databases",
+        "short": "Armazenamento confiável e modelagem de dados para produtos reais.",
+        "paragraph1": "Bancos de dados são a base de como um produto armazena, recupera e organiza informações.",
+        "paragraph2": "Trabalhamos essa camada de acordo com escala, lógica e necessidades de performance do projeto.",
+        "paragraph3": "Uma boa estrutura de dados melhora velocidade, relatórios e confiabilidade do sistema.",
+        "paragraph4": "Pensamos em relações, indexação e crescimento futuro desde o início.",
+        "paragraph5": "Um banco de dados bem desenhado deixa todo o produto mais fácil de manter e evoluir."
+      }
+    }
+  },
+  "portfolio": {
+    "eyebrow": "Direções selecionadas",
+    "title": "Soluções de software desenhadas para necessidades reais de negócio.",
+    "description": "Criamos experiências digitais que apoiam operação, jornada do cliente, fluxos internos e crescimento escalável. Cada solução é pensada para ser clara para o usuário e sustentável para a equipe que vai mantê-la.",
+    "categories": {
+      "all": "Todos",
+      "web": "Web Apps",
+      "mobile": "Apps Mobile",
+      "api": "APIs",
+      "automation": "Automação"
+    },
+    "projects": {
+      "crm": {
+        "title": "Workspace CRM Personalizado",
+        "description": "Uma plataforma interna sob medida para organizar leads, clientes, comunicação e visibilidade do time em um só lugar."
+      },
+      "platform": {
+        "title": "Plataforma de Serviços",
+        "description": "Uma experiência digital focada em conversão, conectando páginas de marketing, descoberta de serviços e ação do cliente."
+      },
+      "mobile": {
+        "title": "Experiência Mobile Complementar",
+        "description": "Uma interface mobile criada para manter usuários conectados às funções, atualizações e ações essenciais do produto."
+      },
+      "api": {
+        "title": "Camada Operacional de API",
+        "description": "Uma camada backend criada para conectar produtos, fontes de dados e regras de negócio com segurança e manutenção clara."
+      },
+      "automation": {
+        "title": "Fluxo de Automação e Relatórios",
+        "description": "Uma solução de workflow que reduz tarefas manuais repetitivas e entrega relatórios mais limpos entre equipes."
+      }
+    }
+  },
+  "contact": {
+    "eyebrow": "Vamos conversar",
+    "title": "Entre em Contato",
+    "description": "Conte o que você quer criar, melhorar ou lançar. Vamos analisar sua ideia e responder com o próximo passo mais prático.",
+    "email": "Seu e-mail",
+    "name": "Seu nome",
+    "message": "Conte sobre seu projeto",
+    "submit": "Enviar Mensagem",
+    "sending": "Enviando...",
+    "success": "Sua mensagem foi enviada com sucesso.",
+    "error": "Algo deu errado. Tente novamente.",
+    "info": {
+      "emailTitle": "E-mail",
+      "emailValue": "hello@sevenfox.studio",
+      "replyTitle": "Tempo de resposta",
+      "replyValue": "Normalmente em até 24 horas"
+    }
+  },
+  "footer": {
+    "description": "Criamos produtos digitais, interfaces e sistemas que ajudam empresas a avançar com mais velocidade e confiança.",
+    "rights": "Todos os direitos reservados."
+  }
+}
+{
+  "navbar": {
+    "home": "Home",
+    "about": "Who We Are",
+    "services": "Services",
+    "technologies": "Technologies",
+    "portfolio": "Solutions",
+    "contact": "Contact"
+  },
+  "hero": {
+    "hireUs": "Hire Us",
+    "viewWork": "View Work",
+    "slides": {
+      "slide1": {
+        "eyebrow": "Small studio, senior execution",
+        "title": "We design and build digital products that feel modern from day one.",
+        "description": "SevenFox helps businesses launch polished websites, internal tools, customer platforms and product experiences with speed, clarity and strong technical execution."
+      },
+      "slide2": {
+        "eyebrow": "Frontend, backend and DevOps",
+        "title": "From interface to infrastructure, we turn ideas into reliable software.",
+        "description": "We combine visual design, scalable architecture and practical delivery so products not only look good, but also work well under real business pressure."
+      },
+      "slide3": {
+        "eyebrow": "Built for growth",
+        "title": "Clean systems, thoughtful UX and a team that actually cares about the result.",
+        "description": "Whether you need a landing page, an admin panel, an API or a full product direction, we build solutions that are easier to maintain, extend and trust."
+      }
+    }
+  },
+  "about": {
+    "eyebrow": "About the studio",
+    "title": "A small development studio focused on useful, elegant and scalable technology.",
+    "text1": "We are a compact team that creates modern digital products for companies that need more than a basic website. We work with frontend, backend, mobile interfaces, APIs and delivery infrastructure, shaping products that feel clear, fast and professional.",
+    "text2": "What makes us strong is the combination of design sensitivity and engineering discipline. We care about user experience, code quality, performance and maintainability, and we like building products that are easy to grow after launch.",
+    "cta": "Start a Project",
+    "items": {
+      "craft": {
+        "title": "Thoughtful product craft",
+        "description": "We care about typography, layout, hierarchy and interactions so every screen feels intentional and polished."
+      },
+      "delivery": {
+        "title": "Fast and reliable delivery",
+        "description": "We move quickly, communicate clearly and keep solutions realistic, maintainable and aligned with business goals."
+      },
+      "stack": {
+        "title": "Modern technical stack",
+        "description": "We work with proven technologies across frontend, backend and infrastructure to build products that scale."
+      }
+    }
+  },
+  "services": {
+    "eyebrow": "What we do",
+    "title": "Services built around product quality and long-term growth.",
+    "subtitle": "We cover the essential layers of a modern digital product, from interface to infrastructure.",
+    "items": {
+      "frontend": {
+        "title": "Frontend Development",
+        "description": "We build responsive, fast and visually refined interfaces for websites, dashboards and SaaS products. Our frontend work focuses on usability, clean component architecture and a design system that can evolve with the product. We care about clarity, performance and a smooth experience on every screen size. The result is software that looks premium and feels easy to use."
+      },
+      "backend": {
+        "title": "Backend Development",
+        "description": "We design and implement APIs, business logic and data flows that support real product growth. Our backend work is centered on structure, security, maintainability and integration with the services your product depends on. We build foundations that are easy to extend as features become more complex. This gives you a stable core behind every user-facing experience."
+      },
+      "aiAgents": {
+        "title": "AI Agents Development",
+        "description": "We design and build AI agents that can assist users, automate workflows and handle repetitive operational tasks with more speed and consistency. Our work includes prompt architecture, tool integration, structured outputs and real business-oriented flows rather than AI demos with no practical use. We focus on reliability, clarity of interaction and safe automation that fits the product around it. The result is AI functionality that feels useful, controlled and genuinely valuable for the business."
+      }
+    }
+  },
+  "technologies": {
+    "eyebrow": "Stack we use",
+    "title": "Technologies We Use",
+    "description": "We choose tools that help us build reliable products with strong developer experience and long-term maintainability.",
+    "items": {
+      "typescript": {
+        "title": "TypeScript",
+        "short": "Typed JavaScript for safer and cleaner applications.",
+        "paragraph1": "TypeScript adds static typing on top of JavaScript, which helps catch mistakes earlier in development.",
+        "paragraph2": "It makes large codebases easier to understand because the shape of data and functions becomes more explicit.",
+        "paragraph3": "We use it to improve consistency across frontend and backend projects.",
+        "paragraph4": "It also boosts refactoring confidence because editors can understand the code more deeply.",
+        "paragraph5": "For growing products, TypeScript usually means better maintainability and fewer avoidable bugs."
+      },
+      "angular": {
+        "title": "Angular",
+        "short": "A structured framework for complex frontend applications.",
+        "paragraph1": "Angular is useful for building large interfaces with strong conventions and modular architecture.",
+        "paragraph2": "It provides routing, forms, dependency injection and state patterns in a consistent ecosystem.",
+        "paragraph3": "We like it for business platforms, dashboards and products with many interconnected screens.",
+        "paragraph4": "It supports scalable team workflows because project structure remains predictable.",
+        "paragraph5": "For enterprise-style products, Angular can be a very stable frontend foundation."
+      },
+      "react": {
+        "title": "React",
+        "short": "Flexible UI development with reusable components.",
+        "paragraph1": "React is a component-based library that helps build modern and interactive interfaces.",
+        "paragraph2": "It is especially strong when products need reusable UI patterns and fast iteration.",
+        "paragraph3": "We use it for landing pages, SaaS interfaces, admin panels and product frontends.",
+        "paragraph4": "Its ecosystem is broad, which makes it easy to compose the right tooling around the product.",
+        "paragraph5": "React is a great fit when speed, flexibility and maintainability all matter."
+      },
+      "reactNative": {
+        "title": "React Native",
+        "short": "Cross-platform mobile development with React patterns.",
+        "paragraph1": "React Native allows teams to build mobile apps for iOS and Android from a shared codebase.",
+        "paragraph2": "It is useful when speed to market matters and a product needs consistent experiences across platforms.",
+        "paragraph3": "We use it to create mobile interfaces that connect well with existing web and backend systems.",
+        "paragraph4": "It keeps development workflows closer to modern frontend practices.",
+        "paragraph5": "For many startups and product teams, it is a practical way to launch mobile faster."
+      },
+      "node": {
+        "title": "Node.js",
+        "short": "JavaScript runtime for scalable server-side applications.",
+        "paragraph1": "Node.js lets us run JavaScript on the server, which creates good alignment with frontend stacks.",
+        "paragraph2": "It is efficient for APIs, real-time features and service integrations.",
+        "paragraph3": "We often use it when teams want a fast and flexible backend development flow.",
+        "paragraph4": "Its ecosystem makes it easy to integrate with modern tools and cloud services.",
+        "paragraph5": "Node.js works especially well for products that need fast iteration and strong developer velocity."
+      },
+      "nestjs": {
+        "title": "NestJS",
+        "short": "Structured backend architecture for modern APIs and services.",
+        "paragraph1": "NestJS is a backend framework built on top of Node.js with a more organized architecture.",
+        "paragraph2": "It brings patterns like modules, controllers and providers that help keep systems clean.",
+        "paragraph3": "We use it when products need maintainable APIs and business logic that can grow over time.",
+        "paragraph4": "It works especially well for teams that value predictable structure and testability.",
+        "paragraph5": "For medium and large backend projects, NestJS helps create a solid long-term foundation."
+      },
+      "next": {
+        "title": "Next.js",
+        "short": "A React framework for fast websites and product experiences.",
+        "paragraph1": "Next.js builds on React and adds routing, rendering strategies and production-ready patterns.",
+        "paragraph2": "It is useful for marketing sites, content-driven products and modern web applications.",
+        "paragraph3": "We use it when performance, SEO and clean deployment flows matter.",
+        "paragraph4": "It also simplifies many decisions that otherwise require more manual setup in React.",
+        "paragraph5": "For web products that need both speed and polish, Next.js is often a strong choice."
+      },
+      "databases": {
+        "title": "Databases",
+        "short": "Reliable storage and data modeling for real products.",
+        "paragraph1": "Databases are the foundation of how products store, retrieve and organize information.",
+        "paragraph2": "We work with database layers in a way that matches the product’s scale, logic and performance needs.",
+        "paragraph3": "Good data structure improves speed, reporting and overall system reliability.",
+        "paragraph4": "We think about relationships, indexing and future growth from the start.",
+        "paragraph5": "A well-designed database makes the whole product easier to maintain and extend."
+      }
+    }
+  },
+  "portfolio": {
+    "eyebrow": "Selected directions",
+    "title": "Software solutions shaped around real business needs.",
+    "description": "We build product experiences that support operations, customer journeys, internal workflows and scalable digital growth. Each solution is designed to feel clear for users and sustainable for the team behind it.",
+    "categories": {
+      "all": "All",
+      "web": "Web Apps",
+      "mobile": "Mobile Apps",
+      "api": "APIs",
+      "automation": "Automation"
+    },
+    "projects": {
+      "crm": {
+        "title": "Custom CRM Workspace",
+        "description": "A tailored internal platform for managing leads, clients, communication flow and team visibility in one place."
+      },
+      "platform": {
+        "title": "Service Booking Platform",
+        "description": "A conversion-focused product experience that connects marketing pages, service discovery and customer actions."
+      },
+      "mobile": {
+        "title": "Companion Mobile Experience",
+        "description": "A mobile-first interface designed to keep users connected to essential features, updates and actions on the go."
+      },
+      "api": {
+        "title": "Operational API Layer",
+        "description": "A backend service layer built to connect products, data sources and business logic in a secure and maintainable way."
+      },
+      "automation": {
+        "title": "Reporting & Automation Flow",
+        "description": "A workflow solution that reduces repetitive manual work and delivers cleaner reporting across teams."
+      }
+    }
+  },
+  "contact": {
+    "eyebrow": "Let’s talk",
+    "title": "Get In Touch",
+    "description": "Tell us what you want to build, improve or launch. We’ll review your idea and reply with the next practical step.",
+    "email": "Your email",
+    "name": "Your name",
+    "message": "Tell us about your project",
+    "submit": "Send Message",
+    "sending": "Sending...",
+    "success": "Your message has been sent successfully.",
+    "error": "Something went wrong. Please try again.",
+    "info": {
+      "emailTitle": "Email",
+      "emailValue": "hello@sevenfox.studio",
+      "replyTitle": "Reply time",
+      "replyValue": "Usually within 24 hours"
+    }
+  },
+  "footer": {
+    "description": "We create digital products, interfaces and systems that help companies move faster with more confidence.",
+    "rights": "All rights reserved."
+  }
+}
+{
+  "navbar": {
+    "home": "Inicio",
+    "about": "Quiénes Somos",
+    "services": "Servicios",
+    "technologies": "Tecnologías",
+    "portfolio": "Soluciones",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "hireUs": "Hire Us",
+    "viewWork": "Ver Proyectos",
+    "slides": {
+      "slide1": {
+        "eyebrow": "Estudio pequeño, ejecución senior",
+        "title": "Creamos productos digitales modernos que transmiten calidad desde el primer día.",
+        "description": "SevenFox ayuda a empresas a lanzar sitios, plataformas internas, experiencias digitales y productos con velocidad, claridad y una ejecución técnica sólida."
+      },
+      "slide2": {
+        "eyebrow": "Frontend, backend y DevOps",
+        "title": "De la interfaz a la infraestructura, convertimos ideas en software confiable.",
+        "description": "Combinamos diseño visual, arquitectura escalable y una entrega práctica para construir productos que no solo se ven bien, sino que también funcionan bien bajo presión real."
+      },
+      "slide3": {
+        "eyebrow": "Pensado para crecer",
+        "title": "Sistemas limpios, UX cuidada y un equipo que realmente se involucra con el resultado.",
+        "description": "Ya sea una landing page, un panel administrativo, una API o la dirección completa de un producto, construimos soluciones fáciles de mantener, ampliar y confiar."
+      }
+    }
+  },
+  "about": {
+    "eyebrow": "Sobre el estudio",
+    "title": "Un estudio pequeño de desarrollo enfocado en tecnología útil, elegante y escalable.",
+    "text1": "Somos un equipo compacto que crea productos digitales modernos para empresas que necesitan algo más que un sitio web básico. Trabajamos con frontend, backend, interfaces móviles, APIs e infraestructura de entrega para construir productos claros, rápidos y profesionales.",
+    "text2": "Nuestra fortaleza está en la combinación de sensibilidad de diseño y disciplina de ingeniería. Nos importa la experiencia del usuario, la calidad del código, el rendimiento y el mantenimiento, y disfrutamos crear productos que sigan siendo fuertes después del lanzamiento.",
+    "cta": "Empezar un Proyecto",
+    "items": {
+      "craft": {
+        "title": "Producto con intención",
+        "description": "Cuidamos tipografía, layout, jerarquía e interacción para que cada pantalla se sienta clara y bien resuelta."
+      },
+      "delivery": {
+        "title": "Entrega rápida y confiable",
+        "description": "Trabajamos con velocidad, comunicación clara y soluciones realistas alineadas con las metas del negocio."
+      },
+      "stack": {
+        "title": "Stack técnico moderno",
+        "description": "Usamos tecnologías probadas en frontend, backend e infraestructura para construir productos escalables."
+      }
+    }
+  },
+  "services": {
+    "eyebrow": "Qué hacemos",
+    "title": "Servicios pensados para calidad de producto y crecimiento a largo plazo.",
+    "subtitle": "Cubrimos las capas esenciales de un producto digital moderno, desde la interfaz hasta la infraestructura.",
+    "items": {
+      "frontend": {
+        "title": "Desarrollo Frontend",
+        "description": "Construimos interfaces responsivas, rápidas y visualmente cuidadas para sitios, dashboards y productos SaaS. Nuestro trabajo de frontend se enfoca en usabilidad, arquitectura limpia de componentes y un sistema visual que pueda crecer con el producto. Cuidamos claridad, rendimiento y una experiencia fluida en cualquier tamaño de pantalla. El resultado es software moderno, atractivo y fácil de usar."
+      },
+      "backend": {
+        "title": "Desarrollo Backend",
+        "description": "Diseñamos e implementamos APIs, lógica de negocio y flujos de datos que soportan el crecimiento real del producto. Nuestro backend se construye con foco en estructura, seguridad, mantenimiento e integración con los servicios que el proyecto necesita. Creamos bases que pueden crecer sin perder orden. Eso da una base estable detrás de cada experiencia visible para el usuario."
+      },
+      "aiAgents": {
+        "title": "Desarrollo de Agentes de IA",
+        "description": "Diseñamos y construimos agentes de IA capaces de asistir a usuarios, automatizar flujos de trabajo y resolver tareas operativas repetitivas con más velocidad y consistencia. Nuestro trabajo incluye arquitectura de prompts, integración con herramientas, salidas estructuradas y flujos orientados a negocio, no simples demos de IA sin aplicación práctica. Priorizamos confiabilidad, claridad en la interacción y automatización segura que encaje bien con el producto. El resultado es una funcionalidad de IA útil, controlada y realmente valiosa para la empresa."
+      }
+    }
+  },
+  "technologies": {
+    "eyebrow": "Tecnologías",
+    "title": "Tecnologías que Usamos",
+    "description": "Elegimos herramientas que nos permiten construir productos confiables, con buena experiencia de desarrollo y mantenimiento sostenible a largo plazo.",
+    "items": {
+      "typescript": {
+        "title": "TypeScript",
+        "short": "JavaScript tipado para aplicaciones más seguras y ordenadas.",
+        "paragraph1": "TypeScript añade tipado estático a JavaScript, lo que ayuda a detectar errores antes durante el desarrollo.",
+        "paragraph2": "Hace que bases de código grandes sean más fáciles de entender porque los datos y funciones quedan mejor definidos.",
+        "paragraph3": "Lo usamos para mejorar consistencia en proyectos de frontend y backend.",
+        "paragraph4": "También da más seguridad al refactorizar porque el editor entiende el código con mayor profundidad.",
+        "paragraph5": "En productos que crecen, eso suele traducirse en mejor mantenimiento y menos errores evitables."
+      },
+      "angular": {
+        "title": "Angular",
+        "short": "Framework estructurado para aplicaciones frontend complejas.",
+        "paragraph1": "Angular es útil para construir interfaces grandes con convenciones claras y arquitectura modular.",
+        "paragraph2": "Incluye rutas, formularios, inyección de dependencias y patrones de estado dentro de un ecosistema consistente.",
+        "paragraph3": "Nos gusta para plataformas de negocio, dashboards y productos con muchas pantallas conectadas.",
+        "paragraph4": "Favorece flujos de equipo escalables porque la estructura del proyecto se mantiene predecible.",
+        "paragraph5": "Para productos de estilo más empresarial, Angular puede ser una base frontend muy estable."
+      },
+      "react": {
+        "title": "React",
+        "short": "Desarrollo de interfaces con componentes reutilizables.",
+        "paragraph1": "React es una biblioteca basada en componentes que permite crear interfaces modernas e interactivas.",
+        "paragraph2": "Es especialmente fuerte cuando el producto necesita patrones reutilizables y velocidad de iteración.",
+        "paragraph3": "Lo usamos para landing pages, interfaces SaaS, paneles administrativos y frontends de producto.",
+        "paragraph4": "Su ecosistema es amplio, lo que facilita combinar las herramientas adecuadas para cada proyecto.",
+        "paragraph5": "Es una excelente opción cuando importan velocidad, flexibilidad y mantenimiento al mismo tiempo."
+      },
+      "reactNative": {
+        "title": "React Native",
+        "short": "Desarrollo móvil multiplataforma con la lógica de React.",
+        "paragraph1": "React Native permite construir apps para iOS y Android desde una base compartida.",
+        "paragraph2": "Es útil cuando el tiempo de salida al mercado importa y el producto necesita consistencia entre plataformas.",
+        "paragraph3": "Lo usamos para crear experiencias móviles conectadas con web y backend existentes.",
+        "paragraph4": "Mantiene el flujo de desarrollo cerca de las prácticas modernas de frontend.",
+        "paragraph5": "Para muchos equipos y startups, es una forma práctica de lanzar móvil más rápido."
+      },
+      "node": {
+        "title": "Node.js",
+        "short": "Runtime de JavaScript para aplicaciones server-side escalables.",
+        "paragraph1": "Node.js permite ejecutar JavaScript en el servidor, lo que crea buena continuidad con stacks de frontend.",
+        "paragraph2": "Es eficiente para APIs, funciones en tiempo real e integraciones de servicios.",
+        "paragraph3": "Lo usamos cuando el equipo necesita un flujo de backend rápido y flexible.",
+        "paragraph4": "Su ecosistema facilita la integración con herramientas modernas y servicios cloud.",
+        "paragraph5": "Funciona especialmente bien en productos que necesitan rapidez de evolución y buena productividad."
+      },
+      "nestjs": {
+        "title": "NestJS",
+        "short": "Arquitectura backend estructurada para APIs y servicios modernos.",
+        "paragraph1": "NestJS es un framework backend sobre Node.js con una arquitectura más organizada.",
+        "paragraph2": "Aporta patrones como módulos, controllers y providers para mantener sistemas limpios.",
+        "paragraph3": "Lo usamos cuando un producto necesita APIs estables y lógica de negocio capaz de crecer con el tiempo.",
+        "paragraph4": "Funciona muy bien para equipos que valoran estructura predecible y facilidad de pruebas.",
+        "paragraph5": "En proyectos medianos y grandes, ayuda mucho a crear una base sólida a largo plazo."
+      },
+      "next": {
+        "title": "Next.js",
+        "short": "Framework de React para sitios rápidos y experiencias modernas.",
+        "paragraph1": "Next.js amplía React con rutas, estrategias de renderizado y patrones listos para producción.",
+        "paragraph2": "Es muy útil para sitios institucionales, productos con contenido y aplicaciones web modernas.",
+        "paragraph3": "Lo usamos cuando rendimiento, SEO y despliegues limpios son importantes.",
+        "paragraph4": "También simplifica decisiones que en React puro requieren más configuración manual.",
+        "paragraph5": "Para productos web que necesitan velocidad y acabado, suele ser una elección muy fuerte."
+      },
+      "databases": {
+        "title": "Databases",
+        "short": "Almacenamiento confiable y modelado de datos para productos reales.",
+        "paragraph1": "Las bases de datos son la base de cómo un producto almacena, recupera y organiza información.",
+        "paragraph2": "Trabajamos esta capa según la escala, la lógica y las necesidades de rendimiento del proyecto.",
+        "paragraph3": "Una buena estructura de datos mejora velocidad, reporting y confiabilidad general del sistema.",
+        "paragraph4": "Pensamos en relaciones, indexación y crecimiento futuro desde el inicio.",
+        "paragraph5": "Una base de datos bien diseñada hace que todo el producto sea más fácil de mantener y ampliar."
+      }
+    }
+  },
+  "portfolio": {
+    "eyebrow": "Direcciones seleccionadas",
+    "title": "Soluciones de software diseñadas para necesidades reales de negocio.",
+    "description": "Creamos experiencias digitales que apoyan operaciones, recorridos del cliente, flujos internos y crecimiento escalable. Cada solución se diseña para ser clara para el usuario y sostenible para el equipo que la mantiene.",
+    "categories": {
+      "all": "Todos",
+      "web": "Web Apps",
+      "mobile": "Apps Móviles",
+      "api": "APIs",
+      "automation": "Automatización"
+    },
+    "projects": {
+      "crm": {
+        "title": "Workspace CRM Personalizado",
+        "description": "Una plataforma interna a medida para organizar leads, clientes, comunicación y visibilidad del equipo en un solo lugar."
+      },
+      "platform": {
+        "title": "Plataforma de Servicios",
+        "description": "Una experiencia digital enfocada en conversión que conecta páginas de marketing, descubrimiento de servicios y acción del cliente."
+      },
+      "mobile": {
+        "title": "Experiencia Móvil Complementaria",
+        "description": "Una interfaz mobile pensada para mantener a los usuarios conectados con funciones, actualizaciones y acciones esenciales."
+      },
+      "api": {
+        "title": "Capa Operativa de API",
+        "description": "Una capa backend creada para conectar productos, fuentes de datos y reglas de negocio de forma segura y mantenible."
+      },
+      "automation": {
+        "title": "Flujo de Automatización y Reportes",
+        "description": "Una solución de workflow que reduce trabajo manual repetitivo y entrega reportes más claros entre equipos."
+      }
+    }
+  },
+  "contact": {
+    "eyebrow": "Hablemos",
+    "title": "Contacto",
+    "description": "Cuéntanos qué quieres construir, mejorar o lanzar. Revisaremos tu idea y te responderemos con el siguiente paso más práctico.",
+    "email": "Tu correo",
+    "name": "Tu nombre",
+    "message": "Cuéntanos sobre tu proyecto",
+    "submit": "Enviar Mensaje",
+    "sending": "Enviando...",
+    "success": "Tu mensaje fue enviado con éxito.",
+    "error": "Algo salió mal. Inténtalo de nuevo.",
+    "info": {
+      "emailTitle": "Correo",
+      "emailValue": "hello@sevenfox.studio",
+      "replyTitle": "Tiempo de respuesta",
+      "replyValue": "Normalmente dentro de 24 horas"
+    }
+  },
+  "footer": {
+    "description": "Creamos productos digitales, interfaces y sistemas que ayudan a las empresas a avanzar con más velocidad y confianza.",
+    "rights": "Todos los derechos reservados."
+  }
+}
+
+@import "tailwindcss";
+
+:root {
+    --color-primary: #1d4ed8;
+    --color-primary-soft: #2563eb;
+    --color-primary-light: #eff6ff;
+    --color-primary-border: rgba(37, 99, 235, 0.2);
+    --color-ink: #0a0f1c;
+    --color-text: rgba(10, 15, 28, 0.92);
+    --color-muted: rgba(10, 15, 28, 0.62);
+    --color-border: rgba(10, 15, 28, 0.08);
+    --color-border-strong: rgba(10, 15, 28, 0.14);
+    --color-surface: #ffffff;
+    --color-surface-alt: #f8fbff;
+    --shadow-soft: 0 20px 50px rgba(37, 99, 235, 0.08);
+    --shadow-card: 0 24px 80px rgba(10, 15, 28, 0.08);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background:
+        radial-gradient(circle at top left, rgba(37, 99, 235, 0.08), transparent 28%),
+        linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+    color: var(--color-text);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+button,
+input,
+textarea {
+    font: inherit;
+}
+
+input:focus,
+textarea:focus {
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.08);
+}
+
+::selection {
+    background: rgba(37, 99, 235, 0.18);
+}
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(18px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes softReveal {
+    from {
+        opacity: 0;
+        transform: scale(0.985);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes pulseLine {
+
+    0%,
+    100% {
+        transform: scaleX(1);
+        opacity: 1;
+    }
+
+    50% {
+        transform: scaleX(1.18);
+        opacity: 0.72;
+    }
+}
+
+.fade-up {
+    animation: fadeUp 0.7s ease both;
+}
+
+.soft-reveal {
+    animation: softReveal 0.7s ease both;
+}
+
+.pulse-line {
+    animation: pulseLine 2.4s ease-in-out infinite;
+}
+import { useState } from 'react'
+import { ArrowUpRight } from 'lucide-react'
+import { useTranslation } from 'react-i18next'
+import img1 from '../assets/crud.png'
+import bgImage from '../assets/background1.png'
+import bgAbout from '../assets/background-about.png'
+
+const projects = [
+  { key: 'crm', category: 'web', image: img1 },
+  { key: 'platform', category: 'web', image: bgImage },
+  { key: 'mobile', category: 'mobile', image: bgAbout },
+  { key: 'api', category: 'api', image: img1 },
+  { key: 'automation', category: 'automation', image: bgImage },
+]
+
+const categories = ['all', 'web', 'mobile', 'api', 'automation']
+
+export default function Portfolio() {
+  const { t } = useTranslation()
+  const [activeCategory, setActiveCategory] = useState('all')
+
+  const filteredProjects =
+    activeCategory === 'all'
+      ? projects
+      : projects.filter(project => project.category === activeCategory)
+
+  return (
+    <section id="portfolio" className="bg-white px-6 py-10">
+      <div className="max-w-7xl mx-auto border border-[var(--color-border)] bg-white shadow-[var(--shadow-card)] soft-reveal">
+        <div className="px-8 py-10 md:px-12 md:py-14 lg:px-16 lg:py-16 border-b border-[var(--color-border)] fade-up">
+          <div className="text-[11px] uppercase tracking-[0.22em] text-black/40">
+            {t('portfolio.eyebrow')}
+          </div>
+
+          <h2 className="mt-6 max-w-4xl text-[34px] leading-[0.98] tracking-[-0.055em] text-[var(--color-ink)] font-semibold md:text-[52px]">
+            {t('portfolio.title')}
+          </h2>
+
+          <p className="mt-6 max-w-3xl text-[15px] leading-8 text-[var(--color-muted)] md:text-[16px]">
+            {t('portfolio.description')}
+          </p>
+
+          <div className="mt-8 flex flex-wrap gap-3">
+            {categories.map(cat => (
+              <button
+                key={cat}
+                onClick={() => setActiveCategory(cat)}
+                className={`h-11 px-5 border text-[12px] font-medium uppercase tracking-[0.14em] transition-all ${
+                  activeCategory === cat
+                    ? 'border-[var(--color-primary)] bg-[var(--color-primary)] text-white shadow-[var(--shadow-soft)]'
+                    : 'border-[var(--color-border)] bg-white text-black/70 hover:border-[var(--color-primary-border)] hover:text-[var(--color-primary)]'
+                }`}
+              >
+                {t(`portfolio.categories.${cat}`)}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        <div className="grid md:grid-cols-2 xl:grid-cols-3">
+          {filteredProjects.map((project, index) => (
+            <article
+              key={project.key}
+              className={`group transition-colors hover:bg-[var(--color-primary-light)] ${
+                index % 3 !== 2 ? 'xl:border-r' : ''
+              } ${
+                index < filteredProjects.length - 3 ? 'xl:border-b' : ''
+              } border-[var(--color-border)] border-b md:border-b`}
+            >
+              <div className="relative h-72 overflow-hidden border-b border-[var(--color-border)]">
+                <img
+                  src={project.image}
+                  alt={t(`portfolio.projects.${project.key}.title`)}
+                  className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-[1.03]"
+                />
+                <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(255,255,255,0.02),rgba(37,99,235,0.09))]" />
+                <div className="absolute left-5 top-5 border border-[var(--color-primary-border)] bg-white/95 px-3 py-1 text-[11px] uppercase tracking-[0.16em] text-[var(--color-primary)] shadow-[var(--shadow-soft)]">
+                  {t(`portfolio.categories.${project.category}`)}
+                </div>
+              </div>
+
+              <div className="px-6 py-6 md:px-8 md:py-8">
+                <div className="flex items-start justify-between gap-4">
+                  <h3 className="text-[28px] leading-[1] tracking-[-0.04em] font-semibold text-[var(--color-ink)]">
+                    {t(`portfolio.projects.${project.key}.title`)}
+                  </h3>
+                  <div className="h-11 w-11 border border-[var(--color-border)] bg-white text-[var(--color-ink)] flex items-center justify-center transition-all group-hover:border-[var(--color-primary-border)] group-hover:bg-[var(--color-primary)] group-hover:text-white">
+                    <ArrowUpRight size={18} />
+                  </div>
+                </div>
+
+                <p className="mt-5 text-[15px] leading-8 text-[var(--color-muted)]">
+                  {t(`portfolio.projects.${project.key}.description`)}
+                </p>
+              </div>
+            </article>
+          ))}
+        </div>
+      </div>
+    </section>
+  )
+}
+import { Facebook, Instagram, Linkedin, Twitter } from 'lucide-react'
+import { useTranslation } from 'react-i18next'
+
+export default function Footer() {
+  const { t } = useTranslation()
+
+  return (
+    <footer className="bg-white px-6 py-10">
+      <div className="max-w-7xl mx-auto border border-[var(--color-border)] bg-white shadow-[var(--shadow-card)] soft-reveal">
+        <div className="grid gap-8 px-8 py-8 md:px-12 md:py-10 lg:grid-cols-[1fr_auto_auto] lg:items-center">
+          <div>
+            <div className="text-[30px] font-semibold tracking-[-0.06em] text-[var(--color-ink)]">
+              Geometry
+            </div>
+            <p className="mt-4 max-w-2xl text-[15px] leading-8 text-[var(--color-muted)]">
+              {t('footer.description')}
+            </p>
+          </div>
+
+          <nav className="flex flex-wrap gap-4 text-[12px] uppercase tracking-[0.16em]">
+            {['home', 'about', 'services', 'technologies', 'portfolio', 'contact'].map(link => (
+              <a
+                key={link}
+                href={`#${link}`}
+                className="text-black/55 transition-colors hover:text-[var(--color-primary)]"
+              >
+                {t(`navbar.${link}`)}
+              </a>
+            ))}
+          </nav>
+
+          <div className="flex items-center gap-3">
+            {[Facebook, Twitter, Instagram, Linkedin].map((Icon, index) => (
+              <a
+                key={index}
+                href="#"
+                className="h-11 w-11 border border-[var(--color-border)] bg-white text-[var(--color-ink)] flex items-center justify-center transition-all hover:border-[var(--color-primary-border)] hover:bg-[var(--color-primary)] hover:text-white hover:shadow-[var(--shadow-soft)]"
+              >
+                <Icon size={18} />
+              </a>
+            ))}
+          </div>
+        </div>
+
+        <div className="border-t border-[var(--color-border)] px-8 py-5 md:px-12 text-[12px] uppercase tracking-[0.16em] text-black/40">
+          © {new Date().getFullYear()} Geometry. {t('footer.rights')}
+        </div>
+      </div>
+    </footer>
+  )
+}
+import { Sparkles, Rocket, Blocks } from 'lucide-react'
+import { useTranslation } from 'react-i18next'
+
+const items = [
+  { key: 'craft', icon: Sparkles },
+  { key: 'delivery', icon: Rocket },
+  { key: 'stack', icon: Blocks },
+]
+
+export default function About() {
+  const { t } = useTranslation()
+
+  return (
+    <section id="about" className="bg-white px-6 py-10">
+      <div className="max-w-7xl mx-auto border border-[var(--color-border)] bg-white shadow-[var(--shadow-card)] soft-reveal">
+        <div className="grid lg:grid-cols-[1.15fr_0.85fr]">
+          <div className="px-8 py-10 md:px-12 md:py-14 lg:px-16 lg:py-16 border-b lg:border-b-0 lg:border-r border-[var(--color-border)] fade-up">
+            <div className="text-[11px] uppercase tracking-[0.22em] text-black/40">
+              {t('about.eyebrow')}
+            </div>
+
+            <h2 className="mt-6 max-w-4xl text-[34px] leading-[0.98] tracking-[-0.055em] text-[var(--color-ink)] font-semibold md:text-[52px]">
+              {t('about.title')}
+            </h2>
+
+            <p className="mt-8 max-w-3xl text-[15px] leading-8 text-[var(--color-muted)] md:text-[16px]">
+              {t('about.text1')}
+            </p>
+
+            <p className="mt-6 max-w-3xl text-[15px] leading-8 text-[var(--color-muted)] md:text-[16px]">
+              {t('about.text2')}
+            </p>
+
+            <a
+              href="#contact"
+              className="mt-10 inline-flex h-14 items-center justify-center bg-[var(--color-primary)] px-8 text-[12px] font-medium uppercase tracking-[0.18em] text-white transition-all hover:bg-[var(--color-primary-soft)] hover:shadow-[var(--shadow-soft)]"
+            >
+              {t('about.cta')}
+            </a>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-1">
+            {items.map(({ key, icon: Icon }, index) => (
+              <div
+                key={key}
+                className={`px-8 py-8 md:px-10 transition-colors hover:bg-[var(--color-primary-light)] ${
+                  index !== items.length - 1 ? 'border-b border-[var(--color-border)]' : ''
+                } sm:${index < 2 ? 'border-r' : ''} lg:border-r-0 lg:border-b border-[var(--color-border)] last:border-b-0`}
+              >
+                <div className="h-12 w-12 border border-[var(--color-primary-border)] bg-white flex items-center justify-center text-[var(--color-primary)] shadow-[var(--shadow-soft)]">
+                  <Icon size={20} />
+                </div>
+
+                <h3 className="mt-5 text-[22px] leading-tight tracking-[-0.04em] font-semibold text-[var(--color-ink)]">
+                  {t(`about.items.${key}.title`)}
+                </h3>
+
+                <p className="mt-4 text-[15px] leading-7 text-[var(--color-muted)]">
+                  {t(`about.items.${key}.description`)}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+  )
+}
+import React from 'react'
+import { useEffect, useState } from 'react'
+import { X, Type, Code, Database, Box, Layers, Cpu } from 'lucide-react'
+import { useTranslation } from 'react-i18next'
+
+const technologies = [
+  { key: 'typescript', color: '#3178C6', icon: Type },
+  { key: 'angular', color: '#DD0031', icon: Code },
+  { key: 'react', color: '#61DAFB', icon: Box },
+  { key: 'reactNative', color: '#61DAFB', icon: Layers },
+  { key: 'node', color: '#339933', icon: Cpu },
+  { key: 'nestjs', color: '#E0234E', icon: Code },
+  { key: 'next', color: '#111111', icon: Code },
+  { key: 'databases', color: '#F29111', icon: Database },
+]
+
+export default function Technologies() {
+  const { t } = useTranslation()
+  const [selected, setSelected] = useState(null)
+
+  useEffect(() => {
+    const handleEsc = (e) => {
+      if (e.key === 'Escape') setSelected(null)
+    }
+
+    document.body.style.overflow = selected ? 'hidden' : 'auto'
+    window.addEventListener('keydown', handleEsc)
+
+    return () => {
+      document.body.style.overflow = 'auto'
+      window.removeEventListener('keydown', handleEsc)
+    }
+  }, [selected])
+
+  return (
+    <section id="technologies" className="bg-white px-6 py-10">
+      <div className="max-w-7xl mx-auto border border-[var(--color-border)] bg-white shadow-[var(--shadow-card)] soft-reveal">
+        <div className="px-8 py-10 md:px-12 md:py-14 lg:px-16 lg:py-16 border-b border-[var(--color-border)] text-center fade-up">
+          <div className="text-[11px] uppercase tracking-[0.22em] text-black/40">
+            {t('technologies.eyebrow')}
+          </div>
+
+          <h2 className="mt-6 text-[34px] leading-[0.98] tracking-[-0.055em] text-[var(--color-ink)] font-semibold md:text-[52px]">
+            {t('technologies.title')}
+          </h2>
+
+          <p className="mt-6 max-w-3xl mx-auto text-[15px] leading-8 text-[var(--color-muted)] md:text-[16px]">
+            {t('technologies.description')}
+          </p>
+        </div>
+
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4">
+          {technologies.map(({ key, icon: Icon, color }, index) => (
+            <button
+              key={key}
+              type="button"
+              onClick={() => setSelected(key)}
+              className={`px-6 py-8 text-left transition-all hover:bg-[var(--color-primary-light)] ${
+                index % 4 !== 3 ? 'lg:border-r border-[var(--color-border)]' : ''
+              } ${
+                index < technologies.length - 4 ? 'lg:border-b border-[var(--color-border)]' : ''
+              } border-b sm:border-b border-[var(--color-border)] last:border-b-0`}
+            >
+              <Icon size={34} color={color} className="mb-4" />
+              <div className="text-[20px] leading-tight tracking-[-0.03em] font-semibold text-[var(--color-ink)]">
+                {t(`technologies.items.${key}.title`)}
+              </div>
+              <div className="mt-3 text-[14px] leading-6 text-black/55">
+                {t(`technologies.items.${key}.short`)}
+              </div>
+            </button>
+          ))}
+        </div>
+      </div>
+
+      {selected && (
+        <div
+          className="fixed inset-0 z-[100] bg-[rgba(10,15,28,0.28)] backdrop-blur-sm flex items-center justify-center p-6"
+          onClick={() => setSelected(null)}
+        >
+          <div
+            className="w-full max-w-2xl border border-[var(--color-border)] bg-white shadow-[var(--shadow-card)] soft-reveal"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div className="flex items-start justify-between gap-4 border-b border-[var(--color-border)] px-8 py-6">
+              <div>
+                <h3 className="text-[30px] leading-none tracking-[-0.04em] font-semibold text-[var(--color-ink)]">
+                  {t(`technologies.items.${selected}.title`)}
+                </h3>
+                <p className="mt-3 text-[14px] leading-6 text-black/55">
+                  {t(`technologies.items.${selected}.short`)}
+                </p>
+              </div>
+
+              <button
+                type="button"
+                onClick={() => setSelected(null)}
+                className="h-11 w-11 border border-[var(--color-border)] bg-white text-[var(--color-ink)] flex items-center justify-center transition-all hover:border-[var(--color-primary-border)] hover:bg-[var(--color-primary)] hover:text-white"
+              >
+                <X size={18} />
+              </button>
+            </div>
+
+            <div className="space-y-4 px-8 py-8 text-[15px] leading-8 text-[var(--color-muted)]">
+              <p>{t(`technologies.items.${selected}.paragraph1`)}</p>
+              <p>{t(`technologies.items.${selected}.paragraph2`)}</p>
+              <p>{t(`technologies.items.${selected}.paragraph3`)}</p>
+              <p>{t(`technologies.items.${selected}.paragraph4`)}</p>
+              <p>{t(`technologies.items.${selected}.paragraph5`)}</p>
+            </div>
+          </div>
+        </div>
+      )}
+    </section>
+  )
+}
+import { useEffect, useState } from 'react'
+import { Menu, X, ChevronDown } from 'lucide-react'
+import { useTranslation } from 'react-i18next'
+
+export default function Navbar() {
+  const [open, setOpen] = useState(false)
+  const [langOpen, setLangOpen] = useState(false)
+  const [scrolled, setScrolled] = useState(false)
+  const { t, i18n } = useTranslation()
+
+  const links = ['home', 'about', 'services', 'technologies', 'portfolio', 'contact']
+
+  useEffect(() => {
+    const handleScroll = () => setScrolled(window.scrollY > 8)
+    handleScroll()
+    window.addEventListener('scroll', handleScroll)
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
+
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng)
+    setLangOpen(false)
+  }
+
+  return (
+    <header
+      className={`fixed inset-x-0 top-0 z-[100] transition-all duration-300 ${
+        scrolled
+          ? 'bg-white border-b border-[var(--color-border)] shadow-[0_12px_30px_rgba(10,15,28,0.06)]'
+          : 'bg-white border-b border-[var(--color-border)]'
+      }`}
+    >
+      <nav className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+        <a
+          href="#home"
+          className="text-[26px] md:text-[30px] font-semibold tracking-[-0.06em] text-[var(--color-ink)]"
+        >
+          Geometry
+        </a>
+
+        <ul className="hidden lg:flex items-center gap-8">
+          {links.map((link) => (
+            <li key={link}>
+              <a
+                href={`#${link}`}
+                className="text-[12px] font-medium uppercase tracking-[0.18em] text-black/60 transition-colors hover:text-[var(--color-primary)]"
+              >
+                {t(`navbar.${link}`)}
+              </a>
+            </li>
+          ))}
+        </ul>
+
+        <div className="hidden lg:flex items-center gap-3">
+          <div className="relative">
+            <button
+              onClick={() => setLangOpen((prev) => !prev)}
+              className="h-11 min-w-[76px] px-4 border border-[var(--color-border)] bg-white text-[var(--color-ink)] flex items-center justify-center gap-2 text-[12px] font-medium uppercase tracking-[0.12em] transition-colors hover:border-[var(--color-primary)] hover:text-[var(--color-primary)]"
+            >
+              {i18n.language.toUpperCase()}
+              <ChevronDown size={14} />
+            </button>
+
+            {langOpen && (
+              <div className="absolute right-0 mt-2 w-[120px] overflow-hidden border border-[var(--color-border)] bg-white shadow-[0_18px_50px_rgba(10,15,28,0.10)]">
+                {['en', 'es', 'pt'].map((lng) => (
+                  <button
+                    key={lng}
+                    onClick={() => changeLanguage(lng)}
+                    className="w-full px-4 py-3 text-left text-[12px] font-medium uppercase tracking-[0.12em] text-[var(--color-ink)] transition-colors hover:bg-[var(--color-primary)] hover:text-white"
+                  >
+                    {lng.toUpperCase()}
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
+
+          <a
+            href="#contact"
+            className="h-11 px-5 bg-[var(--color-primary)] text-white inline-flex items-center justify-center text-[12px] font-medium uppercase tracking-[0.16em] transition-colors hover:bg-[var(--color-primary-soft)]"
+          >
+            {t('hero.hireUs')}
+          </a>
+        </div>
+
+        <button
+          onClick={() => setOpen((prev) => !prev)}
+          className="lg:hidden h-11 w-11 border border-[var(--color-border)] bg-white text-[var(--color-ink)] flex items-center justify-center"
+          aria-label="Open menu"
+        >
+          {open ? <X size={18} /> : <Menu size={18} />}
+        </button>
+      </nav>
+
+      {open && (
+        <div className="lg:hidden border-t border-[var(--color-border)] bg-white">
+          <div className="px-6 py-6 flex flex-col gap-4">
+            {links.map((link) => (
+              <a
+                key={link}
+                href={`#${link}`}
+                onClick={() => setOpen(false)}
+                className="text-[var(--color-ink)] py-2 text-[12px] font-medium uppercase tracking-[0.18em]"
+              >
+                {t(`navbar.${link}`)}
+              </a>
+            ))}
+
+            <div className="flex gap-2 pt-2">
+              {['en', 'es', 'pt'].map((lng) => (
+                <button
+                  key={lng}
+                  onClick={() => changeLanguage(lng)}
+                  className="px-4 h-11 border border-[var(--color-border)] bg-white text-[var(--color-ink)] text-[12px] font-medium uppercase tracking-[0.12em]"
+                >
+                  {lng.toUpperCase()}
+                </button>
+              ))}
+            </div>
+
+            <a
+              href="#contact"
+              onClick={() => setOpen(false)}
+              className="mt-2 h-12 bg-[var(--color-primary)] text-white text-[12px] font-medium uppercase tracking-[0.16em] flex items-center justify-center"
+            >
+              {t('hero.hireUs')}
+            </a>
+          </div>
+        </div>
+      )}
+    </header>
+  )
+}
+import { useEffect, useState } from 'react'
+import { ArrowLeft, ArrowRight } from 'lucide-react'
+import { useTranslation } from 'react-i18next'
+import bgImage from '../assets/background1.png'
+import bgAbout from '../assets/background-about.png'
+import img1 from '../assets/crud.png'
+
+const slides = [
+  { key: 'slide1', image: bgImage },
+  { key: 'slide2', image: bgAbout },
+  { key: 'slide3', image: img1 },
+]
+
+export default function Hero() {
+  const { t } = useTranslation()
+  const [active, setActive] = useState(0)
+
+  const prevSlide = () => {
+    setActive((prev) => (prev === 0 ? slides.length - 1 : prev - 1))
+  }
+
+  const nextSlide = () => {
+    setActive((prev) => (prev === slides.length - 1 ? 0 : prev + 1))
+  }
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setActive((prev) => (prev === slides.length - 1 ? 0 : prev + 1))
+    }, 6000)
+
+    return () => clearInterval(timer)
+  }, [])
+
+  return (
+    <section id="home" className="bg-white px-6 pt-24 pb-10">
+      <div className="max-w-7xl mx-auto">
+        <div className="border border-black/10 bg-white">
+          <div className="grid lg:grid-cols-[1fr_1.2fr] min-h-[78vh]">
+            <div className="flex flex-col justify-between px-8 py-10 md:px-12 md:py-14 lg:px-16 lg:py-16 border-b lg:border-b-0 lg:border-r border-black/10">
+              <div>
+                <div className="text-[11px] uppercase tracking-[0.22em] text-black/40">
+                  {t(`hero.slides.${slides[active].key}.eyebrow`)}
+                </div>
+
+                <h1 className="mt-6 max-w-[10ch] text-[42px] leading-[0.95] tracking-[-0.06em] text-black font-semibold md:text-[64px] lg:text-[84px]">
+                  {t(`hero.slides.${slides[active].key}.title`)}
+                </h1>
+
+                <p className="mt-8 max-w-xl text-[15px] leading-8 text-black/60 md:text-[16px]">
+                  {t(`hero.slides.${slides[active].key}.description`)}
+                </p>
+
+                <a
+                  href="#contact"
+                  className="mt-10 inline-flex h-14 items-center justify-center bg-black px-8 text-[12px] font-medium uppercase tracking-[0.18em] text-white transition-colors hover:bg-black/85"
+                >
+                  {t('hero.hireUs')}
+                </a>
+              </div>
+
+              <div className="mt-14 grid grid-cols-3 gap-4 border-t border-[var(--color-border)] pt-6 fade-up">
+                <div>
+                  <div className="text-[24px] font-semibold tracking-[-0.05em] text-[var(--color-ink)] md:text-[30px]">
+                    Web
+                  </div>
+                  <div className="mt-1 text-[11px] uppercase tracking-[0.18em] text-black/40">
+                    Interfaces
+                  </div>
+                </div>
+
+                <div>
+                  <div className="text-[24px] font-semibold tracking-[-0.05em] text-[var(--color-ink)] md:text-[30px]">
+                    API
+                  </div>
+                  <div className="mt-1 text-[11px] uppercase tracking-[0.18em] text-black/40">
+                    Systems
+                  </div>
+                </div>
+
+                <div>
+                  <div className="text-[24px] font-semibold tracking-[-0.05em] text-[var(--color-ink)] md:text-[30px]">
+                    AI
+                  </div>
+                  <div className="mt-1 text-[11px] uppercase tracking-[0.18em] text-black/40">
+                    Agents
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="relative min-h-[420px] lg:min-h-full bg-[#f5f5f5]">
+              {slides.map((slide, index) => (
+                <div
+                  key={slide.key}
+                  className={`absolute inset-0 transition-opacity duration-700 ${index === active ? 'opacity-100' : 'opacity-0 pointer-events-none'
+                    }`}
+                >
+                  <img
+                    src={slide.image}
+                    alt={t(`hero.slides.${slide.key}.title`)}
+                    className="h-full w-full object-cover"
+                  />
+                  <div className="absolute inset-0 bg-white/12" />
+                </div>
+              ))}
+
+              <div className="absolute inset-x-0 bottom-0 border-t border-black/10 bg-white/94 backdrop-blur-sm">
+                <div className="flex items-center justify-between px-6 py-4">
+                  <div className="flex items-center gap-2">
+                    {slides.map((slide, index) => (
+                      <button
+                        key={slide.key}
+                        onClick={() => setActive(index)}
+                        className={`transition-all ${index === active ? 'h-[2px] w-12 bg-black' : 'h-[2px] w-5 bg-black/20'
+                          }`}
+                        aria-label={t(`hero.slides.${slide.key}.title`)}
+                      />
+                    ))}
+                  </div>
+
+                  <div className="flex items-center gap-2">
+                    <button
+                      onClick={prevSlide}
+                      className="h-11 w-11 border border-black/10 bg-white text-black flex items-center justify-center transition-colors hover:bg-black hover:text-white"
+                      aria-label="Previous slide"
+                    >
+                      <ArrowLeft size={18} />
+                    </button>
+
+                    <button
+                      onClick={nextSlide}
+                      className="h-11 w-11 border border-black/10 bg-white text-black flex items-center justify-center transition-colors hover:bg-black hover:text-white"
+                      aria-label="Next slide"
+                    >
+                      <ArrowRight size={18} />
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <div className="absolute left-6 top-6 border border-black/10 bg-white/92 px-4 py-2 text-[11px] font-medium uppercase tracking-[0.18em] text-black">
+                Geometry
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  )
+}
+import { MonitorSmartphone, ServerCog, Bot } from 'lucide-react'
+import { useTranslation } from 'react-i18next'
+
+const services = [
+  { key: 'frontend', icon: MonitorSmartphone },
+  { key: 'backend', icon: ServerCog },
+  { key: 'aiAgents', icon: Bot },
+]
+
+export default function Services() {
+  const { t } = useTranslation()
+
+  return (
+    <section id="services" className="bg-white px-6 py-10">
+      <div className="max-w-7xl mx-auto border border-[var(--color-border)] bg-white shadow-[var(--shadow-card)] soft-reveal">
+        <div className="px-8 py-10 md:px-12 md:py-14 lg:px-16 lg:py-16 border-b border-[var(--color-border)] fade-up">
+          <div className="text-[11px] uppercase tracking-[0.22em] text-black/40">
+            {t('services.eyebrow')}
+          </div>
+
+          <h2 className="mt-6 max-w-4xl text-[34px] leading-[0.98] tracking-[-0.055em] text-[var(--color-ink)] font-semibold md:text-[52px]">
+            {t('services.title')}
+          </h2>
+
+          <p className="mt-6 max-w-3xl text-[15px] leading-8 text-[var(--color-muted)] md:text-[16px]">
+            {t('services.subtitle')}
+          </p>
+        </div>
+
+        <div className="grid lg:grid-cols-3">
+          {services.map(({ key, icon: Icon }, index) => (
+            <div
+              key={key}
+              className={`px-8 py-10 md:px-10 md:py-12 transition-all hover:bg-[var(--color-primary-light)] ${index !== services.length - 1 ? 'border-b lg:border-b-0 lg:border-r' : ''
+                } border-[var(--color-border)]`}
+            >
+              <div className="h-14 w-14 border border-[var(--color-primary-border)] bg-white flex items-center justify-center text-[var(--color-primary)] shadow-[var(--shadow-soft)]">
+                <Icon size={24} />
+              </div>
+
+              <h3 className="mt-6 text-[28px] leading-[1] tracking-[-0.04em] font-semibold text-[var(--color-ink)]">
+                {t(`services.items.${key}.title`)}
+              </h3>
+
+              <p className="mt-6 text-[15px] leading-8 text-[var(--color-muted)]">
+                {t(`services.items.${key}.description`)}
+              </p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  )
+}
+import { useState } from 'react'
+import { Mail, Clock3, Send } from 'lucide-react'
+import { useTranslation } from 'react-i18next'
+
+export default function Contact() {
+  const { t } = useTranslation()
+  const [form, setForm] = useState({ email: '', name: '', message: '' })
+  const [status, setStatus] = useState(null)
+
+  const handleChange = (e) => {
+    setForm(prev => ({ ...prev, [e.target.name]: e.target.value }))
+  }
+
+  const handleSubmit = async (e) => {
+    e.preventDefault()
+    setStatus('loading')
+
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(form),
+      })
+
+      if (!response.ok) throw new Error()
+
+      setStatus('success')
+      setForm({ email: '', name: '', message: '' })
+    } catch {
+      setStatus('error')
+    }
+  }
+
+  return (
+    <section id="contact" className="bg-white px-6 py-10">
+      <div className="max-w-7xl mx-auto border border-[var(--color-border)] bg-white shadow-[var(--shadow-card)] soft-reveal">
+        <div className="grid lg:grid-cols-[0.95fr_1.05fr]">
+          <div className="px-8 py-10 md:px-12 md:py-14 lg:px-16 lg:py-16 border-b lg:border-b-0 lg:border-r border-[var(--color-border)] fade-up">
+            <div className="text-[11px] uppercase tracking-[0.22em] text-black/40">
+              {t('contact.eyebrow')}
+            </div>
+
+            <h2 className="mt-6 text-[34px] leading-[0.98] tracking-[-0.055em] text-[var(--color-ink)] font-semibold md:text-[52px]">
+              {t('contact.title')}
+            </h2>
+
+            <p className="mt-6 max-w-2xl text-[15px] leading-8 text-[var(--color-muted)] md:text-[16px]">
+              {t('contact.description')}
+            </p>
+
+            <div className="mt-10 space-y-4">
+              <div className="border border-[var(--color-border)] p-5 transition-colors hover:bg-[var(--color-primary-light)]">
+                <div className="flex items-start gap-4">
+                  <div className="h-11 w-11 border border-[var(--color-primary-border)] bg-white flex items-center justify-center text-[var(--color-primary)] shadow-[var(--shadow-soft)]">
+                    <Mail size={18} />
+                  </div>
+                  <div>
+                    <div className="text-[12px] uppercase tracking-[0.16em] text-black/40">
+                      {t('contact.info.emailTitle')}
+                    </div>
+                    <div className="mt-2 text-[16px] text-[var(--color-ink)]">
+                      {t('contact.info.emailValue')}
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="border border-[var(--color-border)] p-5 transition-colors hover:bg-[var(--color-primary-light)]">
+                <div className="flex items-start gap-4">
+                  <div className="h-11 w-11 border border-[var(--color-primary-border)] bg-white flex items-center justify-center text-[var(--color-primary)] shadow-[var(--shadow-soft)]">
+                    <Clock3 size={18} />
+                  </div>
+                  <div>
+                    <div className="text-[12px] uppercase tracking-[0.16em] text-black/40">
+                      {t('contact.info.replyTitle')}
+                    </div>
+                    <div className="mt-2 text-[16px] text-[var(--color-ink)]">
+                      {t('contact.info.replyValue')}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="px-8 py-10 md:px-12 md:py-14 lg:px-16 lg:py-16">
+            <form onSubmit={handleSubmit} className="grid gap-5">
+              <input
+                name="name"
+                required
+                value={form.name}
+                onChange={handleChange}
+                placeholder={t('contact.name')}
+                className="h-14 border border-[var(--color-border)] bg-white px-5 text-[var(--color-ink)] placeholder:text-black/40 outline-none transition-all"
+              />
+
+              <input
+                name="email"
+                type="email"
+                required
+                value={form.email}
+                onChange={handleChange}
+                placeholder={t('contact.email')}
+                className="h-14 border border-[var(--color-border)] bg-white px-5 text-[var(--color-ink)] placeholder:text-black/40 outline-none transition-all"
+              />
+
+              <textarea
+                name="message"
+                required
+                rows="6"
+                value={form.message}
+                onChange={handleChange}
+                placeholder={t('contact.message')}
+                className="border border-[var(--color-border)] bg-white px-5 py-4 text-[var(--color-ink)] placeholder:text-black/40 outline-none resize-none transition-all"
+              />
+
+              <button
+                type="submit"
+                className="h-14 bg-[var(--color-primary)] text-white text-[12px] font-medium uppercase tracking-[0.18em] flex items-center justify-center gap-2 transition-all hover:bg-[var(--color-primary-soft)] hover:shadow-[var(--shadow-soft)]"
+              >
+                <Send size={16} />
+                {status === 'loading' ? t('contact.sending') : t('contact.submit')}
+              </button>
+
+              {status === 'success' && (
+                <p className="text-[14px] text-[var(--color-muted)]">{t('contact.success')}</p>
+              )}
+
+              {status === 'error' && (
+                <p className="text-[14px] text-[var(--color-muted)]">{t('contact.error')}</p>
+              )}
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  )
+}
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './App'
+import './index.css'
+import './i18n' 
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+)
+
+import Navbar from './components/Navbar'
+import Hero from './components/Hero'
+import Services from './components/Services'
+import Contact from './components/Contact'
+import About from './components/About'
+import Portfolio from './components/Portfolio'
+import Footer from './components/Footer'
+import Technologies from './components/Technologies'
+
+export default function App() {
+  return (
+    <div className="min-h-screen bg-white text-[var(--color-text)]">
+      <Navbar />
+      <main>
+        <Hero />
+        <About />
+        <Services />
+        <Technologies />
+        <Portfolio />
+        <Contact />
+      </main>
+      <Footer />
+    </div>
+  )
+}
+import i18n from 'i18next'
+import { initReactI18next } from 'react-i18next'
+
+import en from './locales/en.json'
+import es from './locales/es.json'
+import pt from './locales/pt.json'
+
+const resources = {
+  en: { translation: en },
+  es: { translation: es },
+  pt: { translation: pt },
+}
+
+const browserLang =
+  typeof navigator !== 'undefined' ? navigator.language.split('-')[0] : 'en'
+
+const defaultLang = ['en', 'es', 'pt'].includes(browserLang) ? browserLang : 'en'
+
+i18n.use(initReactI18next).init({
+  resources,
+  lng: defaultLang,
+  fallbackLng: 'en',
+  interpolation: { escapeValue: false },
+})
+
+export default i18n
