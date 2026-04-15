@@ -9,7 +9,7 @@ set -euo pipefail
 # Put this script in the root of your Angular project.
 
 SRC_DIR="${1:-src}"
-OUTPUT_FILE="${2:-seven-fox-landing.txt}"
+OUTPUT_FILE="${2:-landing.txt}"
 
 if [[ ! -d "$SRC_DIR" ]]; then
   echo "Source directory '$SRC_DIR' does not exist." >&2
