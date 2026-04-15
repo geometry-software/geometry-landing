@@ -7,200 +7,204 @@
     "portfolio": "Proyectos",
     "contact": "Contacto"
   },
+  "common": {
+    "from": "Desde"
+  },
   "hero": {
-    "hireUs": "Hablar del producto",
+    "hireUs": "Hablar sobre tu proyecto",
     "viewWork": "Ver cómo trabajamos",
     "slides": {
       "slide1": {
         "eyebrow": "Equipo pequeño, ejecución senior",
-        "title": "Construimos productos que no se rompen al crecer.",
-        "description": "Ayudamos a empresas a convertir ideas y sistemas existentes en productos claros, mantenibles y preparados para crecer."
+        "title": "Construimos productos digitales que se mantienen limpios al crecer.",
+        "description": "Desde frontend hasta backend y web design, creamos sitios y sistemas claros, mantenibles y pensados para uso real."
       },
       "slide2": {
         "eyebrow": "Estructura antes del código",
-        "title": "La mayoría de productos falla no al lanzar, sino al crecer.",
-        "description": "A medida que el producto evoluciona, el código se vuelve complejo y lento. Diseñamos sistemas claros, estables y fáciles de extender."
+        "title": "Los buenos productos necesitan más que desarrollo.",
+        "description": "Combinamos dirección visual, ejecución de frontend y estructura de backend para crear productos sólidos desde el inicio."
       },
       "slide3": {
         "eyebrow": "Pensado para uso real",
-        "title": "Sistemas limpios, UX sólida y productos en los que puedes confiar.",
-        "description": "Desde la interfaz hasta el backend y la automatización, creamos sistemas fáciles de mantener y evolucionar con seguridad."
+        "title": "Frontend, backend y web design trabajando juntos.",
+        "description": "Creamos sitios y experiencias digitales que se ven bien, funcionan rápido y siguen siendo fáciles de escalar."
       }
     }
   },
   "about": {
     "eyebrow": "Sobre",
-    "title": "Un equipo pequeño que construye productos correctamente desde el inicio.",
-    "text1": "Nos enfocamos en crear productos que no se rompen al crecer. En lugar de escribir código rápido, pensamos en la estructura, los flujos y la mantenibilidad a largo plazo.",
-    "text2": "Nuestra fuerza está en combinar visión de producto con disciplina de ingeniería. Priorizamos arquitectura limpia, claridad y sistemas que se mantienen estables con el tiempo.",
+    "title": "Un equipo pequeño que construye productos digitales correctamente desde el inicio.",
+    "text1": "Nos enfocamos en sitios y sistemas que no se rompen al crecer. En lugar de correr directo al código, pensamos en la estructura, la interfaz y el mantenimiento a largo plazo.",
+    "text2": "Nuestra fuerza está en la combinación de visión visual, ejecución de frontend y disciplina de backend. Nos importa la arquitectura limpia, la claridad y los productos que permanecen estables con el tiempo.",
     "cta": "Iniciar conversación",
     "items": {
       "craft": {
-        "title": "Pensamiento de producto",
-        "description": "No solo desarrollamos funcionalidades, pensamos en estructura, flujos y evolución del producto."
+        "title": "Pensamiento de diseño",
+        "description": "Pensamos más allá de lo visual, con foco en estructura, jerarquía y flujo del usuario."
       },
       "delivery": {
         "title": "Ejecución limpia",
-        "description": "Creamos sistemas claros, estructurados y fáciles de mantener."
+        "description": "Construimos interfaces y sistemas legibles, estructurados y fáciles de mantener."
       },
       "stack": {
-        "title": "Pensado para escalar",
-        "description": "Diseñamos productos que crecen sin convertirse en deuda técnica."
+        "title": "Hecho para escalar",
+        "description": "Creamos productos digitales que crecen sin convertirse en deuda técnica."
       }
     }
   },
   "services": {
     "eyebrow": "Enfoque",
-    "title": "No solo desarrollamos — construimos sistemas que duran.",
-    "subtitle": "Desde la estructura hasta la interfaz y la automatización, nos enfocamos en la calidad a largo plazo.",
+    "title": "Frontend, backend y web design trabajando juntos.",
+    "subtitle": "Combinamos estructura, interfaz y dirección visual para crear productos claros, rápidos y fáciles de mantener.",
     "items": {
       "frontend": {
-        "title": "Interfaces de Producto",
-        "description": "Interfaces rápidas, claras y fáciles de usar en escenarios reales. Pensadas para evolucionar con el producto."
+        "title": "Frontend",
+        "description": "Interfaces responsivas y limpias, hechas para productos reales y no solo para mockups."
       },
       "backend": {
-        "title": "Arquitectura de Producto",
-        "description": "Sistemas backend y APIs diseñados para mantenerse limpios, comprensibles y escalables con el tiempo."
+        "title": "Backend",
+        "description": "APIs y sistemas backend estructurados para estabilidad y escalabilidad."
       },
-      "aiAgents": {
-        "title": "IA y Automatización",
-        "description": "Agentes de IA y flujos de automatización que resuelven problemas reales y reducen trabajo repetitivo."
+      "webDesign": {
+        "title": "Web Design",
+        "description": "Dirección visual, layout y experiencia de usuario con foco en claridad, jerarquía y una presencia digital sólida."
       }
     }
   },
   "technologies": {
     "eyebrow": "Stack",
     "title": "Tecnologías probadas",
-    "description": "Utilizamos herramientas confiables que permiten construir sistemas escalables y mantenibles a largo plazo.",
+    "description": "Usamos herramientas confiables que apoyan la escalabilidad, la arquitectura limpia y el mantenimiento a largo plazo.",
     "items": {
       "typescript": {
         "title": "TypeScript",
         "short": "JavaScript tipado para sistemas escalables.",
-        "paragraph1": "Ayuda a mantener el código claro y predecible.",
-        "paragraph2": "Facilita entender estructuras y datos.",
-        "paragraph3": "Usado en frontend y backend.",
-        "paragraph4": "Permite evolucionar con confianza.",
-        "paragraph5": "Clave para mantenimiento a largo plazo."
+        "paragraph1": "TypeScript ayuda a mantener el código predecible y más fácil de mantener a medida que los sistemas crecen.",
+        "paragraph2": "Permite que los equipos entiendan mejor la estructura y el flujo de datos.",
+        "paragraph3": "Lo usamos para construir sistemas confiables de frontend y backend.",
+        "paragraph4": "Da más confianza al evolucionar el producto.",
+        "paragraph5": "Esencial para el mantenimiento a largo plazo."
       },
       "angular": {
-        "title": "Angular",
-        "short": "Frontend estructurado.",
-        "paragraph1": "Ideal para interfaces grandes.",
-        "paragraph2": "Mantiene consistencia.",
-        "paragraph3": "Perfecto para dashboards.",
-        "paragraph4": "Escalable en equipo.",
-        "paragraph5": "Base sólida a largo plazo."
+        "title": "Next.js",
+        "short": "Framework de React listo para producción.",
+        "paragraph1": "Next.js ayuda a crear aplicaciones web rápidas y escalables.",
+        "paragraph2": "Ofrece arquitectura moderna de frontend y renderizado en servidor.",
+        "paragraph3": "Es ideal para sitios web, productos SaaS e interfaces de alto rendimiento.",
+        "paragraph4": "Mejora el SEO, el enrutamiento y los flujos de producción.",
+        "paragraph5": "Una opción sólida para el desarrollo frontend moderno."
       },
       "react": {
         "title": "React",
-        "short": "UI flexible.",
-        "paragraph1": "Permite iteración rápida.",
-        "paragraph2": "Gran ecosistema.",
-        "paragraph3": "Usado en SaaS y apps.",
-        "paragraph4": "Componentes reutilizables.",
-        "paragraph5": "Equilibrio entre velocidad y mantenimiento."
+        "short": "Desarrollo flexible de UI.",
+        "paragraph1": "React permite iteración rápida e interfaces modulares.",
+        "paragraph2": "Tiene un ecosistema fuerte para interfaces modernas.",
+        "paragraph3": "Se usa en SaaS, landing pages y aplicaciones.",
+        "paragraph4": "Permite componentes reutilizables.",
+        "paragraph5": "Equilibra velocidad y mantenimiento."
       },
       "reactNative": {
         "title": "React Native",
         "short": "Mobile multiplataforma.",
-        "paragraph1": "Una base de código.",
-        "paragraph2": "Lanzamiento rápido.",
-        "paragraph3": "Consistencia entre plataformas.",
-        "paragraph4": "Integración con web.",
-        "paragraph5": "Ideal para startups."
+        "paragraph1": "Construye apps móviles desde una sola base de código.",
+        "paragraph2": "Acelera el lanzamiento del producto.",
+        "paragraph3": "Mantiene consistencia entre plataformas.",
+        "paragraph4": "Se integra bien con sistemas web.",
+        "paragraph5": "Práctico para startups."
       },
       "node": {
         "title": "Node.js",
-        "short": "Backend.",
-        "paragraph1": "Desarrollo rápido.",
-        "paragraph2": "Compatible con JS.",
-        "paragraph3": "APIs eficientes.",
-        "paragraph4": "Flexible.",
-        "paragraph5": "Alta velocidad de evolución."
+        "short": "Runtime de backend.",
+        "paragraph1": "Desarrollo rápido de backend.",
+        "paragraph2": "Funciona bien con stacks de JS.",
+        "paragraph3": "Excelente para APIs e integraciones.",
+        "paragraph4": "Flexible y escalable.",
+        "paragraph5": "Soporta iteración rápida."
       },
       "nestjs": {
         "title": "NestJS",
         "short": "Backend estructurado.",
-        "paragraph1": "Arquitectura clara.",
-        "paragraph2": "Código limpio.",
-        "paragraph3": "Escalable.",
-        "paragraph4": "Ideal para lógica compleja.",
-        "paragraph5": "Mantenible."
+        "paragraph1": "Lleva arquitectura al backend.",
+        "paragraph2": "Ayuda a mantener los sistemas limpios.",
+        "paragraph3": "Soporta escalabilidad.",
+        "paragraph4": "Excelente para lógica compleja.",
+        "paragraph5": "Mejora el mantenimiento."
       },
       "next": {
-        "title": "Next.js",
-        "short": "React para producción.",
-        "paragraph1": "Mejor performance.",
-        "paragraph2": "SEO.",
-        "paragraph3": "Deploy simple.",
-        "paragraph4": "Frontend moderno.",
-        "paragraph5": "Listo para producción."
+        "title": "WordPress",
+        "short": "CMS flexible para sitios orientados a contenido.",
+        "paragraph1": "WordPress es práctico para sitios que necesitan gestión sencilla de contenido.",
+        "paragraph2": "Funciona bien para sitios corporativos, landing pages y plataformas editoriales.",
+        "paragraph3": "Permite publicación rápida y administración simple.",
+        "paragraph4": "Puede ampliarse con temas personalizados e integraciones.",
+        "paragraph5": "Una opción confiable para proyectos escalables basados en contenido."
       },
       "databases": {
         "title": "Bases de Datos",
-        "short": "Estructura de datos.",
-        "paragraph1": "Base del sistema.",
-        "paragraph2": "Impacta escalabilidad.",
-        "paragraph3": "Clave para performance.",
-        "paragraph4": "Diseñadas para crecer.",
-        "paragraph5": "Estabilidad a largo plazo."
+        "short": "Base de la estructura de datos.",
+        "paragraph1": "Centro de cualquier sistema.",
+        "paragraph2": "Define la escalabilidad.",
+        "paragraph3": "Impacta el rendimiento.",
+        "paragraph4": "Diseñamos para crecer.",
+        "paragraph5": "Garantiza estabilidad a largo plazo."
       }
     }
   },
   "portfolio": {
     "eyebrow": "Proyectos",
-    "title": "Ejemplos de sistemas que construimos",
-    "description": "Creamos sistemas que soportan operaciones reales y crecimiento del producto.",
+    "title": "Ejemplos de lo que construimos",
+    "description": "Tres áreas principales: frontend, backend y web design.",
     "categories": {
       "all": "Todos",
-      "web": "Web",
-      "mobile": "Mobile",
-      "api": "APIs",
-      "automation": "Automatización"
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "webDesign": "Web Design"
     },
     "projects": {
       "crm": {
-        "title": "CRM personalizado",
-        "description": "Sistema interno para gestionar clientes y procesos."
+        "title": "Frontend",
+        "description": "Interfaces de usuario, dashboards y aplicaciones orientadas al cliente."
       },
       "platform": {
-        "title": "Plataforma",
-        "description": "Producto que conecta marketing y acciones del cliente."
+        "title": "Backend",
+        "description": "APIs, lógica del sistema y arquitectura del lado del servidor."
       },
       "mobile": {
-        "title": "Experiencia mobile",
-        "description": "Interfaz móvil para funciones clave."
+        "title": "Web Design",
+        "description": "Diseño visual, layouts y presentación del producto."
       },
       "api": {
-        "title": "Sistema API",
-        "description": "Backend que conecta servicios y lógica."
+        "title": "Backend",
+        "description": "Arquitectura de APIs e integraciones."
       },
       "automation": {
-        "title": "Automatización",
-        "description": "Flujos que reducen trabajo manual."
+        "title": "Web Design",
+        "description": "Sistemas de diseño y consistencia de interfaz."
       }
     }
   },
   "contact": {
     "eyebrow": "Contacto",
     "title": "Cuéntanos qué estás construyendo",
-    "description": "Comparte tu producto y te diremos el siguiente paso más práctico.",
+    "description": "Comparte tu producto o idea y te sugeriremos el siguiente paso más práctico.",
     "email": "Tu email",
     "name": "Tu nombre",
-    "message": "Describe tu producto",
-    "submit": "Enviar",
+    "message": "Cuéntanos sobre tu producto",
+    "submit": "Enviar mensaje",
     "sending": "Enviando...",
-    "success": "Mensaje enviado correctamente",
-    "error": "Algo salió mal",
+    "success": "Tu mensaje fue enviado correctamente.",
+    "error": "Algo salió mal. Inténtalo de nuevo.",
     "info": {
       "emailTitle": "Email",
-      "emailValue": "hello@geometry.studio",
-      "replyTitle": "Tiempo de respuesta",
-      "replyValue": "Dentro de 24 horas"
+      "emailValue": "hellogeometrysoftware@gmail.com",
+      "addressTitle": "Dirección",
+      "addressValue": "Av. Hercílio Luz, 639 - 11° Andar, Centro, Florianópolis",
+      "whatsappTitle": "WhatsApp",
+      "whatsappValue": "+55 48 99108-1987"
     }
   },
   "footer": {
-    "description": "Creamos productos escalables, limpios y confiables.",
+    "description": "Construimos productos digitales que se mantienen limpios, escalables y confiables a medida que crecen.",
     "rights": "Todos los derechos reservados."
   }
 }

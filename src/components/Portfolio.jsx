@@ -1,19 +1,39 @@
 import { useState } from 'react'
-import { ArrowUpRight } from 'lucide-react'
+import { ArrowUpRight, Github } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 import img1 from '../assets/crud.png'
 import bgImage from '../assets/background1.png'
 import bgAbout from '../assets/background-about.png'
 
 const projects = [
-  { key: 'crm', category: 'web', image: img1 },
-  { key: 'platform', category: 'web', image: bgImage },
-  { key: 'mobile', category: 'mobile', image: bgAbout },
-  { key: 'api', category: 'api', image: img1 },
-  { key: 'automation', category: 'automation', image: bgImage },
+  {
+    key: 'crm',
+    category: 'frontend',
+    image: img1,
+    links: [
+      { type: 'github', href: 'https://github.com/your-repo/frontend-project' },
+      { type: 'demo', href: 'https://your-demo-frontend.com' },
+    ],
+  },
+  {
+    key: 'platform',
+    category: 'backend',
+    image: bgImage,
+    links: [
+      { type: 'github', href: 'https://github.com/your-repo/backend-project' },
+    ],
+  },
+  {
+    key: 'mobile',
+    category: 'webDesign',
+    image: bgAbout,
+    links: [
+      { type: 'demo', href: 'https://your-webdesign-demo.com' },
+    ],
+  },
 ]
 
-const categories = ['all', 'web', 'mobile', 'api', 'automation']
+const categories = ['all', 'frontend', 'backend', 'webDesign']
 
 export default function Portfolio() {
   const { t } = useTranslation()
@@ -23,6 +43,17 @@ export default function Portfolio() {
     activeCategory === 'all'
       ? projects
       : projects.filter(project => project.category === activeCategory)
+
+  const getLinkLabel = (type) => {
+    if (type === 'github') return 'GitHub'
+    if (type === 'demo') return 'Demo'
+    return type
+  }
+
+  const getLinkIcon = (type) => {
+    if (type === 'github') return <Github size={16} />
+    return <ArrowUpRight size={16} />
+  }
 
   return (
     <section id="portfolio" className="bg-white px-6 py-10">
@@ -45,11 +76,10 @@ export default function Portfolio() {
               <button
                 key={cat}
                 onClick={() => setActiveCategory(cat)}
-                className={`h-11 px-5 border text-[12px] font-medium uppercase tracking-[0.14em] transition-all ${
-                  activeCategory === cat
-                    ? 'border-[var(--color-primary)] bg-[var(--color-primary)] text-white shadow-[var(--shadow-soft)]'
-                    : 'border-[var(--color-border)] bg-white text-black/70 hover:border-[var(--color-primary-border)] hover:text-[var(--color-primary)]'
-                }`}
+                className={`h-11 px-5 border text-[12px] font-medium uppercase tracking-[0.14em] transition-all ${activeCategory === cat
+                  ? 'border-[var(--color-primary)] bg-[var(--color-primary)] text-white shadow-[var(--shadow-soft)]'
+                  : 'border-[var(--color-border)] bg-white text-black/70 hover:border-[var(--color-primary-border)] hover:text-[var(--color-primary)]'
+                  }`}
               >
                 {t(`portfolio.categories.${cat}`)}
               </button>
@@ -61,11 +91,9 @@ export default function Portfolio() {
           {filteredProjects.map((project, index) => (
             <article
               key={project.key}
-              className={`group transition-colors hover:bg-[var(--color-primary-light)] ${
-                index % 3 !== 2 ? 'xl:border-r' : ''
-              } ${
-                index < filteredProjects.length - 3 ? 'xl:border-b' : ''
-              } border-[var(--color-border)] border-b md:border-b`}
+              className={`group transition-colors hover:bg-[var(--color-primary-light)] ${index % 3 !== 2 ? 'xl:border-r' : ''
+                } ${index < filteredProjects.length - 3 ? 'xl:border-b' : ''
+                } border-[var(--color-border)] border-b md:border-b`}
             >
               <div className="relative h-72 overflow-hidden border-b border-[var(--color-border)]">
                 <img
@@ -84,14 +112,28 @@ export default function Portfolio() {
                   <h3 className="text-[28px] leading-[1] tracking-[-0.04em] font-semibold text-[var(--color-ink)]">
                     {t(`portfolio.projects.${project.key}.title`)}
                   </h3>
-                  <div className="h-11 w-11 border border-[var(--color-border)] bg-white text-[var(--color-ink)] flex items-center justify-center transition-all group-hover:border-[var(--color-primary-border)] group-hover:bg-[var(--color-primary)] group-hover:text-white">
-                    <ArrowUpRight size={18} />
-                  </div>
                 </div>
 
                 <p className="mt-5 text-[15px] leading-8 text-[var(--color-muted)]">
                   {t(`portfolio.projects.${project.key}.description`)}
                 </p>
+
+                {project.links?.length > 0 && (
+                  <div className="mt-6 flex flex-wrap gap-3">
+                    {project.links.map((link) => (
+                      <a
+                        key={`${project.key}-${link.type}`}
+                        href={link.href}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="inline-flex h-11 items-center gap-2 border border-[var(--color-border)] bg-white px-4 text-[12px] font-medium uppercase tracking-[0.14em] text-[var(--color-ink)] transition-all hover:border-[var(--color-primary-border)] hover:bg-[var(--color-primary)] hover:text-white"
+                      >
+                        {getLinkIcon(link.type)}
+                        {getLinkLabel(link.type)}
+                      </a>
+                    ))}
+                  </div>
+                )}
               </div>
             </article>
           ))}

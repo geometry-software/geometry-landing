@@ -7,64 +7,67 @@
     "portfolio": "Work",
     "contact": "Contact"
   },
+  "common": {
+    "from": "From"
+  },
   "hero": {
-    "hireUs": "Talk about your product",
-    "viewWork": "See how we build",
+    "hireUs": "Talk about your project",
+    "viewWork": "See how we work",
     "slides": {
       "slide1": {
         "eyebrow": "Small team, senior execution",
-        "title": "We build products that don’t break when you scale.",
-        "description": "We help companies turn ideas and existing systems into clean, maintainable products that keep working as they grow."
+        "title": "We build digital products that stay clean as they grow.",
+        "description": "From frontend to backend and web design, we create websites and systems that are clear, maintainable and built for real use."
       },
       "slide2": {
         "eyebrow": "Structure before code",
-        "title": "Most products fail not at launch — but during growth.",
-        "description": "As products evolve, codebases become messy and slow. We design systems that stay clear, stable and easy to extend."
+        "title": "Good products need more than development alone.",
+        "description": "We combine visual design, frontend execution and backend structure to build products that feel solid from the start."
       },
       "slide3": {
         "eyebrow": "Built for real usage",
-        "title": "Clean systems, strong UX and products you can trust.",
-        "description": "From interface to backend and automation, we build systems that are easy to maintain and confidently evolve."
+        "title": "Frontend, backend and web design working together.",
+        "description": "We create websites and digital experiences that look sharp, work fast and remain easy to scale."
       }
     }
   },
   "about": {
     "eyebrow": "About",
-    "title": "A small team that builds products properly from the start.",
-    "text1": "We focus on building products that don’t fall apart as they grow. Instead of rushing into code, we think through structure, flows and long-term maintainability.",
-    "text2": "Our strength is the combination of product thinking and engineering discipline. We care about clean architecture, clarity and systems that stay stable over time.",
+    "title": "A small team that builds digital products properly from the start.",
+    "text1": "We focus on websites and systems that do not fall apart as they grow. Instead of rushing into code, we think through structure, interface and long-term maintainability.",
+    "text2": "Our strength is the combination of visual thinking, frontend execution and backend discipline. We care about clean architecture, clarity and products that stay stable over time.",
     "cta": "Start a conversation",
     "items": {
       "craft": {
-        "title": "Product thinking",
-        "description": "We think beyond features — focusing on structure, flows and long-term product behavior."
+        "title": "Design thinking",
+        "description": "We think beyond visuals — focusing on structure, hierarchy and user flow."
       },
       "delivery": {
         "title": "Clean execution",
-        "description": "We build systems that are readable, structured and easy to maintain."
+        "description": "We build interfaces and systems that are readable, structured and easy to maintain."
       },
       "stack": {
         "title": "Built to scale",
-        "description": "We design products that grow without turning into technical debt."
+        "description": "We create digital products that grow without turning into technical debt."
       }
     }
   },
   "services": {
     "eyebrow": "Approach",
-    "title": "We don’t just build features — we build systems that last.",
-    "subtitle": "From structure to interface and automation, we focus on long-term product quality.",
+    "title": "Frontend, backend and web design working together.",
+    "subtitle": "We combine structure, interface and visual design to build products that look clear, work fast and stay maintainable.",
     "items": {
       "frontend": {
-        "title": "Product Interfaces",
-        "description": "Interfaces that feel fast, clear and easy to use in real scenarios. Built for usability and consistency as products evolve."
+        "title": "Frontend",
+        "description": "Responsive, clean interfaces built for real products, not just mockups."
       },
       "backend": {
-        "title": "Product Architecture",
-        "description": "Backend systems and APIs designed to stay clean, understandable and scalable over time."
+        "title": "Backend",
+        "description": "Structured APIs and backend systems designed for stability and scalability."
       },
-      "aiAgents": {
-        "title": "AI & Automation Layer",
-        "description": "AI agents and automation flows that solve real business problems and reduce repetitive work."
+      "webDesign": {
+        "title": "Web Design",
+        "description": "Visual direction, layout and UX focused on clarity, hierarchy and strong digital presence."
       }
     }
   },
@@ -83,13 +86,13 @@
         "paragraph5": "Essential for long-term maintainability."
       },
       "angular": {
-        "title": "Angular",
-        "short": "Structured frontend for complex systems.",
-        "paragraph1": "Angular helps build large, structured interfaces.",
-        "paragraph2": "It enforces consistency across the codebase.",
-        "paragraph3": "Useful for dashboards and internal tools.",
-        "paragraph4": "Supports scalable team workflows.",
-        "paragraph5": "Great for long-term products."
+        "title": "Next.js",
+        "short": "Production-ready React framework.",
+        "paragraph1": "Next.js helps build fast and scalable web applications.",
+        "paragraph2": "It supports modern frontend architecture and server rendering.",
+        "paragraph3": "Great for websites, SaaS products and high-performance interfaces.",
+        "paragraph4": "It improves SEO, routing and production workflows.",
+        "paragraph5": "A strong choice for modern frontend development."
       },
       "react": {
         "title": "React",
@@ -128,13 +131,13 @@
         "paragraph5": "Improves maintainability."
       },
       "next": {
-        "title": "Next.js",
-        "short": "Production-ready React.",
-        "paragraph1": "Improves performance and SEO.",
-        "paragraph2": "Simplifies deployment.",
-        "paragraph3": "Great for modern web apps.",
-        "paragraph4": "Supports scalable frontend.",
-        "paragraph5": "Strong production setup."
+        "title": "WordPress",
+        "short": "Flexible CMS for content-driven websites.",
+        "paragraph1": "WordPress is practical for websites that need easy content management.",
+        "paragraph2": "It works well for company sites, landing pages and editorial platforms.",
+        "paragraph3": "It allows fast publishing and simple admin workflows.",
+        "paragraph4": "It can be extended with custom themes and integrations.",
+        "paragraph5": "A reliable option for scalable content-based projects."
       },
       "databases": {
         "title": "Databases",
@@ -149,35 +152,34 @@
   },
   "portfolio": {
     "eyebrow": "Work",
-    "title": "Examples of systems we build",
-    "description": "We build systems that support real operations and product growth.",
+    "title": "Examples of what we build",
+    "description": "Three core areas: frontend, backend and web design.",
     "categories": {
       "all": "All",
-      "web": "Web Apps",
-      "mobile": "Mobile",
-      "api": "APIs",
-      "automation": "Automation"
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "webDesign": "Web Design"
     },
     "projects": {
       "crm": {
-        "title": "Custom CRM System",
-        "description": "Internal system to manage leads, clients and communication."
+        "title": "Frontend",
+        "description": "User interfaces, dashboards and client-facing applications."
       },
       "platform": {
-        "title": "Service Platform",
-        "description": "Product connecting marketing and customer actions."
+        "title": "Backend",
+        "description": "APIs, system logic and server-side architecture."
       },
       "mobile": {
-        "title": "Mobile Experience",
-        "description": "Mobile interface for core product features."
+        "title": "Web Design",
+        "description": "Visual design, layouts and product presentation."
       },
       "api": {
-        "title": "API System",
-        "description": "Backend connecting services and logic."
+        "title": "Backend",
+        "description": "API architecture and integrations."
       },
       "automation": {
-        "title": "Automation System",
-        "description": "Workflow reducing manual work."
+        "title": "Web Design",
+        "description": "Design systems and UI consistency."
       }
     }
   },
@@ -194,13 +196,15 @@
     "error": "Something went wrong. Please try again.",
     "info": {
       "emailTitle": "Email",
-      "emailValue": "hello@geometry.studio",
-      "replyTitle": "Reply time",
-      "replyValue": "Within 24 hours"
+      "emailValue": "hellogeometrysoftware@gmail.com",
+      "addressTitle": "Address",
+      "addressValue": "Av. Hercílio Luz, 639 - 11° Andar, Centro, Florianópolis",
+      "whatsappTitle": "WhatsApp",
+      "whatsappValue": "+55 48 99108-1987"
     }
   },
   "footer": {
-    "description": "We build products that stay clean, scalable and reliable as they grow.",
+    "description": "We build digital products that stay clean, scalable and reliable as they grow.",
     "rights": "All rights reserved."
   }
 }

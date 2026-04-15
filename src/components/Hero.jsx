@@ -61,7 +61,7 @@ export default function Hero() {
               <div className="mt-14 grid grid-cols-3 gap-4 border-t border-[var(--color-border)] pt-6 fade-up">
                 <div>
                   <div className="text-[24px] font-semibold tracking-[-0.05em] text-[var(--color-ink)] md:text-[30px]">
-                    Web
+                    Frontend
                   </div>
                   <div className="mt-1 text-[11px] uppercase tracking-[0.18em] text-black/40">
                     Interfaces
@@ -70,7 +70,7 @@ export default function Hero() {
 
                 <div>
                   <div className="text-[24px] font-semibold tracking-[-0.05em] text-[var(--color-ink)] md:text-[30px]">
-                    API
+                    Backend
                   </div>
                   <div className="mt-1 text-[11px] uppercase tracking-[0.18em] text-black/40">
                     Systems
@@ -79,10 +79,10 @@ export default function Hero() {
 
                 <div>
                   <div className="text-[24px] font-semibold tracking-[-0.05em] text-[var(--color-ink)] md:text-[30px]">
-                    AI
+                    Web Design
                   </div>
                   <div className="mt-1 text-[11px] uppercase tracking-[0.18em] text-black/40">
-                    Agents
+                    Visuals
                   </div>
                 </div>
               </div>

@@ -43,9 +43,8 @@ export default function About() {
             {items.map(({ key, icon: Icon }, index) => (
               <div
                 key={key}
-                className={`px-8 py-8 md:px-10 transition-colors hover:bg-[var(--color-primary-light)] ${
-                  index !== items.length - 1 ? 'border-b border-[var(--color-border)]' : ''
-                } sm:${index < 2 ? 'border-r' : ''} lg:border-r-0 lg:border-b border-[var(--color-border)] last:border-b-0`}
+                className={`px-8 py-8 md:px-10 transition-colors hover:bg-[var(--color-primary-light)] ${index !== items.length - 1 ? 'border-b border-[var(--color-border)]' : ''
+                  } sm:${index < 2 ? 'border-r' : ''} lg:border-r-0 lg:border-b border-[var(--color-border)] last:border-b-0`}
               >
                 <div className="h-12 w-12 border border-[var(--color-primary-border)] bg-white flex items-center justify-center text-[var(--color-primary)] shadow-[var(--shadow-soft)]">
                   <Icon size={20} />

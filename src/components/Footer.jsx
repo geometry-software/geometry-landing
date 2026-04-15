@@ -29,7 +29,7 @@ export default function Footer() {
             ))}
           </nav>
 
-          <div className="flex items-center gap-3">
+          {/* <div className="flex items-center gap-3">
             {[Facebook, Twitter, Instagram, Linkedin].map((Icon, index) => (
               <a
                 key={index}
@@ -39,7 +39,7 @@ export default function Footer() {
                 <Icon size={18} />
               </a>
             ))}
-          </div>
+          </div> */}
         </div>
 
         <div className="border-t border-[var(--color-border)] px-8 py-5 md:px-12 text-[12px] uppercase tracking-[0.16em] text-black/40">

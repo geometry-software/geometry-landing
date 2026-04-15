@@ -22,17 +22,40 @@ export default function Navbar() {
     setLangOpen(false)
   }
 
+  const scrollToSection = (id) => {
+    const element = document.getElementById(id)
+    if (!element) return
+
+    const offset = 80
+    const top = element.getBoundingClientRect().top + window.pageYOffset - offset
+
+    window.scrollTo({
+      top,
+      behavior: 'smooth',
+    })
+  }
+
+  const handleNavClick = (e, id) => {
+    e.preventDefault()
+    setLangOpen(false)
+    setOpen(false)
+
+    requestAnimationFrame(() => {
+      scrollToSection(id)
+    })
+  }
+
   return (
     <header
-      className={`fixed inset-x-0 top-0 z-[100] transition-all duration-300 ${
-        scrolled
+      className={`fixed inset-x-0 top-0 z-[100] transition-all duration-300 ${scrolled
           ? 'bg-white border-b border-[var(--color-border)] shadow-[0_12px_30px_rgba(10,15,28,0.06)]'
           : 'bg-white border-b border-[var(--color-border)]'
-      }`}
+        }`}
     >
       <nav className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
         <a
           href="#home"
+          onClick={(e) => handleNavClick(e, 'home')}
           className="text-[26px] md:text-[30px] font-semibold tracking-[-0.06em] text-[var(--color-ink)]"
         >
           Geometry
@@ -43,6 +66,7 @@ export default function Navbar() {
             <li key={link}>
               <a
                 href={`#${link}`}
+                onClick={(e) => handleNavClick(e, link)}
                 className="text-[12px] font-medium uppercase tracking-[0.18em] text-black/60 transition-colors hover:text-[var(--color-primary)]"
               >
                 {t(`navbar.${link}`)}
@@ -78,6 +102,7 @@ export default function Navbar() {
 
           <a
             href="#contact"
+            onClick={(e) => handleNavClick(e, 'contact')}
             className="h-11 px-5 bg-[var(--color-primary)] text-white inline-flex items-center justify-center text-[12px] font-medium uppercase tracking-[0.16em] transition-colors hover:bg-[var(--color-primary-soft)]"
           >
             {t('hero.hireUs')}
@@ -100,7 +125,7 @@ export default function Navbar() {
               <a
                 key={link}
                 href={`#${link}`}
-                onClick={() => setOpen(false)}
+                onClick={(e) => handleNavClick(e, link)}
                 className="text-[var(--color-ink)] py-2 text-[12px] font-medium uppercase tracking-[0.18em]"
               >
                 {t(`navbar.${link}`)}
@@ -121,7 +146,7 @@ export default function Navbar() {
 
             <a
               href="#contact"
-              onClick={() => setOpen(false)}
+              onClick={(e) => handleNavClick(e, 'contact')}
               className="mt-2 h-12 bg-[var(--color-primary)] text-white text-[12px] font-medium uppercase tracking-[0.16em] flex items-center justify-center"
             >
               {t('hero.hireUs')}

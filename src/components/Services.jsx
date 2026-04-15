@@ -1,10 +1,10 @@
-import { MonitorSmartphone, ServerCog, Bot } from 'lucide-react'
+import { Monitor, Server, Palette } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 
 const services = [
-  { key: 'frontend', icon: MonitorSmartphone },
-  { key: 'backend', icon: ServerCog },
-  { key: 'aiAgents', icon: Bot },
+  { key: 'frontend', icon: Monitor, price: 600 },
+  { key: 'backend', icon: Server, price: 300 },
+  { key: 'webDesign', icon: Palette, price: 900 },
 ]
 
 export default function Services() {
@@ -28,7 +28,7 @@ export default function Services() {
         </div>
 
         <div className="grid lg:grid-cols-3">
-          {services.map(({ key, icon: Icon }, index) => (
+          {services.map(({ key, icon: Icon, price }, index) => (
             <div
               key={key}
               className={`px-8 py-10 md:px-10 md:py-12 transition-all hover:bg-[var(--color-primary-light)] ${index !== services.length - 1 ? 'border-b lg:border-b-0 lg:border-r' : ''
@@ -45,6 +45,10 @@ export default function Services() {
               <p className="mt-6 text-[15px] leading-8 text-[var(--color-muted)]">
                 {t(`services.items.${key}.description`)}
               </p>
+
+              <div className="mt-8 text-[13px] uppercase tracking-[0.16em] text-[var(--color-primary)] font-medium">
+                {t('common.from')} {price} R$
+              </div>
             </div>
           ))}
         </div>

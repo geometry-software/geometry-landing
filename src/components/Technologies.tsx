@@ -5,12 +5,12 @@ import { useTranslation } from 'react-i18next'
 
 const technologies = [
   { key: 'typescript', color: '#3178C6', icon: Type },
-  { key: 'angular', color: '#DD0031', icon: Code },
+  { key: 'angular', color: '#111111', icon: Code },
   { key: 'react', color: '#61DAFB', icon: Box },
   { key: 'reactNative', color: '#61DAFB', icon: Layers },
   { key: 'node', color: '#339933', icon: Cpu },
   { key: 'nestjs', color: '#E0234E', icon: Code },
-  { key: 'next', color: '#111111', icon: Code },
+  { key: 'next', color: '#21759B', icon: Code },
   { key: 'databases', color: '#F29111', icon: Database },
 ]
 
