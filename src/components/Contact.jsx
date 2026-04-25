@@ -12,7 +12,7 @@ const contactItems = [
     key: 'address',
     icon: MapPin,
     href: 'https://www.google.com/maps/search/?api=1&query=Av.+Hercílio+Luz,+639+-+11+Andar,+Centro,+Florianópolis',
-    value: 'Av. Hercílio Luz, 639 - 11° Andar, Centro, Florianópolis',
+    value: 'Coworking XYZ, Av. Hercílio Luz, 639, Florianópolis - SC, Brasil',
   },
   {
     key: 'whatsapp',
@@ -29,6 +29,7 @@ export default function Contact() {
     <section id="contact" className="bg-white px-4 py-8 sm:px-6 sm:py-10 overflow-x-hidden">
       <div className="max-w-7xl mx-auto overflow-hidden border border-[var(--color-border)] bg-white shadow-[var(--shadow-card)] soft-reveal">
         <div className="grid lg:grid-cols-[0.95fr_1.05fr]">
+
           <div className="px-5 py-8 sm:px-8 sm:py-10 md:px-12 md:py-14 lg:px-16 lg:py-16 border-b lg:border-b-0 lg:border-r border-[var(--color-border)] fade-up min-w-0">
             <div className="text-[11px] uppercase tracking-[0.22em] text-black/40">
               {t('contact.eyebrow')}
@@ -62,9 +63,7 @@ export default function Contact() {
                       </div>
 
                       <div
-                        className={`mt-2 text-[16px] text-[var(--color-ink)] ${key === 'email'
-                          ? 'break-all'
-                          : 'break-words'
+                        className={`mt-2 text-[16px] text-[var(--color-ink)] ${key === 'email' ? 'break-all' : 'break-words'
                           }`}
                       >
                         {value}
@@ -76,16 +75,18 @@ export default function Contact() {
             </div>
           </div>
 
-          <div className="px-5 py-8 sm:px-8 sm:py-10 md:px-12 md:py-14 lg:px-16 lg:py-16 min-w-0">
-            <div className="w-full overflow-hidden border border-[var(--color-border)] bg-white shadow-[var(--shadow-soft)]">
+          <div className="relative min-w-0">
+
+            <div className="absolute inset-0 p-[40px]">
               <iframe
                 title="Geometry location"
                 src="https://www.google.com/maps?q=Av.+Hercílio+Luz,+639+-+11+Andar,+Centro,+Florianópolis&z=16&output=embed"
-                className="block w-full h-[320px] sm:h-[380px] lg:h-[420px]"
+                className="w-full h-full border-0"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
               />
             </div>
+
           </div>
         </div>
       </div>
