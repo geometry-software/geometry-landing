@@ -1,17 +1,17 @@
 import React from 'react'
 import { useEffect, useState } from 'react'
-import { X, Type, Code, Database, Box, Layers, Cpu } from 'lucide-react'
+import { X, Type, Code, Database, Box, Layers, CloudCheck } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 
 const technologies = [
   { key: 'typescript', color: '#3178C6', icon: Type },
-  { key: 'angular', color: '#111111', icon: Code },
-  { key: 'react', color: '#61DAFB', icon: Box },
-  { key: 'reactNative', color: '#61DAFB', icon: Layers },
-  { key: 'node', color: '#339933', icon: Cpu },
+  { key: 'react', color: '#61DAFB', icon: Layers },
+  { key: 'reactNative', color: '#61DAFB', icon: Box },
+  { key: 'next', color: '#87CEFA', icon: CloudCheck },
+  { key: 'angular', color: '#C3002F', icon: Code },
   { key: 'nestjs', color: '#E0234E', icon: Code },
-  { key: 'next', color: '#21759B', icon: Code },
-  { key: 'databases', color: '#F29111', icon: Database },
+  { key: 'wordpress', color: '#90EE90', icon: Code },
+  { key: 'databases', color: '#2E8B57', icon: Database },
 ]
 
 export default function Technologies() {
@@ -34,7 +34,7 @@ export default function Technologies() {
 
   return (
     <section id="technologies" className="bg-white px-6 py-10">
-      <div className="max-w-7xl mx-auto border border-[var(--color-border)] bg-white shadow-[var(--shadow-card)] soft-reveal">
+      <div className="max-w-6xl mx-auto border border-[var(--color-border)] bg-white shadow-[var(--shadow-card)] soft-reveal">
         <div className="px-8 py-10 md:px-12 md:py-14 lg:px-16 lg:py-16 border-b border-[var(--color-border)] text-center fade-up">
           <div className="text-[11px] uppercase tracking-[0.22em] text-black/40">
             {t('technologies.eyebrow')}
@@ -49,13 +49,13 @@ export default function Technologies() {
           </p>
         </div>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4">
+        <div className="grid grid-cols-2 md:grid-cols-4 grid-cols-2">
           {technologies.map(({ key, icon: Icon, color }, index) => (
             <button
               key={key}
               type="button"
               onClick={() => setSelected(key)}
-              className={`px-6 py-8 text-left transition-all hover:bg-[var(--color-primary-light)] ${
+              className={`p-12 text-left transition-all hover:bg-[var(--color-primary-light)] ${
                 index % 4 !== 3 ? 'lg:border-r border-[var(--color-border)]' : ''
               } ${
                 index < technologies.length - 4 ? 'lg:border-b border-[var(--color-border)]' : ''
@@ -105,8 +105,6 @@ export default function Technologies() {
               <p>{t(`technologies.items.${selected}.paragraph1`)}</p>
               <p>{t(`technologies.items.${selected}.paragraph2`)}</p>
               <p>{t(`technologies.items.${selected}.paragraph3`)}</p>
-              <p>{t(`technologies.items.${selected}.paragraph4`)}</p>
-              <p>{t(`technologies.items.${selected}.paragraph5`)}</p>
             </div>
           </div>
         </div>

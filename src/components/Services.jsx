@@ -1,10 +1,11 @@
-import { Monitor, Server, Palette } from 'lucide-react'
+import { Monitor, Server, Palette, Bot } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 
 const services = [
-  { key: 'frontend', icon: Monitor, price: 600 },
-  { key: 'backend', icon: Server, price: 300 },
-  { key: 'webDesign', icon: Palette, price: 900 },
+  { key: 'frontend', icon: Monitor, price: 150 },
+  { key: 'backend', icon: Server, price: 150 },
+  { key: 'webDesign', icon: Palette, price: 380 },
+  { key: 'agents', icon: Bot, price: 180 },
 ]
 
 export default function Services() {
@@ -12,7 +13,7 @@ export default function Services() {
 
   return (
     <section id="services" className="bg-white px-6 py-10">
-      <div className="max-w-7xl mx-auto border border-[var(--color-border)] bg-white shadow-[var(--shadow-card)] soft-reveal">
+      <div className="max-w-6xl mx-auto border border-[var(--color-border)] bg-white shadow-[var(--shadow-card)] soft-reveal">
         <div className="px-8 py-10 md:px-12 md:py-14 lg:px-16 lg:py-16 border-b border-[var(--color-border)] fade-up">
           <div className="text-[11px] uppercase tracking-[0.22em] text-black/40">
             {t('services.eyebrow')}
@@ -27,11 +28,11 @@ export default function Services() {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-3">
+        <div className="grid lg:grid-cols-4">
           {services.map(({ key, icon: Icon, price }, index) => (
             <div
               key={key}
-              className={`px-8 py-10 md:px-10 md:py-12 transition-all hover:bg-[var(--color-primary-light)] ${index !== services.length - 1 ? 'border-b lg:border-b-0 lg:border-r' : ''
+              className={`p-8 transition-all hover:bg-[var(--color-primary-light)] ${index !== services.length - 1 ? 'border-b lg:border-b-0 lg:border-r' : ''
                 } border-[var(--color-border)]`}
             >
               <div className="h-14 w-14 border border-[var(--color-primary-border)] bg-white flex items-center justify-center text-[var(--color-primary)] shadow-[var(--shadow-soft)]">
@@ -47,7 +48,7 @@ export default function Services() {
               </p>
 
               <div className="mt-8 text-[13px] uppercase tracking-[0.16em] text-[var(--color-primary)] font-medium">
-                {t('common.from')} {price} R$
+                {t('common.from')}: ${price}
               </div>
             </div>
           ))}

@@ -1,11 +1,13 @@
 @import "tailwindcss";
 
 :root {
-    --color-primary: #1d4ed8;
-    --color-primary-soft: #2563eb;
+    --color-primary: #194bbf;
+    --color-primary-dark: #11317b;
     --color-primary-light: #eff6ff;
     --color-primary-border: rgba(37, 99, 235, 0.2);
-    --color-ink: #0a0f1c;
+    --color-ink: #131b2f;
+    --color-ink-faded: #bbb;
+    --color-ink-faded-666: #666;
     --color-text: rgba(10, 15, 28, 0.92);
     --color-muted: rgba(10, 15, 28, 0.62);
     --color-border: rgba(10, 15, 28, 0.08);
@@ -16,19 +18,125 @@
     --shadow-card: 0 24px 80px rgba(10, 15, 28, 0.08);
 }
 
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('./assets/fonts/FiraSans/FiraSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('./assets/fonts/FiraSans/FiraSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('./assets/fonts/FiraSans/FiraSans-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('./assets/fonts/FiraSans/FiraSans-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Google Sans Flex';
+    src: url('./assets/fonts/GoogleSansFlex/static/GoogleSansFlex_9pt-SemiBold.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
 html {
     scroll-behavior: smooth;
 }
 
 body {
     margin: 0;
-    font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-    background:
-        radial-gradient(circle at top left, rgba(37, 99, 235, 0.08), transparent 28%),
-        linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
-    color: var(--color-text);
-    -webkit-font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.logo {
+    font-family: 'Google Sans Flex', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: var(--color-ink);
+}
+
+.header-logo {
+    font-family: 'Google Sans Flex', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: var(--color-ink);
+    width: auto;
+    background-color: #fff;
+    border: 1px solid #fff;
+    outline: 0;
+    padding: 8px;
+
+    &:hover {
+        background-color: #f8f8f8;
+        padding: 8px;
+        border: 1px solid var(--color-ink);
+        border-radius: 30px;
+        outline: 0;
+    }
+}
+
+.lang {
+    color: var(--color-ink-faded-666);
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 2px;
+
+    &:hover {
+        color: var(--color-primary);
+    }
+}
+
+.menu-item {
+    font-family: 'Fira Sans', sans-serif;
+    color: var(--color-ink);
+    opacity: 0.7;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 400;
+
+    &:hover {
+        opacity: 1;
+        color: var(--color-primary);
+    }
+}
+
+.filter-item {
+    font-family: 'Fira Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.slider-title {
+    color: var(--color-ink);
+    background-color: #fff;
+
+    &:hover {
+        color: #fff;
+        background-color: var(--color-primary);
+        cursor: text;
+    }
+
+    &::selection {
+        background: var(--color-primary);
+        color: var(--color-ink);
+    }
 }
 
 button,

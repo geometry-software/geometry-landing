@@ -48,15 +48,15 @@ export default function Navbar() {
   return (
     <header
       className={`fixed inset-x-0 top-0 z-[100] transition-all duration-300 ${scrolled
-          ? 'bg-white border-b border-[var(--color-border)] shadow-[0_12px_30px_rgba(10,15,28,0.06)]'
-          : 'bg-white border-b border-[var(--color-border)]'
+        ? 'bg-white border-b border-[var(--color-border)] shadow-[0_12px_30px_rgba(10,15,28,0.06)]'
+        : 'bg-white border-b border-[var(--color-border)]'
         }`}
     >
-      <nav className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+      <nav className="max-w-6xl px-2 mx-auto h-20 flex items-center justify-between">
         <a
           href="#home"
           onClick={(e) => handleNavClick(e, 'home')}
-          className="text-[26px] md:text-[30px] font-semibold tracking-[-0.06em] text-[var(--color-ink)]"
+          className="header-logo"
         >
           Geometry
         </a>
@@ -67,7 +67,8 @@ export default function Navbar() {
               <a
                 href={`#${link}`}
                 onClick={(e) => handleNavClick(e, link)}
-                className="text-[12px] font-medium uppercase tracking-[0.18em] text-black/60 transition-colors hover:text-[var(--color-primary)]"
+                style={{ cursor: 'default' }}
+                className="menu-item tracking-[0.18em] transition-colors hover:text-[var(--color-primary)]"
               >
                 {t(`navbar.${link}`)}
               </a>
@@ -79,14 +80,14 @@ export default function Navbar() {
           <div className="relative">
             <button
               onClick={() => setLangOpen((prev) => !prev)}
-              className="h-11 min-w-[76px] px-4 border border-[var(--color-border)] bg-white text-[var(--color-ink)] flex items-center justify-center gap-2 text-[12px] font-medium uppercase tracking-[0.12em] transition-colors hover:border-[var(--color-primary)] hover:text-[var(--color-primary)]"
+              className="lang h-11 min-w-[76px] px-4 border border-[var(--color-ink-faded)] bg-white flex items-center justify-center gap-2 tracking-[0.12em] transition-colors hover:border-[var(--color-primary)] hover:text-[var(--color-primary)]"
             >
               {i18n.language.toUpperCase()}
               <ChevronDown size={14} />
             </button>
 
             {langOpen && (
-              <div className="absolute right-0 mt-2 w-[120px] overflow-hidden border border-[var(--color-border)] bg-white shadow-[0_18px_50px_rgba(10,15,28,0.10)]">
+              <div className="absolute right-0 mt-2 w-[120px] overflow-hidden border border-[var(--color-primary)] bg-white shadow-[0_18px_50px_rgba(10,15,28,0.10)]">
                 {['en', 'es', 'pt'].map((lng) => (
                   <button
                     key={lng}
@@ -103,7 +104,7 @@ export default function Navbar() {
           <a
             href="#contact"
             onClick={(e) => handleNavClick(e, 'contact')}
-            className="h-11 px-5 bg-[var(--color-primary)] text-white inline-flex items-center justify-center text-[12px] font-medium uppercase tracking-[0.16em] transition-colors hover:bg-[var(--color-primary-soft)]"
+            className="h-11 px-5 bg-[var(--color-primary)] text-white inline-flex items-center justify-center text-[12px] font-medium uppercase tracking-[0.16em] transition-colors hover:bg-[var(--color-primary-dark)]"
           >
             {t('hero.hireUs')}
           </a>

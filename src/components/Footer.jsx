@@ -5,12 +5,12 @@ export default function Footer() {
   const { t } = useTranslation()
 
   return (
-    <footer className="bg-white px-6 py-10">
-      <div className="max-w-7xl mx-auto border border-[var(--color-border)] bg-white shadow-[var(--shadow-card)] soft-reveal">
-        <div className="grid gap-8 px-8 py-8 md:px-12 md:py-10 lg:grid-cols-[1fr_auto_auto] lg:items-center">
+    <footer className="bg-white px-6">
+      <div className="max-w-6xl mx-auto border border-[var(--color-border)] bg-white shadow-[var(--shadow-card)] soft-reveal">
+        <div className="grid gap-8 p-[40px] lg:grid-cols-[1fr_auto_auto] lg:items-center">
           <div>
-            <div className="text-[30px] font-semibold tracking-[-0.06em] text-[var(--color-ink)]">
-              Geometry
+            <div className="logo">
+              <span>Geometry</span>
             </div>
             <p className="mt-4 max-w-2xl text-[15px] leading-8 text-[var(--color-muted)]">
               {t('footer.description')}
@@ -22,6 +22,7 @@ export default function Footer() {
               <a
                 key={link}
                 href={`#${link}`}
+                style={{ cursor: 'default' }}
                 className="text-black/55 transition-colors hover:text-[var(--color-primary)]"
               >
                 {t(`navbar.${link}`)}
@@ -43,7 +44,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-[var(--color-border)] px-8 py-5 md:px-12 text-[12px] uppercase tracking-[0.16em] text-black/40">
-          © {new Date().getFullYear()} Geometry. {t('footer.rights')}
+          © {new Date().getFullYear()}, www.Geometry. {t('footer.rights')}
         </div>
       </div>
     </footer>

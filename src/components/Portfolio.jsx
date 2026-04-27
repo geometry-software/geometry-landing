@@ -3,104 +3,40 @@ import { createPortal } from 'react-dom'
 import { jsPDF } from 'jspdf'
 import { ArrowLeft, ArrowRight, ArrowUpRight, Code, X } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
-import robotoRegular from '../assets/fonts/Roboto-Regular.ttf'
-import robotoBold from '../assets/fonts/Roboto-Bold.ttf'
+import robotoRegular from '../assets/fonts/Roboto/Roboto-Regular.ttf'
+import robotoBold from '../assets/fonts/Roboto/Roboto-Bold.ttf'
 
 const companyInfo = {
   website: 'https://www.geometry.software',
   github: 'https://github.com/geometry-software',
   whatsapp: '+55 48 99108 1987',
   address: 'Coworking XYZ, Av. Hercílio Luz, 639, Florianópolis - SC, Brasil',
-  cnpj: '65.822.742/0001-48',
+  taxId: '65.822.742/0001-48',
 }
 
+// consider ProjectDto
 const projects = [
   {
     key: 'beauty',
-    category: 'frontend',
+    category: 'webDesign',
     image: ['1', '2', '3', '4'],
     briefKey: 'portfolio.projects.beauty.brief',
-    price: '$1200',
-    technologies: ['React', 'Vite', 'Tailwind', 'i18next'],
-    pdfFileName: 'geometry-commercial-proposal-beauty.pdf',
+    price: 150,
+    technologies: ['HTML', 'Stitch', 'Firebase'],
+    pdfFileName: 'geometry-web-beauty.pdf',
     links: [
-      { type: 'github', href: 'https://github.com/your-repo/frontend-project' },
-      { type: 'demo', href: 'https://your-demo-frontend.com' },
-    ],
+      { type: 'github', href: 'https://github.com/geometry-software/geometry-web-beauty' },
+      { type: 'demo', href: 'https://geometry-web-beauty.web.app' },
+    ]
   },
-  {
-    key: 'beauty',
-    category: 'frontend',
-    image: ['1', '2', '3', '4'],
-    briefKey: 'portfolio.projects.beauty.brief',
-    price: '$1200',
-    technologies: ['React', 'Vite', 'Tailwind', 'i18next'],
-    pdfFileName: 'geometry-commercial-proposal-beauty.pdf',
-    links: [
-      { type: 'github', href: 'https://github.com/your-repo/frontend-project' },
-      { type: 'demo', href: 'https://your-demo-frontend.com' },
-    ],
-  },
-  {
-    key: 'beauty',
-    category: 'frontend',
-    image: ['1', '2', '3', '4'],
-    briefKey: 'portfolio.projects.beauty.brief',
-    price: '$1200',
-    technologies: ['React', 'Vite', 'Tailwind', 'i18next'],
-    pdfFileName: 'geometry-commercial-proposal-beauty.pdf',
-    links: [
-      { type: 'github', href: 'https://github.com/your-repo/frontend-project' },
-      { type: 'demo', href: 'https://your-demo-frontend.com' },
-    ],
-  },
-  {
-    key: 'beauty',
-    category: 'frontend',
-    image: ['1', '2', '3', '4'],
-    briefKey: 'portfolio.projects.beauty.brief',
-    price: '$1200',
-    technologies: ['React', 'Vite', 'Tailwind', 'i18next'],
-    pdfFileName: 'geometry-commercial-proposal-beauty.pdf',
-    links: [
-      { type: 'github', href: 'https://github.com/your-repo/frontend-project' },
-      { type: 'demo', href: 'https://your-demo-frontend.com' },
-    ],
-  },
-  {
-    key: 'beauty',
-    category: 'frontend',
-    image: ['1', '2', '3', '4'],
-    briefKey: 'portfolio.projects.beauty.brief',
-    price: '$1200',
-    technologies: ['React', 'Vite', 'Tailwind', 'i18next'],
-    pdfFileName: 'geometry-commercial-proposal-beauty.pdf',
-    links: [
-      { type: 'github', href: 'https://github.com/your-repo/frontend-project' },
-      { type: 'demo', href: 'https://your-demo-frontend.com' },
-    ],
-  },
-  {
-    key: 'beauty',
-    category: 'frontend',
-    image: ['1', '2', '3', '4'],
-    briefKey: 'portfolio.projects.beauty.brief',
-    price: '$1200',
-    technologies: ['React', 'Vite', 'Tailwind', 'i18next'],
-    pdfFileName: 'geometry-commercial-proposal-beauty.pdf',
-    links: [
-      { type: 'github', href: 'https://github.com/your-repo/frontend-project' },
-      { type: 'demo', href: 'https://your-demo-frontend.com' },
-    ],
-  }
 ]
 
 const categories = ['all', 'frontend', 'backend', 'webDesign']
 
-const getProjectPreviewImage = (key) => `/src/assets/${key}/min.png`
+const getProjectPreviewImage = (key) => `/public/assets/${key}/min.png`
 
 const getProjectGalleryImages = (project) =>
-  project.image.map((fileName) => `/src/assets/${project.key}/${fileName}.png`)
+  project.image.map((fileName) => `/public/assets/${project.key}/${fileName}.png`)
 
 function preloadProjectImages(projectsList) {
   projectsList.forEach((project) => {
@@ -146,10 +82,10 @@ async function generateCommercialPdf({ project, t }) {
     format: 'a4',
   })
 
-  doc.addFileToVFS('Roboto-Regular.ttf', regularFontBase64)
-  doc.addFont('Roboto-Regular.ttf', 'Roboto', 'normal')
-  doc.addFileToVFS('Roboto-Bold.ttf', boldFontBase64)
-  doc.addFont('Roboto-Bold.ttf', 'Roboto', 'bold')
+  doc.addFileToVFS('Roboto/Roboto-Regular.ttf', regularFontBase64)
+  doc.addFont('Roboto/Roboto-Regular.ttf', 'Roboto', 'normal')
+  doc.addFileToVFS('Roboto/Roboto-Bold.ttf', boldFontBase64)
+  doc.addFont('Roboto/Roboto-Bold.ttf', 'Roboto', 'bold')
 
   const pageWidth = doc.internal.pageSize.getWidth()
   const pageHeight = doc.internal.pageSize.getHeight()
@@ -200,14 +136,14 @@ async function generateCommercialPdf({ project, t }) {
     y += 4.5
     doc.text(`${t('portfolio.pdf.address')}: ${companyInfo.address}`, marginX, y)
     y += 4.5
-    doc.text(`${t('portfolio.pdf.cnpj')}: ${companyInfo.cnpj}`, marginX, y)
+    doc.text(`${t('portfolio.pdf.taxId')}: ${companyInfo.taxId}`, marginX, y)
 
-    doc.text(
-      `${t('portfolio.pdf.page')} ${pageNumber}`,
-      pageWidth - marginX,
-      pageHeight - 6,
-      { align: 'right' }
-    )
+    // doc.text(
+    //   `${t('portfolio.pdf.page')} ${pageNumber}`,
+    //   pageWidth - marginX,
+    //   pageHeight - 6,
+    //   { align: 'right' }
+    // )
   }
 
   let y = topY
@@ -248,7 +184,7 @@ async function generateCommercialPdf({ project, t }) {
   doc.setFont('Roboto', 'normal')
   doc.setFontSize(12)
   doc.setTextColor(20)
-  doc.text(`${t('portfolio.pdf.price')}: ${project.price}`, marginX, y)
+  doc.text(`${t('portfolio.pdf.price')}: $${project.price}`, marginX, y)
   y += 10
 
   doc.setFont('Roboto', 'normal')
@@ -427,11 +363,17 @@ function ProjectModal({ project, onClose }) {
               </div>
             )}
 
-            <div className="mt-6 text-[18px] font-semibold text-[var(--color-ink)] md:text-[22px]">
-              {t('portfolio.priceLabel')}: {project.price}
+            <div className="mt-6 mb-1 text-[12px] font-medium uppercase tracking-[0.14em] text-black/45">
+              {t('portfolio.priceLabel')}
+            </div>
+            <div className="text-[18px] font-semibold text-[var(--color-ink)] md:text-[22px]">
+              ${project.price}
             </div>
 
-            <div className="mt-8 flex flex-wrap gap-3">
+            <div className="mt-6 mb-1 text-[12px] font-medium uppercase tracking-[0.14em] text-black/45">
+              {t('portfolio.links')}
+            </div>
+            <div className="flex flex-wrap gap-3">
               {project.links.map((link) => (
                 <a
                   key={`${project.key}-${link.type}`}
@@ -449,11 +391,12 @@ function ProjectModal({ project, onClose }) {
                 type="button"
                 onClick={handleDownloadPdf}
                 disabled={isDownloadingPdf}
-                className="inline-flex h-11 items-center gap-2 border border-[var(--color-border)] bg-[var(--color-primary)] px-4 text-[12px] font-medium uppercase tracking-[0.14em] text-white transition-all hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-60"
+                style={{ fontSize: '14px' }}
+                className="inline-flex h-11 items-center gap-2 border border-[var(--color-border)] text-black px-4 font-medium uppercase transition-all hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-60 hover:bg-[var(--color-primary)] hover:text-white"
               >
                 {isDownloadingPdf
                   ? t('portfolio.generatingPdf')
-                  : t('portfolio.downloadCommercialProposal')}
+                  : t('portfolio.downloadPdf')}
               </button>
             </div>
           </div>
@@ -492,7 +435,7 @@ export default function Portfolio() {
   return (
     <>
       <section id="portfolio" className="bg-white px-6 py-10">
-        <div className="mx-auto max-w-7xl border border-[var(--color-border)] bg-white shadow-[var(--shadow-card)] soft-reveal">
+        <div className="mx-auto max-w-6xl border border-[var(--color-border)] bg-white shadow-[var(--shadow-card)] soft-reveal">
           <div className="border-b border-[var(--color-border)] px-8 py-10 fade-up md:px-12 md:py-14 lg:px-16 lg:py-16">
             <div className="text-[11px] uppercase tracking-[0.22em] text-black/40">
               {t('portfolio.eyebrow')}
@@ -512,7 +455,7 @@ export default function Portfolio() {
                   type="button"
                   key={cat}
                   onClick={() => setActiveCategory(cat)}
-                  className={`h-11 border px-5 text-[12px] font-medium uppercase tracking-[0.14em] transition-all ${activeCategory === cat
+                  className={`filter-item h-11 border px-5 text-[11px] font-medium uppercase tracking-[0.14em] transition-all ${activeCategory === cat
                     ? 'border-[var(--color-primary)] bg-[var(--color-primary)] text-white shadow-[var(--shadow-soft)]'
                     : 'border-[var(--color-border)] bg-white text-black/70 hover:border-[var(--color-primary-border)] hover:text-[var(--color-primary)]'
                     }`}
@@ -528,7 +471,7 @@ export default function Portfolio() {
               <article
                 key={project.key}
                 onClick={() => setSelectedProject(project)}
-                className={`group cursor-pointer border-[var(--color-border)] border-b transition-colors hover:bg-[var(--color-primary-light)] ${index % 3 !== 2 ? 'xl:border-r' : ''
+                className={`p-[40px] group cursor-pointer border-[var(--color-border)] border-b transition-colors hover:bg-[var(--color-primary-light)] ${index % 3 !== 2 ? 'xl:border-r' : ''
                   } ${index < filteredProjects.length - 3 ? 'xl:border-b' : ''} md:border-b`}
               >
                 <div className="relative h-72 overflow-hidden border-b border-[var(--color-border)]">
@@ -544,17 +487,17 @@ export default function Portfolio() {
                   </div>
                 </div>
 
-                <div className="px-6 py-6 md:px-8 md:py-8">
+                <div className="py-6 md:py-8">
                   <h3 className="text-[28px] font-semibold leading-[1] tracking-[-0.04em] text-[var(--color-ink)]">
                     {t(`portfolio.projects.${project.key}.title`)}
                   </h3>
 
-                  <p className="mt-5 text-[15px] leading-8 text-[var(--color-muted)]">
+                  <p className="mt-5 text-[15px] leading-5 text-[var(--color-muted)]">
                     {t(project.briefKey)}
                   </p>
 
                   <div className="mt-5 text-[16px] font-semibold text-[var(--color-ink)]">
-                    {t('portfolio.priceLabel')}: {project.price}
+                    ${project.price}
                   </div>
 
                   {project.links?.length > 0 && (

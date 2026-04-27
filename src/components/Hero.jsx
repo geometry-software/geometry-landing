@@ -1,14 +1,20 @@
 import { useEffect, useState } from 'react'
 import { ArrowLeft, ArrowRight } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
-import bgImage from '../assets/background1.png'
-import bgAbout from '../assets/background-about.png'
-import img1 from '../assets/crud.png'
+import img1 from '../assets/hero/and-machines-vqTWfa4DjEk-unsplash.jpg'
+import img2 from '../assets/hero/designerachit-Sd0tg9L6Qk0-unsplash.jpg'
+import img3 from '../assets/hero/jason-leung-wHddViTmSvA-unsplash.jpg'
+import img4 from '../assets/hero/lea-l-q--99IzY8Lw-unsplash.jpg'
+import img5 from '../assets/hero/magicpattern-jbywvpa9vH8-unsplash.jpg'
+import img6 from '../assets/hero/philip-oroni-EaFX0kRvXT8-unsplash.jpg'
 
 const slides = [
-  { key: 'slide1', image: bgImage },
-  { key: 'slide2', image: bgAbout },
-  { key: 'slide3', image: img1 },
+  { key: 'slide1', image: img1 },
+  { key: 'slide1', image: img2 },
+  { key: 'slide1', image: img3 },
+  { key: 'slide1', image: img4 },
+  { key: 'slide1', image: img5 },
+  { key: 'slide1', image: img6 }
 ]
 
 export default function Hero() {
@@ -33,62 +39,75 @@ export default function Hero() {
 
   return (
     <section id="home" className="bg-white px-6 pt-24 pb-10">
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-6xl mx-auto">
         <div className="border border-black/10 bg-white">
-          <div className="grid lg:grid-cols-[1fr_1.2fr] min-h-[78vh]">
-            <div className="flex flex-col justify-between px-8 py-10 md:px-12 md:py-14 lg:px-16 lg:py-16 border-b lg:border-b-0 lg:border-r border-black/10">
+          <div className="grid lg:grid-cols-[6fr_4fr] min-h-[78vh]">
+            <div className="flex flex-col justify-between px-8 py-10 md:px-12 md:py-0 lg:px-16 lg:py-16 border-b lg:border-b-0 lg:border-r border-black/10">
               <div>
                 <div className="text-[11px] uppercase tracking-[0.22em] text-black/40">
                   {t(`hero.slides.${slides[active].key}.eyebrow`)}
                 </div>
 
-                <h1 className="mt-6 max-w-[10ch] text-[42px] leading-[0.95] tracking-[-0.06em] text-black font-semibold md:text-[64px] lg:text-[84px]">
+                <h1 className="mt-6 min-w-fit max-w-[10ch] text-black font-semibold text-[40px] md:text-[68px] leading-16">
                   {t(`hero.slides.${slides[active].key}.title`)}
                 </h1>
 
-                <p className="mt-8 max-w-xl text-[15px] leading-8 text-black/60 md:text-[16px]">
+                <p className="mt-8 min-w-fit max-w-xl text-[15px] leading-8 text-black/60 md:text-[16px]">
                   {t(`hero.slides.${slides[active].key}.description`)}
                 </p>
 
-                <a
+                {/* <a
                   href="#contact"
                   className="mt-10 inline-flex h-14 items-center justify-center bg-black px-8 text-[12px] font-medium uppercase tracking-[0.18em] text-white transition-colors hover:bg-black/85"
                 >
                   {t('hero.hireUs')}
-                </a>
+                </a> */}
               </div>
 
-              <div className="mt-14 grid grid-cols-3 gap-4 border-t border-[var(--color-border)] pt-6 fade-up">
+              <div className="mt-14 grid grid-cols-1 md:grid-cols-4 gap-4 border-t border-[var(--color-border)] pt-6 fade-up">
                 <div>
-                  <div className="text-[24px] font-semibold tracking-[-0.05em] text-[var(--color-ink)] md:text-[30px]">
+                  <div className="text-center text-[24px] font-semibold tracking-[-0.05em] text-[var(--color-ink)]">
                     Frontend
                   </div>
-                  <div className="mt-1 text-[11px] uppercase tracking-[0.18em] text-black/40">
+                  <div className="text-center mt-1 text-[11px] uppercase tracking-[0.18em] text-black/40">
                     Interfaces
                   </div>
                 </div>
 
                 <div>
-                  <div className="text-[24px] font-semibold tracking-[-0.05em] text-[var(--color-ink)] md:text-[30px]">
+                  <div className="text-center text-[24px] font-semibold tracking-[-0.05em] text-[var(--color-ink)]">
                     Backend
                   </div>
-                  <div className="mt-1 text-[11px] uppercase tracking-[0.18em] text-black/40">
+                  <div className="text-center mt-1 text-[11px] uppercase tracking-[0.18em] text-black/40">
                     Systems
                   </div>
                 </div>
 
                 <div>
-                  <div className="text-[24px] font-semibold tracking-[-0.05em] text-[var(--color-ink)] md:text-[30px]">
+                  <div
+                    style={{ minWidth: '160px' }}
+                    className="text-center text-[24px] font-semibold tracking-[-0.05em] text-[var(--color-ink)]">
                     Web Design
                   </div>
-                  <div className="mt-1 text-[11px] uppercase tracking-[0.18em] text-black/40">
-                    Visuals
+                  <div className="text-center mt-1 text-[11px] uppercase tracking-[0.18em] text-black/40">
+                    Graphics
+                  </div>
+                </div>
+
+                <div>
+                  <div
+                    style={{ minWidth: '120px' }}
+                    className="text-center text-[24px] font-semibold tracking-[-0.05em] text-[var(--color-ink)]">
+                    Agents
+                  </div>
+                  <div className="text-center mt-1 text-[11px] uppercase tracking-[0.18em] text-black/40">
+                    AI
                   </div>
                 </div>
               </div>
             </div>
 
-            <div className="relative min-h-[420px] lg:min-h-full bg-[#f5f5f5]">
+            <div className="relative min-h-[420px] lg:min-h-full bg-[#f5f5f5] max-h-[50vh]">
               {slides.map((slide, index) => (
                 <div
                   key={slide.key}
@@ -138,8 +157,8 @@ export default function Hero() {
                 </div>
               </div>
 
-              <div className="absolute left-6 top-6 border border-black/10 bg-white/92 px-4 py-2 text-[11px] font-medium uppercase tracking-[0.18em] text-black">
-                Geometry
+              <div className="slider-title absolute right-6 top-6 border border-black/10 bg-white/92 px-6 py-3 text-[11px] font-medium uppercase tracking-[0.18em] text-black">
+                www.geometry.software
               </div>
             </div>
           </div>
