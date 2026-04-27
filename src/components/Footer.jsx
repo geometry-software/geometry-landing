@@ -18,7 +18,7 @@ export default function Footer() {
           </div>
 
           <nav className="flex flex-wrap gap-4 text-[12px] uppercase tracking-[0.16em]">
-            {['home', 'about', 'services', 'technologies', 'portfolio', 'contact'].map(link => (
+            {['home', 'about', 'services', 'technologies', 'portfolio'].map(link => (
               <a
                 key={link}
                 href={`#${link}`}

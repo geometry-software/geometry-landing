@@ -78,17 +78,6 @@ body {
     color: var(--color-ink);
     width: auto;
     background-color: #fff;
-    border: 1px solid #fff;
-    outline: 0;
-    padding: 8px;
-
-    &:hover {
-        background-color: #f8f8f8;
-        padding: 8px;
-        border: 1px solid var(--color-ink);
-        border-radius: 30px;
-        outline: 0;
-    }
 }
 
 .lang {

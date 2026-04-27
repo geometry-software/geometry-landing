@@ -8,7 +8,7 @@ export default function Navbar() {
   const [scrolled, setScrolled] = useState(false)
   const { t, i18n } = useTranslation()
 
-  const links = ['home', 'about', 'services', 'technologies', 'portfolio', 'contact']
+  const links = ['home', 'about', 'services', 'technologies', 'portfolio']
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 8)
@@ -52,7 +52,7 @@ export default function Navbar() {
         : 'bg-white border-b border-[var(--color-border)]'
         }`}
     >
-      <nav className="max-w-6xl px-2 mx-auto h-20 flex items-center justify-between">
+      <nav className="max-w-6xl px-6 mx-auto h-20 flex items-center justify-between">
         <a
           href="#home"
           onClick={(e) => handleNavClick(e, 'home')}

@@ -38,7 +38,7 @@ export default function Hero() {
   }, [])
 
   return (
-    <section id="home" className="bg-white px-6 pt-24 pb-10">
+    <section id="home" className="bg-white px-6 pt-30 pb-10">
       <div className="max-w-6xl mx-auto">
         <div className="border border-black/10 bg-white">
           <div className="grid lg:grid-cols-[6fr_4fr] min-h-[78vh]">
@@ -48,7 +48,7 @@ export default function Hero() {
                   {t(`hero.slides.${slides[active].key}.eyebrow`)}
                 </div>
 
-                <h1 className="mt-6 min-w-fit max-w-[10ch] text-black font-semibold text-[40px] md:text-[68px] leading-16">
+                <h1 className="mt-6 min-w-fit max-w-[10ch] text-black font-semibold text-[42px] md:text-[60px] leading-[0.95] tracking-[-0.055em]">
                   {t(`hero.slides.${slides[active].key}.title`)}
                 </h1>
 

@@ -33,10 +33,17 @@ const projects = [
 
 const categories = ['all', 'frontend', 'backend', 'webDesign']
 
-const getProjectPreviewImage = (key) => `/public/assets/${key}/min.png`
+const projectImages = import.meta.glob('../assets/*/*.png', {
+  eager: true,
+  query: '?url',
+  import: 'default',
+})
+
+const getProjectPreviewImage = (key) =>
+  projectImages[`../assets/${key}/min.png`]
 
 const getProjectGalleryImages = (project) =>
-  project.image.map((fileName) => `/public/assets/${project.key}/${fileName}.png`)
+  project.image.map((fileName) => projectImages[`../assets/${project.key}/${fileName}.png`])
 
 function preloadProjectImages(projectsList) {
   projectsList.forEach((project) => {
@@ -434,7 +441,7 @@ export default function Portfolio() {
 
   return (
     <>
-      <section id="portfolio" className="bg-white px-6 py-10">
+      <section id="portfolio" className="bg-white px-6 py-12">
         <div className="mx-auto max-w-6xl border border-[var(--color-border)] bg-white shadow-[var(--shadow-card)] soft-reveal">
           <div className="border-b border-[var(--color-border)] px-8 py-10 fade-up md:px-12 md:py-14 lg:px-16 lg:py-16">
             <div className="text-[11px] uppercase tracking-[0.22em] text-black/40">

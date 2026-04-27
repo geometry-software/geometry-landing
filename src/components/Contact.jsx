@@ -26,7 +26,7 @@ export default function Contact() {
   const { t } = useTranslation()
 
   return (
-    <section id="contact" className="bg-white px-4 py-8 sm:px-6 sm:py-10 overflow-x-hidden">
+    <section id="contact" className="bg-white px-6 pt-12 pb-20 overflow-x-hidden">
       <div className="max-w-6xl mx-auto overflow-hidden border border-[var(--color-border)] bg-white shadow-[var(--shadow-card)] soft-reveal">
         <div className="grid lg:grid-cols-[0.95fr_1.05fr]">
 

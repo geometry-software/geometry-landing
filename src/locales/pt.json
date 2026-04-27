@@ -11,187 +11,172 @@
     "from": "A partir de"
   },
   "hero": {
-    "hireUs": "Fique atento",
+    "hireUs": "Fale conosco",
     "viewWork": "Veja como trabalhamos",
     "slides": {
       "slide1": {
         "eyebrow": "Equipe pequena, execução sênior",
         "title": "Bons produtos precisam de mais do que apenas desenvolvimento",
-        "description": "From frontend to backend we develop apps and agents that are maintainable and simple in UI."
+        "description": "Do frontend ao backend, desenvolvemos aplicativos e agentes que são fáceis de manter e simples na interface."
       }
     }
   },
   "about": {
     "eyebrow": "Sobre",
-    "title": "A small team that builds digital products properly from the start",
-    "text1": "We focus on websites and systems that do not fall apart as they grow. Instead of rushing into code, we think through structure, interface and long-term maintainability.",
-    "text2": "Our strength is the combination of visual thinking, frontend execution and backend discipline. We care about clean architecture, clarity and products that stay stable over time.",
+    "title": "Uma equipe pequena que constrói produtos digitais corretamente desde o início",
+    "text1": "Focamos em sites e sistemas que não desmoronam à medida que crescem. Em vez de correr direto para o código, pensamos na estrutura, na interface e na manutenção a longo prazo.",
+    "text2": "Nossa força está na combinação de pensamento visual, execução frontend e disciplina backend. Nós nos importamos com arquitetura limpa, clareza e produtos que permanecem estáveis ao longo do tempo.",
     "cta": "Iniciar uma conversa",
     "items": {
       "craft": {
         "title": "Pensamento de design",
-        "description": "We think beyond visuals — focusing on structure, hierarchy and user flow."
+        "description": "Pensamos além do visual — focando em estrutura, hierarquia e fluxo do usuário."
       },
       "delivery": {
         "title": "Execução limpa",
-        "description": "We build interfaces and systems that are readable, structured and easy to maintain."
+        "description": "Construímos interfaces e sistemas legíveis, estruturados e fáceis de manter."
       },
       "stack": {
-        "title": "Feito para escalar",
-        "description": "We create digital products that grow without turning into technical debt."
+        "title": "Criado para escalar",
+        "description": "Criamos produtos digitais que crescem sem se transformar em dívida técnica."
       }
     }
   },
   "services": {
     "eyebrow": "Abordagem",
-    "title": "Frontend, backend and web design working together",
-    "subtitle": "We combine structure, interface and visual design to build products that look clear, work fast and stay maintainable.",
+    "title": "Frontend, backend e design web trabalhando juntos",
+    "subtitle": "Combinamos estrutura, interface e design visual para criar produtos que parecem claros, funcionam rápido e continuam fáceis de manter.",
     "items": {
       "frontend": {
         "title": "Frontend",
-        "description": "Responsive and clean interfaces built for real products."
+        "description": "Interfaces responsivas e limpas criadas para produtos reais."
       },
       "backend": {
         "title": "Backend",
-        "description": "Structured APIs designed for stability and scalability."
+        "description": "APIs estruturadas projetadas para estabilidade e escalabilidade."
       },
       "webDesign": {
-        "title": "Web Design",
-        "description": "Visual direction, layout and UX focused on clarity."
+        "title": "Design Web",
+        "description": "Direção visual, layout e UX focados em clareza."
       },
       "agents": {
-        "title": "Agentes IA",
-        "description": "Fast and save connection with support."
+        "title": "Agentes de IA",
+        "description": "Conexão rápida e segura com suporte."
       }
     }
   },
   "technologies": {
     "eyebrow": "Stack",
-    "title": "Construído com tecnologias comprovadas",
-    "description": "We use reliable tools that support scalability, clean architecture and long-term maintainability.",
+    "title": "Criado com tecnologias comprovadas",
+    "description": "Usamos ferramentas confiáveis que oferecem suporte à escalabilidade, arquitetura limpa e manutenção a longo prazo.",
     "items": {
       "typescript": {
         "title": "TypeScript",
-        "short": "Typed JavaScript for scalable systems.",
-        "paragraph1": "TypeScript helps keep code predictable and easier to maintain as systems grow.",
-        "paragraph2": "It allows teams to understand structure and data flow more clearly.",
-        "paragraph3": "We use it to build reliable frontend and backend systems.",
-        "paragraph4": "It improves confidence when evolving the product.",
-        "paragraph5": "Essential for long-term maintainability."
+        "short": "JavaScript tipado para sistemas escaláveis.",
+        "paragraph1": "TypeScript ajuda a manter o código previsível e mais fácil de manter conforme os sistemas crescem.",
+        "paragraph2": "Ele permite que as equipes entendam a estrutura e o fluxo de dados com mais clareza.",
+        "paragraph3": "Usamos isso para criar sistemas frontend e backend confiáveis."
       },
       "next": {
         "title": "Next.js",
-        "short": "Production-ready React framework.",
-        "paragraph1": "Next.js helps build fast and scalable web applications.",
-        "paragraph2": "It supports modern frontend architecture and server rendering.",
-        "paragraph3": "Great for websites, SaaS products and high-performance interfaces.",
-        "paragraph4": "It improves SEO, routing and production workflows.",
-        "paragraph5": "A strong choice for modern frontend development."
+        "short": "Framework React pronto para produção.",
+        "paragraph1": "Next.js ajuda a criar aplicações web rápidas e escaláveis.",
+        "paragraph2": "Ele oferece suporte à arquitetura frontend moderna e renderização no servidor.",
+        "paragraph3": "Ótimo para sites, produtos SaaS e interfaces de alta performance."
       },
       "react": {
         "title": "React",
-        "short": "Built-in seconds web components.",
-        "paragraph1": "React allows fast iteration and modular UI.",
-        "paragraph2": "Strong ecosystem for building modern interfaces.",
-        "paragraph3": "Used for SaaS, landing pages and apps.",
-        "paragraph4": "Supports reusable components.",
-        "paragraph5": "Balances speed and maintainability."
+        "short": "Componentes web criados em segundos.",
+        "paragraph1": "React permite iteração rápida e UI modular.",
+        "paragraph2": "Ecossistema forte para criar interfaces modernas.",
+        "paragraph3": "Usado para SaaS, landing pages e aplicativos."
       },
       "reactNative": {
         "title": "React Native",
-        "short": "Cross-platform mobile applications.",
-        "paragraph1": "Build mobile apps from one codebase.",
-        "paragraph2": "Speeds up product launch.",
-        "paragraph3": "Keeps consistency across platforms.",
-        "paragraph4": "Integrates well with web systems.",
-        "paragraph5": "Practical for startups."
+        "short": "Aplicativos móveis multiplataforma.",
+        "paragraph1": "Crie aplicativos móveis a partir de uma única base de código.",
+        "paragraph2": "Acelera o lançamento do produto.",
+        "paragraph3": "Mantém consistência entre plataformas."
       },
       "angular": {
         "title": "Angular",
-        "short": "User-centered web applications.",
-        "paragraph1": "Focused frontend development.",
-        "paragraph2": "Works well with JS stacks.",
-        "paragraph3": "Great for APIs and integrations.",
-        "paragraph4": "Flexible and scalable.",
-        "paragraph5": "Supports rapid iteration."
+        "short": "Aplicações web centradas no usuário.",
+        "paragraph1": "Desenvolvimento frontend focado.",
+        "paragraph2": "Funciona bem com stacks JS.",
+        "paragraph3": "Ótimo para APIs e integrações."
       },
       "nestjs": {
         "title": "NestJS",
-        "short": "Type-safe backend microservices.",
-        "paragraph1": "Brings architecture to backend.",
-        "paragraph2": "Helps keep systems clean.",
-        "paragraph3": "Supports scalability.",
-        "paragraph4": "Great for complex logic.",
-        "paragraph5": "Improves maintainability."
+        "short": "Microsserviços backend com segurança de tipos.",
+        "paragraph1": "Traz arquitetura para o backend.",
+        "paragraph2": "Ajuda a manter os sistemas limpos.",
+        "paragraph3": "Oferece suporte à escalabilidade."
       },
       "wordpress": {
         "title": "WordPress",
-        "short": "Flexible CMS for websites, reports and metrics.",
-        "paragraph1": "WordPress is practical for websites that need easy content management.",
-        "paragraph2": "It works well for company sites, landing pages and editorial platforms.",
-        "paragraph3": "It allows fast publishing and simple admin workflows.",
-        "paragraph4": "It can be extended with custom themes and integrations.",
-        "paragraph5": "A reliable option for scalable content-based projects."
+        "short": "CMS flexível para sites, relatórios e métricas.",
+        "paragraph1": "WordPress é prático para sites que precisam de gerenciamento de conteúdo fácil.",
+        "paragraph2": "Funciona bem para sites de empresas, landing pages e plataformas editoriais.",
+        "paragraph3": "Permite publicação rápida e fluxos administrativos simples."
       },
       "databases": {
-        "title": "Databases",
-        "short": "Persist data in varieties of forms and structures.",
-        "paragraph1": "Core of any system.",
-        "paragraph2": "Defines scalability.",
-        "paragraph3": "Impacts performance.",
-        "paragraph4": "Design for growth.",
-        "paragraph5": "Ensures long-term stability."
+        "title": "Bancos de dados",
+        "short": "Persistem dados em várias formas e estruturas.",
+        "paragraph1": "Núcleo de qualquer sistema.",
+        "paragraph2": "Define a escalabilidade.",
+        "paragraph3": "Impacta a performance."
       }
     }
   },
   "portfolio": {
     "eyebrow": "Trabalho",
-    "title": "Examples of what we developed",
-    "description": "Three core areas: frontend, backend and web design.",
+    "title": "Exemplos do que desenvolvemos",
+    "description": "Três áreas principais: frontend, backend e design web.",
+    "links": "Links",
     "categories": {
       "all": "Todos",
       "frontend": "Frontend",
       "backend": "Backend",
-      "webDesign": "Web Design"
+      "webDesign": "Design Web"
     },
-    "downloadCommercialProposal": "Download commercial proposal",
+    "downloadPdf": "PDF",
     "generatingPdf": "Gerando PDF...",
     "priceLabel": "Preço",
     "commercialProposal": "Proposta Comercial",
     "technologies": "Tecnologias",
     "pdf": {
-      "website": "Website",
+      "website": "Site",
       "github": "GitHub",
       "whatsapp": "WhatsApp",
       "address": "Endereço",
-      "cnpj": "CNPJ",
+      "taxId": "CNPJ",
       "page": "Página",
       "code": "Código",
-      "demo": "Demo",
+      "demo": "Demonstração",
       "price": "Preço",
       "technologies": "Tecnologias",
-      "aboutGeometry": "Geometry Software is a digital product and web development company focused on modern business solutions. We build fast, scalable and user-friendly products using contemporary frontend and backend technologies, with attention to design, performance and future growth."
+      "aboutGeometry": "A Geometry Software é uma empresa de produto digital e desenvolvimento web focada em soluções modernas para negócios. Criamos produtos rápidos, escaláveis e fáceis de usar com tecnologias frontend e backend contemporâneas, com atenção ao design, à performance e ao crescimento futuro."
     },
     "projects": {
       "beauty": {
-        "title": "Template de Site para Cuidados Capilares",
-        "brief": "Texto de pré-visualização do template web para o cartão do projeto.",
-        "description": "Descrição completa do site em largura total.",
-        "pdfOverview": "Usamos PDF como uma cópia digital prática para apresentar propostas comerciais, detalhes de projetos e informações empresariais. Ele mantém estrutura, design e conteúdo consistentes em todos os dispositivos, facilitando compartilhar, revisar e armazenar documentos. Suporta envio seguro, compatibilidade universal e formatação estável."
+        "title": "Modelo de Site para Cuidados com o Cabelo",
+        "brief": "Texto de prévia do modelo de site para o cartão do projeto.",
+        "description": "Descrição do site em largura total.",
+        "pdfOverview": "Usamos PDF como uma cópia digital prática para apresentar propostas comerciais, detalhes de projetos e informações de negócios. Ele mantém estrutura, design e conteúdo consistentes em todos os dispositivos, tornando os documentos fáceis de compartilhar, revisar e armazenar. Ele oferece suporte a entrega segura, compatibilidade universal e formatação estável."
       }
     }
   },
   "contact": {
     "eyebrow": "Contato",
-    "title": "Tell us what you’re building",
-    "description": "Share your product or idea — we’ll suggest the most practical next step.",
+    "title": "Conte-nos o que você está construindo",
+    "description": "Compartilhe seu produto ou ideia — vamos sugerir o próximo passo mais prático.",
     "email": "Seu email",
     "name": "Seu nome",
-    "message": "Conte sobre seu produto",
+    "message": "Conte-nos sobre seu produto",
     "submit": "Enviar mensagem",
     "sending": "Enviando...",
-    "success": "Your message has been sent successfully.",
-    "error": "Something went wrong. Please try again.",
+    "success": "Sua mensagem foi enviada com sucesso.",
+    "error": "Algo deu errado. Tente novamente.",
     "info": {
       "emailTitle": "Email",
       "emailValue": "hellogeometrysoftware@gmail.com",
@@ -202,7 +187,7 @@
     }
   },
   "footer": {
-    "description": "We build digital products that stay clear, scalable and fast.",
+    "description": "Criamos produtos digitais que permanecem claros, escaláveis e rápidos.",
     "rights": "software"
   }
 }
