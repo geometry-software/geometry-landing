@@ -173,7 +173,7 @@
       },
       "auth-nestjs": {
         "title": "Auth NestJS",
-        "brief": "Autenticação NestJS com JWT.",
+        "brief": "Autorização e autenticação com JWT no NestJS.",
         "description": "JWT de /passport-jwt.",
         "pdfOverview": "Usamos PDF como uma cópia digital prática para apresentar propostas comerciais, detalhes de projetos e informações de negócios. Ele mantém a estrutura, o design e o conteúdo consistentes em diferentes dispositivos, tornando os documentos fáceis de compartilhar, revisar e armazenar. Também permite envio seguro, compatibilidade universal e formatação estável."
       },

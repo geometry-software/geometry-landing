@@ -173,19 +173,19 @@
       },
       "auth-nestjs": {
         "title": "Auth NestJS",
-        "brief": "Auth NestJS JWT.",
+        "brief": "Authorization and authentication with NestJS JWT.",
         "description": "jwt from /passport-jwt.",
         "pdfOverview": "We use PDF as a practical digital copy for presenting commercial proposals, project details and business information. It keeps structure, design and content consistent across devices, making documents easy to share, review and store. It supports secure delivery, universal compatibility and stable formatting."
       },
       "clinic": {
         "title": "Clinic Website Template",
-        "brief": "Website template preview text.",
+        "brief": "Website template preview.",
         "description": "Full width website description.",
         "pdfOverview": "We use PDF as a practical digital copy for presenting commercial proposals, project details and business information. It keeps structure, design and content consistent across devices, making documents easy to share, review and store. It supports secure delivery, universal compatibility and stable formatting."
       },
       "gym": {
         "title": "Gym Website Template",
-        "brief": "Website template preview text.",
+        "brief": "Website template preview.",
         "description": "Full width website description.",
         "pdfOverview": "We use PDF as a practical digital copy for presenting commercial proposals, project details and business information. It keeps structure, design and content consistent across devices, making documents easy to share, review and store. It supports secure delivery, universal compatibility and stable formatting."
       },
