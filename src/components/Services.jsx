@@ -4,8 +4,8 @@ import { useTranslation } from 'react-i18next'
 const services = [
   { key: 'frontend', icon: Monitor, price: 150 },
   { key: 'backend', icon: Server, price: 150 },
-  { key: 'webDesign', icon: Palette, price: 380 },
-  { key: 'agents', icon: Bot, price: 180 },
+  { key: 'webDesign', icon: Palette, price: 80 },
+  { key: 'agents', icon: Bot, price: 200 },
 ]
 
 export default function Services() {

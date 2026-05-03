@@ -62,7 +62,7 @@
       },
       "agents": {
         "title": "AI Agents",
-        "description": "Fast and save connection with support."
+        "description": "Automate repetitive workflows and connect tools into one process."
       }
     }
   },
@@ -159,9 +159,39 @@
       "aboutGeometry": "Geometry Software is a digital product and web development company focused on modern business solutions. We build fast, scalable and user-friendly products using contemporary frontend and backend technologies, with attention to design, performance and future growth."
     },
     "projects": {
+      "frontend-react": {
+        "title": "Frontend React",
+        "brief": "Frontend React app for users, products and shipping.",
+        "description": "Frontend React App.",
+        "pdfOverview": "We use PDF as a practical digital copy for presenting commercial proposals, project details and business information. It keeps structure, design and content consistent across devices, making documents easy to share, review and store. It supports secure delivery, universal compatibility and stable formatting."
+      },
+      "backend-nestjs": {
+        "title": "Backend NestJS",
+        "brief": "Sorting, pagination, search, filter by property.",
+        "description": "Backend NestJS with MongoDB and /mongoose",
+        "pdfOverview": "We use PDF as a practical digital copy for presenting commercial proposals, project details and business information. It keeps structure, design and content consistent across devices, making documents easy to share, review and store. It supports secure delivery, universal compatibility and stable formatting."
+      },
+      "auth-nestjs": {
+        "title": "Auth NestJS",
+        "brief": "Auth NestJS JWT.",
+        "description": "jwt from /passport-jwt.",
+        "pdfOverview": "We use PDF as a practical digital copy for presenting commercial proposals, project details and business information. It keeps structure, design and content consistent across devices, making documents easy to share, review and store. It supports secure delivery, universal compatibility and stable formatting."
+      },
+      "clinic": {
+        "title": "Clinic Website Template",
+        "brief": "Website template preview text.",
+        "description": "Full width website description.",
+        "pdfOverview": "We use PDF as a practical digital copy for presenting commercial proposals, project details and business information. It keeps structure, design and content consistent across devices, making documents easy to share, review and store. It supports secure delivery, universal compatibility and stable formatting."
+      },
+      "gym": {
+        "title": "Gym Website Template",
+        "brief": "Website template preview text.",
+        "description": "Full width website description.",
+        "pdfOverview": "We use PDF as a practical digital copy for presenting commercial proposals, project details and business information. It keeps structure, design and content consistent across devices, making documents easy to share, review and store. It supports secure delivery, universal compatibility and stable formatting."
+      },
       "beauty": {
-        "title": "Hair Care Website Template",
-        "brief": "Website template preview text for the project card.",
+        "title": "Fancy Website Template",
+        "brief": "Website template preview.",
         "description": "Full width website description.",
         "pdfOverview": "We use PDF as a practical digital copy for presenting commercial proposals, project details and business information. It keeps structure, design and content consistent across devices, making documents easy to share, review and store. It supports secure delivery, universal compatibility and stable formatting."
       }

@@ -17,11 +17,76 @@ const companyInfo = {
 // consider ProjectDto
 const projects = [
   {
+    key: 'frontend-react',
+    category: 'frontend',
+    image: ['1', '2', '3', '4', '5'],
+    briefKey: 'portfolio.projects.frontend-react.brief',
+    price: 450,
+    technologies: ['React', 'ShadeCN', 'Firebase'],
+    pdfFileName: 'geometry-frontend-react.pdf',
+    links: [
+      { type: 'github', href: 'https://github.com/geometry-software/frontend-react' },
+      { type: 'demo', href: 'https://geometry-frontend-react.web.app' },
+    ]
+  },
+  {
+    key: 'backend-nestjs',
+    category: 'backend',
+    image: ['1', '2', '3', '4'],
+    briefKey: 'portfolio.projects.backend-nestjs.brief',
+    price: 150,
+    technologies: ['NestJS', 'MongoDB', 'Fly.io'],
+    pdfFileName: 'geometry-backend-nestjs.pdf',
+    links: [
+      { type: 'github', href: 'https://github.com/geometry-software/nestjs-products' },
+      { type: 'demo', href: 'https://geometry-frontend-react.web.app' },
+    ]
+  },
+  {
+    key: 'auth-nestjs',
+    category: 'backend',
+    image: ['1', '2', '3', '4'],
+    briefKey: 'portfolio.projects.auth-nestjs.brief',
+    price: 150,
+    technologies: ['NestJS', 'MongoDB', 'Fly.io'],
+    pdfFileName: 'geometry-auth-nestjs.pdf',
+    links: [
+      { type: 'github', href: 'https://github.com/geometry-software/nestjs-auth' },
+      { type: 'demo', href: 'https://geometry-frontend-react.web.app' },
+    ]
+  },
+  {
+    key: 'clinic',
+    category: 'webDesign',
+    image: ['1', '2', '3', '4', '5'],
+    briefKey: 'portfolio.projects.clinic.brief',
+    price: 80,
+    technologies: ['HTML', 'Stitch', 'Firebase'],
+    pdfFileName: 'geometry-web-clinic .pdf',
+    links: [
+      { type: 'github', href: 'https://github.com/geometry-software/geometry-web-clinic' },
+      { type: 'demo', href: 'https://geometry-web-clinic.web.app' },
+    ]
+  },
+  {
+    key: 'gym',
+    category: 'webDesign',
+    image: ['1', '2', '3', '4', '5'],
+    briefKey: 'portfolio.projects.gym.brief',
+    price: 80,
+    technologies: ['HTML', 'Stitch', 'Firebase'],
+    pdfFileName: 'geometry-web-gym.pdf',
+    links: [
+      { type: 'github', href: 'https://github.com/geometry-software/geometry-web-gym' },
+      { type: 'demo', href: 'https://geometry-web-gym.web.app' },
+    ]
+  },
+  {
     key: 'beauty',
     category: 'webDesign',
     image: ['1', '2', '3', '4'],
     briefKey: 'portfolio.projects.beauty.brief',
-    price: 150,
+    price: 80,
     technologies: ['HTML', 'Stitch', 'Firebase'],
     pdfFileName: 'geometry-web-beauty.pdf',
     links: [

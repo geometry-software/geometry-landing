@@ -62,7 +62,7 @@
       },
       "agents": {
         "title": "Agentes de IA",
-        "description": "Conexión rápida y segura con soporte."
+        "description": "Automatizan flujos de trabajo repetitivos y conectan herramientas en un solo proceso."
       }
     }
   },
@@ -159,11 +159,41 @@
       "aboutGeometry": "Geometry Software es una empresa de producto digital y desarrollo web enfocada en soluciones modernas para negocios. Creamos productos rápidos, escalables y fáciles de usar con tecnologías frontend y backend contemporáneas, con atención al diseño, el rendimiento y el crecimiento futuro."
     },
     "projects": {
-      "beauty": {
-        "title": "Plantilla de Sitio Web para Cuidado del Cabello",
-        "brief": "Texto de vista previa de la plantilla de sitio web para la tarjeta del proyecto.",
+      "frontend-react": {
+        "title": "Frontend React",
+        "brief": "Aplicación Frontend React para usuarios, productos y envíos.",
+        "description": "Aplicación Frontend React.",
+        "pdfOverview": "Usamos PDF como una copia digital práctica para presentar propuestas comerciales, detalles de proyectos e información empresarial. Mantiene la estructura, el diseño y el contenido consistentes en distintos dispositivos, haciendo que los documentos sean fáciles de compartir, revisar y almacenar. También permite una entrega segura, compatibilidad universal y formato estable."
+      },
+      "backend-nestjs": {
+        "title": "Backend NestJS",
+        "brief": "Ordenación, paginación, búsqueda y filtro por propiedad.",
+        "description": "Backend NestJS con MongoDB y /mongoose",
+        "pdfOverview": "Usamos PDF como una copia digital práctica para presentar propuestas comerciales, detalles de proyectos e información empresarial. Mantiene la estructura, el diseño y el contenido consistentes en distintos dispositivos, haciendo que los documentos sean fáciles de compartir, revisar y almacenar. También permite una entrega segura, compatibilidad universal y formato estable."
+      },
+      "auth-nestjs": {
+        "title": "Auth NestJS",
+        "brief": "Autenticación NestJS con JWT.",
+        "description": "JWT de /passport-jwt.",
+        "pdfOverview": "Usamos PDF como una copia digital práctica para presentar propuestas comerciales, detalles de proyectos e información empresarial. Mantiene la estructura, el diseño y el contenido consistentes en distintos dispositivos, haciendo que los documentos sean fáciles de compartir, revisar y almacenar. También permite una entrega segura, compatibilidad universal y formato estable."
+      },
+      "clinic": {
+        "title": "Plantilla de sitio web para clínica",
+        "brief": "Texto de vista previa de la plantilla de sitio web.",
         "description": "Descripción del sitio web en ancho completo.",
-        "pdfOverview": "Usamos PDF como una copia digital práctica para presentar propuestas comerciales, detalles de proyectos e información de negocios. Mantiene la estructura, el diseño y el contenido consistentes en todos los dispositivos, haciendo que los documentos sean fáciles de compartir, revisar y almacenar. Soporta entrega segura, compatibilidad universal y formato estable."
+        "pdfOverview": "Usamos PDF como una copia digital práctica para presentar propuestas comerciales, detalles de proyectos e información empresarial. Mantiene la estructura, el diseño y el contenido consistentes en distintos dispositivos, haciendo que los documentos sean fáciles de compartir, revisar y almacenar. También permite una entrega segura, compatibilidad universal y formato estable."
+      },
+      "gym": {
+        "title": "Plantilla de sitio web para gimnasio",
+        "brief": "Texto de vista previa de la plantilla de sitio web.",
+        "description": "Descripción del sitio web en ancho completo.",
+        "pdfOverview": "Usamos PDF como una copia digital práctica para presentar propuestas comerciales, detalles de proyectos e información empresarial. Mantiene la estructura, el diseño y el contenido consistentes en distintos dispositivos, haciendo que los documentos sean fáciles de compartir, revisar y almacenar. También permite una entrega segura, compatibilidad universal y formato estable."
+      },
+      "beauty": {
+        "title": "Plantilla de sitio web elegante",
+        "brief": "Texto de vista previa de la plantilla de sitio web.",
+        "description": "Descripción del sitio web en ancho completo.",
+        "pdfOverview": "Usamos PDF como una copia digital práctica para presentar propuestas comerciales, detalles de proyectos e información empresarial. Mantiene la estructura, el diseño y el contenido consistentes en distintos dispositivos, haciendo que los documentos sean fáciles de compartir, revisar y almacenar. También permite una entrega segura, compatibilidad universal y formato estable."
       }
     }
   },
