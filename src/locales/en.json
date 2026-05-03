@@ -167,7 +167,7 @@
       },
       "backend-nestjs": {
         "title": "Backend NestJS",
-        "brief": "Sorting, pagination, search, filter by property.",
+        "brief": "Sorting, pagination, search, complex query.",
         "description": "Backend NestJS with MongoDB and /mongoose",
         "pdfOverview": "We use PDF as a practical digital copy for presenting commercial proposals, project details and business information. It keeps structure, design and content consistent across devices, making documents easy to share, review and store. It supports secure delivery, universal compatibility and stable formatting."
       },
