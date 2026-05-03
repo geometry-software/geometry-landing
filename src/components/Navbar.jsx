@@ -88,7 +88,7 @@ export default function Navbar() {
 
             {langOpen && (
               <div className="absolute right-0 mt-2 w-[120px] overflow-hidden border border-[var(--color-primary)] bg-white shadow-[0_18px_50px_rgba(10,15,28,0.10)]">
-                {['en', 'es', 'pt'].map((lng) => (
+                {['en', 'pt', 'es'].map((lng) => (
                   <button
                     key={lng}
                     onClick={() => changeLanguage(lng)}

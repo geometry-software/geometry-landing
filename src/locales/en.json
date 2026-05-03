@@ -26,6 +26,7 @@
     "title": "A small team that builds digital products properly from the start",
     "text1": "We focus on websites and systems that do not fall apart as they grow. Instead of rushing into code, we think through structure, interface and long-term maintainability.",
     "text2": "Our strength is the combination of visual thinking, frontend execution and backend discipline. We care about clean architecture, clarity and products that stay stable over time.",
+    "text3": "Finest agents replace repetitive workflows only with different tools into one connected process. Analyze information, prepare drafts and guide users step by step, helping teams save time without losing control.",
     "cta": "Start a conversation",
     "items": {
       "craft": {
@@ -44,7 +45,7 @@
   },
   "services": {
     "eyebrow": "Approach",
-    "title": "Frontend, backend and web design working together",
+    "title": "Frontend and backend working together",
     "subtitle": "We combine structure, interface and visual design to build products that look clear, work fast and stay maintainable.",
     "items": {
       "frontend": {

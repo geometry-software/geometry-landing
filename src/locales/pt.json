@@ -26,6 +26,7 @@
     "title": "Uma equipe pequena que constrói produtos digitais corretamente desde o início",
     "text1": "Focamos em sites e sistemas que não desmoronam à medida que crescem. Em vez de correr direto para o código, pensamos na estrutura, na interface e na manutenção a longo prazo.",
     "text2": "Nossa força está na combinação de pensamento visual, execução frontend e disciplina backend. Nós nos importamos com arquitetura limpa, clareza e produtos que permanecem estáveis ao longo do tempo.",
+    "text3": "Os agentes de IA substituem fluxos de trabalho repetitivos conectando diferentes ferramentas em um único processo integrado. Eles analisam informações, preparam rascunhos e orientam os usuários passo a passo, ajudando as equipes a economizar tempo sem perder o controle.",
     "cta": "Iniciar uma conversa",
     "items": {
       "craft": {
@@ -44,7 +45,7 @@
   },
   "services": {
     "eyebrow": "Abordagem",
-    "title": "Frontend, backend e design web trabalhando juntos",
+    "title": "Frontend e backend trabalhando juntos",
     "subtitle": "Combinamos estrutura, interface e design visual para criar produtos que parecem claros, funcionam rápido e continuam fáceis de manter.",
     "items": {
       "frontend": {
