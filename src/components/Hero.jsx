@@ -98,10 +98,10 @@ export default function Hero() {
                   <div
                     style={{ minWidth: '120px' }}
                     className="text-center text-[24px] font-semibold tracking-[-0.05em] text-[var(--color-ink)]">
-                    Agents
+                    UX/UI Design
                   </div>
                   <div className="text-center mt-1 text-[11px] uppercase tracking-[0.18em] text-black/40">
-                    AI
+                    Experiences
                   </div>
                 </div>
               </div>

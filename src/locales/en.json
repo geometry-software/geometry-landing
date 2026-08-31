@@ -17,7 +17,7 @@
       "slide1": {
         "eyebrow": "Small team, senior execution",
         "title": "Good products need more than development alone",
-        "description": "From frontend to backend we develop apps and agents that are maintainable and simple in UI."
+        "description": "From UX/UI design to frontend and backend, we create maintainable products with clear, intuitive interfaces."
       }
     }
   },
@@ -26,7 +26,7 @@
     "title": "A small team that builds digital products properly from the start",
     "text1": "We focus on websites and systems that do not fall apart as they grow. Instead of rushing into code, we think through structure, interface and long-term maintainability.",
     "text2": "Our strength is the combination of visual thinking, frontend execution and backend discipline. We care about clean architecture, clarity and products that stay stable over time.",
-    "text3": "Finest agents replace repetitive workflows only with different tools into one connected process. Analyze information, prepare drafts and guide users step by step, helping teams save time without losing control.",
+    "text3": "Our UX/UI design process turns complex requirements into clear, intuitive experiences. We shape user flows, wireframes and visual systems that make products easier to use and ready for development.",
     "cta": "Start a conversation",
     "items": {
       "craft": {
@@ -60,9 +60,9 @@
         "title": "Web Design",
         "description": "Visual direction, layout and UX focused on clarity."
       },
-      "agents": {
-        "title": "AI Agents",
-        "description": "Automate repetitive workflows and connect tools into one process."
+      "uxUiDesign": {
+        "title": "UX/UI Design",
+        "description": "Intuitive user flows and polished interfaces designed around real user needs."
       }
     }
   },

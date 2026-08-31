@@ -21,7 +21,7 @@ const projects = [
     category: 'frontend',
     image: ['1', '2', '3', '4', '5'],
     briefKey: 'portfolio.projects.frontend-react.brief',
-    price: 450,
+    price: 950,
     technologies: ['React', 'ShadeCN', 'Firebase'],
     pdfFileName: 'geometry-frontend-react.pdf',
     links: [
@@ -34,7 +34,7 @@ const projects = [
     category: 'backend',
     image: ['1', '2', '3', '4'],
     briefKey: 'portfolio.projects.backend-nestjs.brief',
-    price: 150,
+    price: 950,
     technologies: ['NestJS', 'MongoDB', 'Fly.io'],
     pdfFileName: 'geometry-backend-nestjs.pdf',
     links: [
@@ -47,7 +47,7 @@ const projects = [
     category: 'backend',
     image: ['1', '2', '3', '4'],
     briefKey: 'portfolio.projects.auth-nestjs.brief',
-    price: 150,
+    price: 950,
     technologies: ['NestJS', 'MongoDB', 'Fly.io'],
     pdfFileName: 'geometry-auth-nestjs.pdf',
     links: [
@@ -60,7 +60,7 @@ const projects = [
     category: 'webDesign',
     image: ['1', '2', '3', '4', '5'],
     briefKey: 'portfolio.projects.clinic.brief',
-    price: 80,
+    price: 500,
     technologies: ['HTML', 'Stitch', 'Firebase'],
     pdfFileName: 'geometry-web-clinic .pdf',
     links: [
@@ -73,7 +73,7 @@ const projects = [
     category: 'webDesign',
     image: ['1', '2', '3', '4', '5'],
     briefKey: 'portfolio.projects.gym.brief',
-    price: 80,
+    price: 500,
     technologies: ['HTML', 'Stitch', 'Firebase'],
     pdfFileName: 'geometry-web-gym.pdf',
     links: [
@@ -86,7 +86,7 @@ const projects = [
     category: 'webDesign',
     image: ['1', '2', '3', '4'],
     briefKey: 'portfolio.projects.beauty.brief',
-    price: 80,
+    price: 500,
     technologies: ['HTML', 'Stitch', 'Firebase'],
     pdfFileName: 'geometry-web-beauty.pdf',
     links: [
@@ -109,18 +109,6 @@ const getProjectPreviewImage = (key) =>
 
 const getProjectGalleryImages = (project) =>
   project.image.map((fileName) => projectImages[`../assets/${project.key}/${fileName}.png`])
-
-function preloadProjectImages(projectsList) {
-  projectsList.forEach((project) => {
-    const preview = new Image()
-    preview.src = getProjectPreviewImage(project.key)
-
-    getProjectGalleryImages(project).forEach((src) => {
-      const img = new Image()
-      img.src = src
-    })
-  })
-}
 
 function arrayBufferToBase64(buffer) {
   let binary = ''
@@ -439,7 +427,7 @@ function ProjectModal({ project, onClose }) {
               {t('portfolio.priceLabel')}
             </div>
             <div className="text-[18px] font-semibold text-[var(--color-ink)] md:text-[22px]">
-              ${project.price}
+              R$ {project.price}
             </div>
 
             <div className="mt-6 mb-1 text-[12px] font-medium uppercase tracking-[0.14em] text-black/45">
@@ -483,10 +471,6 @@ export default function Portfolio() {
   const { t } = useTranslation()
   const [activeCategory, setActiveCategory] = useState('all')
   const [selectedProject, setSelectedProject] = useState(null)
-
-  useEffect(() => {
-    preloadProjectImages(projects)
-  }, [])
 
   const filteredProjects =
     activeCategory === 'all'
@@ -569,7 +553,7 @@ export default function Portfolio() {
                   </p>
 
                   <div className="mt-5 text-[16px] font-semibold text-[var(--color-ink)]">
-                    ${project.price}
+                    R$ {project.price}
                   </div>
 
                   {project.links?.length > 0 && (

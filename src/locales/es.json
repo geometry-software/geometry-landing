@@ -17,7 +17,7 @@
       "slide1": {
         "eyebrow": "Equipo pequeño, ejecución sénior",
         "title": "Los buenos productos necesitan más que solo desarrollo",
-        "description": "Del frontend al backend, desarrollamos aplicaciones y agentes que son mantenibles y simples en la UI."
+        "description": "Desde el diseño UX/UI hasta el frontend y backend, creamos productos mantenibles con interfaces claras e intuitivas."
       }
     }
   },
@@ -26,7 +26,7 @@
     "title": "Un equipo pequeño que construye productos digitales correctamente desde el inicio",
     "text1": "Nos enfocamos en sitios web y sistemas que no se desmoronan a medida que crecen. En lugar de apresurarnos a escribir código, pensamos en la estructura, la interfaz y el mantenimiento a largo plazo.",
     "text2": "Nuestra fortaleza es la combinación de pensamiento visual, ejecución frontend y disciplina backend. Nos importa la arquitectura limpia, la claridad y los productos que se mantienen estables con el tiempo.",
-    "text3": "Los agentes de IA sustituyen flujos de trabajo repetitivos conectando diferentes herramientas en un solo proceso integrado. Analizan información, preparan borradores y guían a los usuarios paso a paso, ayudando a los equipos a ahorrar tiempo sin perder el control.",
+    "text3": "Nuestro proceso de diseño UX/UI transforma requisitos complejos en experiencias claras e intuitivas. Creamos flujos de usuario, wireframes y sistemas visuales que hacen que los productos sean fáciles de usar y estén listos para el desarrollo.",
     "cta": "Iniciar una conversación",
     "items": {
       "craft": {
@@ -60,9 +60,9 @@
         "title": "Diseño Web",
         "description": "Dirección visual, layout y UX enfocados en la claridad."
       },
-      "agents": {
-        "title": "Agentes de IA",
-        "description": "Automatizan flujos de trabajo repetitivos y conectan herramientas en un solo proceso."
+      "uxUiDesign": {
+        "title": "Diseño UX/UI",
+        "description": "Flujos de usuario intuitivos e interfaces refinadas, diseñados para necesidades reales."
       }
     }
   },

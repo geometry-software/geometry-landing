@@ -1,11 +1,11 @@
-import { Monitor, Server, Palette, Bot } from 'lucide-react'
+import { Monitor, Server, Palette, PanelsTopLeft } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 
 const services = [
-  { key: 'frontend', icon: Monitor, price: 150 },
-  { key: 'backend', icon: Server, price: 150 },
-  { key: 'webDesign', icon: Palette, price: 80 },
-  { key: 'agents', icon: Bot, price: 200 },
+  { key: 'frontend', icon: Monitor, price: 950 },
+  { key: 'backend', icon: Server, price: 950 },
+  { key: 'webDesign', icon: Palette, price: 500 },
+  { key: 'uxUiDesign', icon: PanelsTopLeft, price: 800 },
 ]
 
 export default function Services() {
@@ -48,7 +48,7 @@ export default function Services() {
               </p>
 
               <div className="mt-8 text-[13px] uppercase tracking-[0.16em] text-[var(--color-primary)] font-medium">
-                {t('common.from')}: ${price}
+                {t('common.from')}: R$ {price}
               </div>
             </div>
           ))}
