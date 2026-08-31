@@ -3,6 +3,8 @@
     "home": "Oferta",
     "about": "Directrices",
     "services": "Enfoque",
+    "pricing": "Precios",
+    "pilot": "Piloto",
     "technologies": "Tecnología",
     "portfolio": "Proyectos",
     "contact": "Contacto"
@@ -16,17 +18,18 @@
     "slides": {
       "slide1": {
         "eyebrow": "Equipo pequeño, ejecución sénior",
-        "title": "Los buenos productos necesitan más que solo desarrollo",
-        "description": "Desde el diseño UX/UI hasta el frontend y backend, creamos productos mantenibles con interfaces claras e intuitivas."
+        "title": "Tu producto puede avanzar más rápido sin ampliar tu equipo de TI",
+        "description1": "Geometry trabaja junto a equipos de TI pequeños o externalizados, aportando experiencia sénior donde la entrega se atasca. Convertimos un flujo crítico del negocio en una dirección UX/UI clara y un plan de implementación práctico.",
+        "description2": "Después construimos el frontend y añadimos backend, datos e integraciones solo donde el módulo los necesita. Mantienes el control de tu sistema y equipo actuales mientras ganas capacidad para hacer avanzar el producto."
       }
     }
   },
   "about": {
     "eyebrow": "Sobre nosotros",
     "title": "Un equipo pequeño que construye productos digitales correctamente desde el inicio",
-    "text1": "Nos enfocamos en sitios web y sistemas que no se desmoronan a medida que crecen. En lugar de apresurarnos a escribir código, pensamos en la estructura, la interfaz y el mantenimiento a largo plazo.",
-    "text2": "Nuestra fortaleza es la combinación de pensamiento visual, ejecución frontend y disciplina backend. Nos importa la arquitectura limpia, la claridad y los productos que se mantienen estables con el tiempo.",
-    "text3": "Nuestro proceso de diseño UX/UI transforma requisitos complejos en experiencias claras e intuitivas. Creamos flujos de usuario, wireframes y sistemas visuales que hacen que los productos sean fáciles de usar y estén listos para el desarrollo.",
+    "text1": "Empezamos por entender el problema del negocio, a las personas que usarán el producto y el flujo que las conecta. Esa expertise se convierte en una dirección UX/UI clara antes de iniciar el desarrollo.",
+    "text2": "Cuando la experiencia está definida, la llevamos al frontend con pantallas responsive, estados útiles e interacciones naturales. Diseño e implementación avanzan juntos, para que el producto final no pierda la idea original.",
+    "text3": "El backend entra donde el producto realmente necesita datos, integraciones, permisos o reglas de negocio, no por defecto. Así mantenemos enfocada la primera entrega y dejamos la arquitectura preparada para crecer.",
     "cta": "Iniciar una conversación",
     "items": {
       "craft": {
@@ -66,6 +69,106 @@
       }
     }
   },
+  "pricing": {
+    "eyebrow": "Precios",
+    "title": "Empieza por la etapa adecuada para tu proyecto",
+    "description": "Cada precio es un punto de partida para un módulo claramente definido. Si tu producto tiene varios módulos, estimamos la aplicación completa como un único paquete transparente.",
+    "modulePrice": "Un módulo desde",
+    "recommended": "Opción completa",
+    "planCta": "Hablar sobre esta etapa",
+    "plans": {
+      "expertise": {
+        "title": "Expertise UI/UX",
+        "description": "Un análisis enfocado que convierte una necesidad de negocio en un plan claro antes del desarrollo.",
+        "features": [
+          "Análisis del proceso de negocio y UX/UI",
+          "Revisión de la solución actual",
+          "Definición del recorrido y del alcance",
+          "Evaluación técnica preliminar",
+          "Recomendaciones de implementación",
+          "Estimación del plazo y de la siguiente etapa"
+        ]
+      },
+      "frontend": {
+        "title": "UI/UX + Frontend",
+        "description": "Todo lo incluido en Expertise, más una interfaz moderna y responsive integrada con tus APIs.",
+        "features": [
+          "UX/UI e interfaz responsive",
+          "Tablas, búsqueda, filtros y ordenación",
+          "Paginación, formularios y validación",
+          "Estados de carga, vacío y error",
+          "Integración con APIs existentes",
+          "Pruebas de los principales flujos de usuario"
+        ],
+        "mobileAddon": "App móvil opcional",
+        "mobileTotal": "Total con móvil: R$ 6.900"
+      },
+      "full": {
+        "title": "UI/UX + Frontend + Backend",
+        "description": "Una etapa completa que cubre interfaz, APIs, datos y preparación para producción.",
+        "features": [
+          "Todo lo incluido en la etapa anterior",
+          "Backend, nuevas APIs y reglas de negocio",
+          "Integración con bases de datos y sistemas",
+          "Autenticación y permisos cuando sea necesario",
+          "Optimización del backend y de SQL lento",
+          "Logs, gestión de errores y preparación para deploy"
+        ]
+      }
+    },
+    "pilot": {
+      "eyebrow": "Para medianas empresas",
+      "title": "Piloto de módulo empresarial",
+      "description": "Un piloto end-to-end enfocado para una empresa que ya tiene sistemas, datos y un responsable de TI, pero necesita acelerar un flujo importante. Diseñamos y entregamos un módulo listo para producción con UX/UI, frontend, backend e integración de datos; también podemos incluir un agente de IA cuando resuelve una tarea concreta.",
+      "message": "Tráenos un pequeño flujo real de tu negocio. No necesitas reemplazar todo tu sistema: conectamos el piloto con lo que ya tienes, entregamos un resultado funcional y te damos una base clara para el siguiente paso.",
+      "pilotPrice": "Un módulo piloto",
+      "timeline": "Hasta 7–10 días hábiles para un módulo estándar",
+      "highlights": {
+        "uiux": "UX/UI",
+        "frontend": "Frontend",
+        "backend": "API backend",
+        "database": "Base de datos",
+        "validation": "Formularios y validación",
+        "performance": "Rendimiento",
+        "integrations": "Integraciones de sistemas",
+        "aiAgent": "Agente de IA"
+      },
+      "capabilities": {
+        "design": "UX/UI y frontend para el flujo principal del negocio",
+        "product": "Formularios, tablas, búsqueda, filtros y validación",
+        "data": "API backend, microservicio, base de datos y reglas de negocio",
+        "quality": "Mejoras de rendimiento, gestión de errores y deploy"
+      },
+      "cta": "Hablar sobre un módulo piloto"
+    }
+  },
+  "lightCrm": {
+    "eyebrow": "Para pequeñas empresas",
+    "title": "Un CRM sencillo para una pequeña empresa.",
+    "description1": "Conecta Gmail, WhatsApp Business, Sheets, Drive y Calendar alrededor del flujo de clientes que tu equipo ya utiliza. Las nuevas solicitudes se convierten en contactos, tareas y seguimientos estructurados, dando al equipo una vista compartida sin introducir otro sistema complejo.",
+    "description2": "Google Sheets mantiene los datos de trabajo, Drive guarda los archivos y Apps Script conecta el flujo y sirve la interfaz web ligera, sin un servidor backend separado.",
+    "priceLabel": "CRM para pequeñas empresas desde",
+    "timeline": "Hasta 10 días · un flujo concreto",
+    "cta": "Hablar sobre tu CRM",
+    "features": {
+      "backend": "Sin servidor backend",
+      "cloud": "Google Workspace",
+      "appsScript": "Apps Script",
+      "whatsapp": "WhatsApp Business",
+      "gmail": "Gmail",
+      "sheets": "Sheets y Excel",
+      "drive": "Google Drive",
+      "calendar": "Google Calendar"
+    },
+    "flow": {
+      "whatsapp": "Convierte mensajes nuevos en oportunidades",
+      "gmail": "Captura emails y seguimientos",
+      "sheets": "Guarda clientes, estados y tareas",
+      "drive": "Organiza propuestas, archivos y documentos",
+      "automation": "Reúne los datos y acciones de los cinco servicios en un solo lugar",
+      "calendar": "Programa reuniones y seguimientos"
+    }
+  },
   "technologies": {
     "eyebrow": "Stack",
     "title": "Creado con tecnologías comprobadas",
@@ -74,71 +177,63 @@
       "typescript": {
         "title": "TypeScript",
         "short": "JavaScript tipado para sistemas escalables.",
-        "paragraph1": "TypeScript ayuda a mantener el código predecible y más fácil de mantener a medida que los sistemas crecen.",
-        "paragraph2": "Permite a los equipos entender la estructura y el flujo de datos con más claridad.",
-        "paragraph3": "Lo usamos para crear sistemas frontend y backend confiables."
+        "paragraph1": "TypeScript aporta una red de seguridad a un producto en crecimiento sin frenar al equipo. Los tipos hacen explícitos los contratos entre pantallas, APIs y datos, para que los errores aparezcan antes de llegar al usuario. El resultado es código que podemos cambiar con mucha más confianza.",
+        "paragraph2": "Usamos TypeScript en frontend y backend para mantener un lenguaje común en todo el stack. Los nuevos desarrolladores entienden antes el sistema y los refactors implican menos riesgo. Eso es especialmente valioso cuando un pequeño piloto se convierte en un producto duradero."
       },
       "next": {
         "title": "Next.js",
         "short": "Framework React listo para producción.",
-        "paragraph1": "Next.js ayuda a crear aplicaciones web rápidas y escalables.",
-        "paragraph2": "Soporta arquitectura frontend moderna y renderizado del servidor.",
-        "paragraph3": "Excelente para sitios web, productos SaaS e interfaces de alto rendimiento."
+        "paragraph1": "Next.js da a los productos React una base sólida para producción desde la primera entrega. Puede renderizar contenido en el servidor, cargar solo lo que necesita cada página y mantener una navegación inmediata. Ese equilibrio ayuda a usuarios y buscadores a llegar rápido al contenido correcto.",
+        "paragraph2": "Lo elegimos para sitios de producto, plataformas SaaS y aplicaciones web donde velocidad y estructura deben crecer juntas. Su sistema de rutas y sus capacidades de servidor permiten mantener cerca las piezas relacionadas, sin sumar capas innecesarias. El resultado es un producto rápido de lanzar y cómodo de ampliar."
       },
       "react": {
         "title": "React",
         "short": "Componentes web creados en segundos.",
-        "paragraph1": "React permite iteración rápida y UI modular.",
-        "paragraph2": "Ecosistema sólido para crear interfaces modernas.",
-        "paragraph3": "Usado para SaaS, landing pages y aplicaciones."
+        "paragraph1": "React nos permite convertir una interfaz compleja en piezas pequeñas y fáciles de entender. Podemos probar ideas con rapidez, reutilizar patrones sólidos y mantener coherentes todos los estados del producto. El usuario lo percibe como una experiencia más fluida y predecible.",
+        "paragraph2": "Usamos React para dashboards, sistemas de negocio, landing pages y módulos concretos de producto. Su ecosistema maduro resuelve problemas habituales de interfaz sin llenar el proyecto de soluciones caseras. Además, el modelo de componentes mantiene los cambios futuros acotados y fáciles de estimar."
       },
       "reactNative": {
         "title": "React Native",
         "short": "Aplicaciones móviles multiplataforma.",
-        "paragraph1": "Crea aplicaciones móviles desde una sola base de código.",
-        "paragraph2": "Acelera el lanzamiento del producto.",
-        "paragraph3": "Mantiene la consistencia entre plataformas."
+        "paragraph1": "React Native permite convertir un flujo de producto validado en una aplicación real para iOS y Android sin construirlo todo dos veces. Una base de código compartida mantiene alineados el comportamiento y el lenguaje visual. Así el equipo pasa más rápido de la idea a una versión móvil utilizable.",
+        "paragraph2": "Seguimos cuidando los detalles que hacen que cada plataforma se sienta nativa, desde la navegación hasta la respuesta táctil. La lógica compartida reduce trabajo duplicado y las piezas específicas siguen disponibles cuando aportan valor. Es una opción práctica para pilotos, herramientas internas y productos que necesitan llegar a ambas tiendas."
       },
       "angular": {
         "title": "Angular",
         "short": "Aplicaciones web centradas en el usuario.",
-        "paragraph1": "Desarrollo frontend enfocado.",
-        "paragraph2": "Funciona bien con stacks JS.",
-        "paragraph3": "Excelente para APIs e integraciones."
+        "paragraph1": "Angular encaja muy bien en aplicaciones de negocio estructuradas y con muchas funcionalidades. Sus convenciones ayudan a organizar pantallas, formularios, flujos de datos y permisos de forma consistente. Esa estructura gana valor cuando crecen las funciones y el equipo.",
+        "paragraph2": "Usamos Angular cuando el producto se beneficia de una base bien definida y coherente a largo plazo. Se integra con claridad con APIs y soporta los flujos complejos habituales en sistemas operativos. El resultado es un frontend comprensible, no una colección de excepciones."
       },
       "nestjs": {
         "title": "NestJS",
         "short": "Microservicios backend con seguridad de tipos.",
-        "paragraph1": "Aporta arquitectura al backend.",
-        "paragraph2": "Ayuda a mantener los sistemas limpios.",
-        "paragraph3": "Soporta escalabilidad."
+        "paragraph1": "NestJS aporta módulos claros y una estructura fiable al desarrollo backend. Las reglas de negocio, integraciones y APIs ocupan cada una un lugar comprensible, en vez de quedar mezcladas. Así el sistema resulta más fácil de probar, explicar y evolucionar.",
+        "paragraph2": "Lo usamos cuando el producto necesita más que unos pocos endpoints: autenticación, tareas en segundo plano, servicios externos o una lógica de dominio creciente. Su base en TypeScript facilita alinear los contratos entre frontend y backend. El resultado es un backend que puede empezar ligero y crecer sin una reescritura temprana."
       },
-      "wordpress": {
-        "title": "WordPress",
-        "short": "CMS flexible para sitios web, informes y métricas.",
-        "paragraph1": "WordPress es práctico para sitios web que necesitan una gestión de contenido sencilla.",
-        "paragraph2": "Funciona bien para sitios de empresas, landing pages y plataformas editoriales.",
-        "paragraph3": "Permite publicación rápida y flujos administrativos simples."
+      "appsScript": {
+        "title": "Google Apps Script",
+        "short": "Automatizaciones y aplicaciones ligeras en Google Workspace.",
+        "paragraph1": "Google Apps Script conecta las herramientas que el equipo ya utiliza, sin introducir otro sistema en el flujo de trabajo. Puede convertir correos y mensajes entrantes en registros estructurados, actualizar hojas de cálculo y crear acciones en el calendario automáticamente. Al ejecutarse dentro del ecosistema de Google, permite entregar automatizaciones concretas sin mantener un servidor separado.",
+        "paragraph2": "Usamos Apps Script para coordinar Sheets, Drive, Gmail y Calendar alrededor de un proceso real del negocio. Es especialmente útil para herramientas internas, aprobaciones, notificaciones, informes y pequeños flujos de CRM. El resultado es menos trabajo manual entre pestañas y una fuente de información operativa mucho más clara."
       },
       "databases": {
         "title": "Bases de datos",
         "short": "Persisten datos en varias formas y estructuras.",
-        "paragraph1": "Núcleo de cualquier sistema.",
-        "paragraph2": "Define la escalabilidad.",
-        "paragraph3": "Impacta el rendimiento."
+        "paragraph1": "La base de datos es la memoria del producto: clientes, transacciones, permisos y cada relación importante. Un buen modelado mantiene esa información confiable y hace que las funciones cotidianas respondan rápido. Un mal modelado suele aparecer después en forma de pantallas lentas e informes frágiles.",
+        "paragraph2": "Elegimos y diseñamos la capa de datos alrededor de los patrones de uso reales del producto, no de las tendencias. Consultas, índices y migraciones forman parte de la calidad desde el principio. Así el backend puede crecer sin convertir cada nueva función en un problema de rendimiento."
       }
     }
   },
   "portfolio": {
     "eyebrow": "Trabajo",
     "title": "Ejemplos de lo que desarrollamos",
-    "description": "Tres áreas principales: frontend, backend y diseño web.",
+    "description": "Seis ejemplos concretos de frontend, backend y UX/UI: desde interfaces operativas y APIs hasta sitios orientados al cliente.",
     "links": "Enlaces",
     "categories": {
       "all": "Todos",
       "frontend": "Frontend",
       "backend": "Backend",
-      "webDesign": "Diseño Web"
+      "uiux": "UI/UX"
     },
     "downloadPdf": "PDF",
     "generatingPdf": "Generando PDF...",
@@ -154,6 +249,11 @@
       "page": "Página",
       "code": "Código",
       "demo": "Demostración",
+      "project": "Proyecto",
+      "aboutTitle": "Sobre Geometry",
+      "proposalTitle": "La propuesta",
+      "descriptionTitle": "Descripción del proyecto",
+      "linksTitle": "Enlaces del proyecto",
       "price": "Precio",
       "technologies": "Tecnologías",
       "aboutGeometry": "Geometry Software es una empresa de producto digital y desarrollo web enfocada en soluciones modernas para negocios. Creamos productos rápidos, escalables y fáciles de usar con tecnologías frontend y backend contemporáneas, con atención al diseño, el rendimiento y el crecimiento futuro."
@@ -161,39 +261,39 @@
     "projects": {
       "frontend-react": {
         "title": "Frontend React",
-        "brief": "Aplicación Frontend React para usuarios, productos y envíos.",
-        "description": "Aplicación Frontend React.",
-        "pdfOverview": "Usamos PDF como una copia digital práctica para presentar propuestas comerciales, detalles de proyectos e información empresarial. Mantiene la estructura, el diseño y el contenido consistentes en distintos dispositivos, haciendo que los documentos sean fáciles de compartir, revisar y almacenar. También permite una entrega segura, compatibilidad universal y formato estable."
+        "brief": "Dashboard operativo responsive en React para usuarios, productos y envíos, con autenticación, tablas y filtros avanzados.",
+        "description": "Un espacio de trabajo autenticado en React y TypeScript para gestionar usuarios, productos y envíos desde una interfaz consistente. Combina rutas protegidas, tablas reutilizables, paginación y ordenación del servidor, paneles de filtros responsive, estados de carga y vacío, y un estado Redux centralizado para operaciones diarias predecibles.",
+        "pdfOverview": "Esta propuesta cubre el desarrollo de un módulo frontend en React basado en el dashboard operativo presentado. El alcance final se adapta al flujo de trabajo, al sistema visual y a las APIs existentes del cliente."
       },
       "backend-nestjs": {
         "title": "Backend NestJS",
-        "brief": "Ordenación, paginación, búsqueda y consulta compleja.",
-        "description": "Backend NestJS con MongoDB y /mongoose",
-        "pdfOverview": "Usamos PDF como una copia digital práctica para presentar propuestas comerciales, detalles de proyectos e información empresarial. Mantiene la estructura, el diseño y el contenido consistentes en distintos dispositivos, haciendo que los documentos sean fáciles de compartir, revisar y almacenar. También permite una entrega segura, compatibilidad universal y formato estable."
+        "brief": "API modular en NestJS para productos, usuarios y envíos, con consultas CRUD reutilizables, validación y MongoDB.",
+        "description": "Una API modular en NestJS y MongoDB que gestiona productos, envíos y usuarios mediante servicios CRUD reutilizables. Su capa de consultas soporta paginación, búsqueda de texto, filtros permitidos, rangos de fechas y ordenación segura, junto con validación de DTOs, protección JWT, health checks y configuración de despliegue.",
+        "pdfOverview": "Esta propuesta cubre un módulo backend en NestJS con endpoints CRUD reutilizables, persistencia en MongoDB y consultas preparadas para producción. El alcance final se adapta a las entidades, reglas de negocio e integraciones del cliente."
       },
       "auth-nestjs": {
         "title": "Auth NestJS",
-        "brief": "Autorización y autenticación con JWT en NestJS.",
-        "description": "JWT de /passport-jwt.",
-        "pdfOverview": "Usamos PDF como una copia digital práctica para presentar propuestas comerciales, detalles de proyectos e información empresarial. Mantiene la estructura, el diseño y el contenido consistentes en distintos dispositivos, haciendo que los documentos sean fáciles de compartir, revisar y almacenar. También permite una entrega segura, compatibilidad universal y formato estable."
+        "brief": "Servicio de autenticación NestJS con registro, login, usuarios en MongoDB y tokens de acceso JWT firmados.",
+        "description": "Un servicio de autenticación enfocado, construido con NestJS para registrar usuarios, validar credenciales y emitir tokens de acceso JWT firmados. Las estrategias local y JWT de Passport separan el inicio de sesión de las solicitudes protegidas, mientras que MongoDB y los DTOs validados lo convierten en una base práctica para un producto mayor.",
+        "pdfOverview": "Esta propuesta cubre un módulo de autenticación con registro, login y acceso protegido mediante JWT. El alcance final se adapta al modelo de usuarios, los requisitos de seguridad y la aplicación existente del cliente."
       },
       "clinic": {
         "title": "Plantilla de sitio web para clínica",
-        "brief": "Texto de vista previa de la plantilla de sitio web.",
-        "description": "Descripción del sitio web en ancho completo.",
-        "pdfOverview": "Usamos PDF como una copia digital práctica para presentar propuestas comerciales, detalles de proyectos e información empresarial. Mantiene la estructura, el diseño y el contenido consistentes en distintos dispositivos, haciendo que los documentos sean fáciles de compartir, revisar y almacenar. También permite una entrega segura, compatibilidad universal y formato estable."
+        "brief": "Una experiencia sanitaria serena que conecta especialidades, médicos, ubicaciones y una solicitud guiada de consulta.",
+        "description": "Un concepto UX/UI para una clínica moderna, diseñado para generar confianza y reducir dudas antes de reservar. Organiza especialidades, perfiles médicos, espacios y ubicaciones en un recorrido responsive claro que termina en un formulario accesible y validado para solicitar una consulta.",
+        "pdfOverview": "Esta propuesta cubre la dirección UX/UI de un sitio web de clínica y su recorrido de reserva. La estructura, la jerarquía del contenido y el flujo de conversión se adaptan a los servicios y a la marca de la clínica."
       },
       "gym": {
         "title": "Plantilla de sitio web para gimnasio",
-        "brief": "Texto de vista previa de la plantilla de sitio web.",
-        "description": "Descripción del sitio web en ancho completo.",
-        "pdfOverview": "Usamos PDF como una copia digital práctica para presentar propuestas comerciales, detalles de proyectos e información empresarial. Mantiene la estructura, el diseño y el contenido consistentes en distintos dispositivos, haciendo que los documentos sean fáciles de compartir, revisar y almacenar. También permite una entrega segura, compatibilidad universal y formato estable."
+        "brief": "Una experiencia fitness enérgica que organiza programas, horarios, membresías, coaches y solicitudes de visita.",
+        "description": "Un concepto UX/UI para un gimnasio premium centrado en decisiones rápidas: qué entrenar, cuándo ir y qué membresía elegir. La jerarquía visual, navegación responsive, programas, coaches, planes claros, movimiento sutil y un formulario validado mantienen la experiencia dinámica sin añadir ruido.",
+        "pdfOverview": "Esta propuesta cubre la dirección UX/UI de un sitio web de gimnasio y su recorrido de membresía. La estructura, el lenguaje visual y el flujo de conversión se adaptan a los programas y a la marca del gimnasio."
       },
       "beauty": {
         "title": "Plantilla de sitio web elegante",
-        "brief": "Texto de vista previa de la plantilla de sitio web.",
-        "description": "Descripción del sitio web en ancho completo.",
-        "pdfOverview": "Usamos PDF como una copia digital práctica para presentar propuestas comerciales, detalles de proyectos e información empresarial. Mantiene la estructura, el diseño y el contenido consistentes en distintos dispositivos, haciendo que los documentos sean fáciles de compartir, revisar y almacenar. También permite una entrega segura, compatibilidad universal y formato estable."
+        "brief": "Tienda de belleza y salón en un solo recorrido, con filtros, carrito, pedidos por WhatsApp y reserva de servicios.",
+        "description": "Un concepto UX/UI que reúne una tienda de belleza online y la reserva de salón en una experiencia coherente. Los clientes pueden filtrar productos, gestionar cantidades en el carrito, enviar el pedido por WhatsApp y solicitar una cita, mientras el layout responsive mantiene igualmente claros la tienda y los servicios.",
+        "pdfOverview": "Esta propuesta cubre la dirección UX/UI de una experiencia de belleza que combina comercio y reservas. La estructura, el lenguaje visual y el recorrido del cliente se adaptan a los productos, servicios y marca del negocio."
       }
     }
   },
@@ -218,7 +318,7 @@
     }
   },
   "footer": {
-    "description": "Creamos productos digitales que se mantienen claros, escalables y rápidos.",
+    "description": "Geometry es un pequeño equipo sénior de producto que ayuda a empresas ágiles a convertir flujos complejos en productos digitales claros y funcionales. Empezamos con UX/UI, construimos el frontend, añadimos backend solo donde aporta valor y mantenemos el foco en velocidad, claridad y facilidad de mantenimiento.",
     "rights": "software"
   }
 }

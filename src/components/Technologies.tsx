@@ -1,22 +1,24 @@
 import React from 'react'
 import { useEffect, useState } from 'react'
-import { X, Type, Code, Database, Box, Layers, CloudCheck } from 'lucide-react'
+import { X, Type, Code, Database, Box, Layers, CloudCheck, Zap } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 
 const technologies = [
   { key: 'typescript', color: '#3178C6', icon: Type },
   { key: 'react', color: '#61DAFB', icon: Layers },
   { key: 'reactNative', color: '#61DAFB', icon: Box },
+  { key: 'nestjs', color: '#E0234E', icon: Code },
   { key: 'next', color: '#87CEFA', icon: CloudCheck },
   { key: 'angular', color: '#C3002F', icon: Code },
-  { key: 'nestjs', color: '#E0234E', icon: Code },
-  { key: 'wordpress', color: '#90EE90', icon: Code },
+  { key: 'appsScript', color: '#F9AB00', icon: Zap },
   { key: 'databases', color: '#2E8B57', icon: Database },
 ]
 
+type TechnologyKey = (typeof technologies)[number]['key']
+
 export default function Technologies() {
   const { t } = useTranslation()
-  const [selected, setSelected] = useState(null)
+  const [selected, setSelected] = useState<TechnologyKey | null>(null)
 
   useEffect(() => {
     const handleEsc = (e) => {
@@ -49,17 +51,17 @@ export default function Technologies() {
           </p>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 grid-cols-2">
+        <div className="grid grid-cols-2 md:grid-cols-4">
           {technologies.map(({ key, icon: Icon, color }, index) => (
             <button
               key={key}
               type="button"
               onClick={() => setSelected(key)}
-              className={`p-12 text-left transition-all hover:bg-[var(--color-primary-light)] ${
-                index % 4 !== 3 ? 'lg:border-r border-[var(--color-border)]' : ''
-              } ${
-                index < technologies.length - 4 ? 'lg:border-b border-[var(--color-border)]' : ''
-              } border-b sm:border-b border-[var(--color-border)] last:border-b-0`}
+              className={`p-12 text-left transition-all hover:bg-[var(--color-primary-light)] ${index % 2 === 0 ? 'border-r' : ''
+                } ${index < technologies.length - 2 ? 'border-b' : ''
+                } ${index % 4 !== 3 ? 'md:border-r' : 'md:border-r-0'
+                } ${index < 4 ? 'md:border-b' : 'md:border-b-0'
+                } border-[var(--color-border)]`}
             >
               <Icon size={34} color={color} className="mb-4" />
               <div className="text-[20px] leading-tight tracking-[-0.03em] font-semibold text-[var(--color-ink)]">
@@ -79,7 +81,7 @@ export default function Technologies() {
           onClick={() => setSelected(null)}
         >
           <div
-            className="w-full max-w-2xl border border-[var(--color-border)] bg-white shadow-[var(--shadow-card)] soft-reveal"
+            className="max-h-[calc(100vh-3rem)] w-full max-w-2xl overflow-y-auto border border-[var(--color-border)] bg-white shadow-[var(--shadow-card)] soft-reveal"
             onClick={(e) => e.stopPropagation()}
           >
             <div className="flex items-start justify-between gap-4 border-b border-[var(--color-border)] px-8 py-6">
@@ -101,10 +103,9 @@ export default function Technologies() {
               </button>
             </div>
 
-            <div className="space-y-4 px-8 py-8 text-[15px] leading-8 text-[var(--color-muted)]">
+            <div className="space-y-6 px-8 py-8 text-[15px] leading-8 text-[var(--color-muted)]">
               <p>{t(`technologies.items.${selected}.paragraph1`)}</p>
               <p>{t(`technologies.items.${selected}.paragraph2`)}</p>
-              <p>{t(`technologies.items.${selected}.paragraph3`)}</p>
             </div>
           </div>
         </div>

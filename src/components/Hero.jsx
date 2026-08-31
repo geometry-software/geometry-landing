@@ -53,7 +53,11 @@ export default function Hero() {
                 </h1>
 
                 <p className="mt-8 min-w-fit max-w-xl text-[15px] leading-8 text-black/60 md:text-[16px]">
-                  {t(`hero.slides.${slides[active].key}.description`)}
+                  {t(`hero.slides.${slides[active].key}.description1`)}
+                </p>
+
+                <p className="mt-4 min-w-fit max-w-xl text-[15px] leading-8 text-black/60 md:text-[16px]">
+                  {t(`hero.slides.${slides[active].key}.description2`)}
                 </p>
 
                 {/* <a
@@ -64,7 +68,18 @@ export default function Hero() {
                 </a> */}
               </div>
 
-              <div className="mt-14 grid grid-cols-1 md:grid-cols-4 gap-4 border-t border-[var(--color-border)] pt-6 fade-up">
+              <div className="mt-14 grid grid-cols-1 md:grid-cols-3 gap-4 border-t border-[var(--color-border)] pt-6 fade-up">
+                <div>
+                  <div
+                    style={{ minWidth: '120px' }}
+                    className="text-center text-[24px] font-semibold tracking-[-0.05em] text-[var(--color-ink)]">
+                    UX/UI
+                  </div>
+                  <div className="text-center mt-1 text-[11px] uppercase tracking-[0.18em] text-black/40">
+                    Experiences
+                  </div>
+                </div>
+
                 <div>
                   <div className="text-center text-[24px] font-semibold tracking-[-0.05em] text-[var(--color-ink)]">
                     Frontend
@@ -83,27 +98,6 @@ export default function Hero() {
                   </div>
                 </div>
 
-                <div>
-                  <div
-                    style={{ minWidth: '160px' }}
-                    className="text-center text-[24px] font-semibold tracking-[-0.05em] text-[var(--color-ink)]">
-                    Web Design
-                  </div>
-                  <div className="text-center mt-1 text-[11px] uppercase tracking-[0.18em] text-black/40">
-                    Graphics
-                  </div>
-                </div>
-
-                <div>
-                  <div
-                    style={{ minWidth: '120px' }}
-                    className="text-center text-[24px] font-semibold tracking-[-0.05em] text-[var(--color-ink)]">
-                    UX/UI Design
-                  </div>
-                  <div className="text-center mt-1 text-[11px] uppercase tracking-[0.18em] text-black/40">
-                    Experiences
-                  </div>
-                </div>
               </div>
             </div>
 

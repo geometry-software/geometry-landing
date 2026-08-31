@@ -35,12 +35,6 @@ export default function About() {
               {t('about.text3')}
             </p>
 
-            <a
-              href="#contact"
-              className="mt-10 inline-flex h-14 items-center justify-center bg-[var(--color-primary)] px-8 text-[12px] font-medium uppercase tracking-[0.18em] text-white transition-all hover:bg-[var(--color-primary-dark)] hover:shadow-[var(--shadow-soft)]"
-            >
-              {t('about.cta')}
-            </a>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-1">

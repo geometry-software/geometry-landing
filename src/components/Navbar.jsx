@@ -8,7 +8,7 @@ export default function Navbar() {
   const [scrolled, setScrolled] = useState(false)
   const { t, i18n } = useTranslation()
 
-  const links = ['home', 'about', 'services', 'technologies', 'portfolio']
+  const links = ['home', 'about', 'pricing', 'pilot', 'technologies', 'portfolio']
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 8)
@@ -61,7 +61,7 @@ export default function Navbar() {
           Geometry
         </a>
 
-        <ul className="hidden lg:flex items-center gap-8">
+        <ul className="hidden lg:flex items-center gap-4 xl:gap-6">
           {links.map((link) => (
             <li key={link}>
               <a

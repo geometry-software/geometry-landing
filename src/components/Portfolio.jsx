@@ -21,8 +21,8 @@ const projects = [
     category: 'frontend',
     image: ['1', '2', '3', '4', '5'],
     briefKey: 'portfolio.projects.frontend-react.brief',
-    price: 950,
-    technologies: ['React', 'ShadeCN', 'Firebase'],
+    price: '4.900',
+    technologies: ['React', 'TypeScript', 'Redux Toolkit', 'React Router', 'Tailwind CSS', 'shadcn/ui', 'Recharts'],
     pdfFileName: 'geometry-frontend-react.pdf',
     links: [
       { type: 'github', href: 'https://github.com/geometry-software/frontend-react' },
@@ -34,8 +34,8 @@ const projects = [
     category: 'backend',
     image: ['1', '2', '3', '4'],
     briefKey: 'portfolio.projects.backend-nestjs.brief',
-    price: 950,
-    technologies: ['NestJS', 'MongoDB', 'Fly.io'],
+    price: '4.900',
+    technologies: ['NestJS', 'TypeScript', 'MongoDB', 'Mongoose', 'JWT', 'Passport', 'Class Validator'],
     pdfFileName: 'geometry-backend-nestjs.pdf',
     links: [
       { type: 'github', href: 'https://github.com/geometry-software/nestjs-products' },
@@ -47,8 +47,8 @@ const projects = [
     category: 'backend',
     image: ['1', '2', '3', '4'],
     briefKey: 'portfolio.projects.auth-nestjs.brief',
-    price: 950,
-    technologies: ['NestJS', 'MongoDB', 'Fly.io'],
+    price: '2.900',
+    technologies: ['NestJS', 'TypeScript', 'MongoDB', 'Mongoose', 'JWT', 'Passport', 'bcrypt'],
     pdfFileName: 'geometry-auth-nestjs.pdf',
     links: [
       { type: 'github', href: 'https://github.com/geometry-software/nestjs-auth' },
@@ -57,11 +57,11 @@ const projects = [
   },
   {
     key: 'clinic',
-    category: 'webDesign',
+    category: 'uiux',
     image: ['1', '2', '3', '4', '5'],
     briefKey: 'portfolio.projects.clinic.brief',
-    price: 500,
-    technologies: ['HTML', 'Stitch', 'Firebase'],
+    price: '1.900',
+    technologies: ['HTML5', 'CSS3', 'JavaScript', 'Form Validation', 'Google Maps', 'Firebase Hosting'],
     pdfFileName: 'geometry-web-clinic .pdf',
     links: [
       { type: 'github', href: 'https://github.com/geometry-software/geometry-web-clinic' },
@@ -70,11 +70,11 @@ const projects = [
   },
   {
     key: 'gym',
-    category: 'webDesign',
+    category: 'uiux',
     image: ['1', '2', '3', '4', '5'],
     briefKey: 'portfolio.projects.gym.brief',
-    price: 500,
-    technologies: ['HTML', 'Stitch', 'Firebase'],
+    price: '1.900',
+    technologies: ['HTML5', 'CSS3', 'JavaScript', 'Responsive UI', 'Form Validation', 'Firebase Hosting'],
     pdfFileName: 'geometry-web-gym.pdf',
     links: [
       { type: 'github', href: 'https://github.com/geometry-software/geometry-web-gym' },
@@ -83,11 +83,11 @@ const projects = [
   },
   {
     key: 'beauty',
-    category: 'webDesign',
+    category: 'uiux',
     image: ['1', '2', '3', '4'],
     briefKey: 'portfolio.projects.beauty.brief',
-    price: 500,
-    technologies: ['HTML', 'Stitch', 'Firebase'],
+    price: '1.900',
+    technologies: ['HTML5', 'CSS3', 'JavaScript', 'Shopping Cart', 'WhatsApp Integration', 'Firebase Hosting'],
     pdfFileName: 'geometry-web-beauty.pdf',
     links: [
       { type: 'github', href: 'https://github.com/geometry-software/geometry-web-beauty' },
@@ -96,7 +96,7 @@ const projects = [
   },
 ]
 
-const categories = ['all', 'frontend', 'backend', 'webDesign']
+const categories = ['all', 'frontend', 'backend', 'uiux']
 
 const projectImages = import.meta.glob('../assets/*/*.png', {
   eager: true,
@@ -206,6 +206,15 @@ async function generateCommercialPdf({ project, t }) {
     // )
   }
 
+  const addSectionHeading = (text, y) => {
+    y = ensureSpace(y, 12)
+    doc.setFont('Roboto', 'bold')
+    doc.setFontSize(10)
+    doc.setTextColor(90)
+    doc.text(text, marginX, y)
+    return y + 7
+  }
+
   let y = topY
 
   doc.setFont('Roboto', 'bold')
@@ -219,33 +228,39 @@ async function generateCommercialPdf({ project, t }) {
   doc.text(t('portfolio.commercialProposal'), marginX, y)
 
   y += 12
-  doc.setFont('Roboto', 'normal')
+  y = addSectionHeading(t('portfolio.pdf.project'), y)
+  doc.setFont('Roboto', 'bold')
   doc.setFontSize(16)
+  doc.setTextColor(20)
   doc.text(title, marginX, y)
 
-  y += 10
+  y += 12
+  y = addSectionHeading(t('portfolio.pdf.aboutTitle'), y)
   y = addParagraph(aboutGeometry, y)
+
+  y = addSectionHeading(t('portfolio.pdf.proposalTitle'), y)
   y = addParagraph(projectOverview, y)
+
+  y = addSectionHeading(t('portfolio.pdf.descriptionTitle'), y)
   y = addParagraph(description, y)
 
   if (project.technologies?.length) {
-    y = ensureSpace(y, 8)
+    y = addSectionHeading(t('portfolio.pdf.technologies'), y)
     doc.setFont('Roboto', 'normal')
     doc.setFontSize(11)
-    doc.text(
-      `${t('portfolio.pdf.technologies')}: ${project.technologies.join(', ')}`,
-      marginX,
-      y
-    )
+    doc.setTextColor(35)
+    doc.text(project.technologies.join(', '), marginX, y)
     y += 10
   }
 
-  y = ensureSpace(y, 12)
-  doc.setFont('Roboto', 'normal')
-  doc.setFontSize(12)
+  y = addSectionHeading(t('portfolio.pdf.price'), y)
+  doc.setFont('Roboto', 'bold')
+  doc.setFontSize(14)
   doc.setTextColor(20)
-  doc.text(`${t('portfolio.pdf.price')}: $${project.price}`, marginX, y)
-  y += 10
+  doc.text(`R$ ${project.price}`, marginX, y)
+  y += 12
+
+  y = addSectionHeading(t('portfolio.pdf.linksTitle'), y)
 
   doc.setFont('Roboto', 'normal')
   doc.setFontSize(11)
@@ -400,7 +415,7 @@ function ProjectModal({ project, onClose }) {
               {t(`portfolio.projects.${project.key}.title`)}
             </h3>
 
-            <p className="mt-5 text-[15px] leading-8 text-[var(--color-muted)] md:text-[16px]">
+            <p className="mt-5 text-[15px] leading-7 text-[var(--color-muted)] md:text-[16px]">
               {t(`portfolio.projects.${project.key}.description`)}
             </p>
 
